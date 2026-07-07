@@ -160,4 +160,20 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+## Depth-First Search
+|  |
+| ------- |
+| [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
+## Union-Find
+|  |
+| ------- |
+| [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
+## Graph Theory
+|  |
+| ------- |
+| [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
 <!---LeetCode Topics End-->
