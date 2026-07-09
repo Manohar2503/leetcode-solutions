@@ -165,21 +165,25 @@ If you find this repository useful:
 | ------- |
 | [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
 | [0753-cracking-the-safe](https://github.com/Manohar2503/leetcode-solutions/tree/master/0753-cracking-the-safe) |
+| [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
+| [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
 ## Union-Find
 |  |
 | ------- |
 | [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
+| [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 ## Graph Theory
 |  |
 | ------- |
 | [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
 | [0753-cracking-the-safe](https://github.com/Manohar2503/leetcode-solutions/tree/master/0753-cracking-the-safe) |
+| [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
 ## Backtracking
 |  |
@@ -193,4 +197,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0753-cracking-the-safe](https://github.com/Manohar2503/leetcode-solutions/tree/master/0753-cracking-the-safe) |
+## Greedy
+|  |
+| ------- |
+| [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 <!---LeetCode Topics End-->
