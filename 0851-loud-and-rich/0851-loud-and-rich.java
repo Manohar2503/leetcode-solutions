@@ -1,54 +1,60 @@
 import java.util.*;
 
 class Solution {
-
     public int[] loudAndRich(int[][] richer, int[] quiet) {
 
         int n = quiet.length;
 
         List<Integer>[] graph = new ArrayList[n];
+        int[] indegree = new int[n];
+
         for (int i = 0; i < n; i++) {
             graph[i] = new ArrayList<>();
         }
 
-        // poorer -> richer
+        // richer -> poorer
         for (int[] edge : richer) {
-            graph[edge[1]].add(edge[0]);
+            int rich = edge[0];
+            int poor = edge[1];
+
+            graph[rich].add(poor);
+            indegree[poor]++;
         }
 
-        int[] result = new int[n];
-        Arrays.fill(result, -1);
-
+        // Initially everyone thinks they are the quietest.
+        int[] answer = new int[n];
         for (int i = 0; i < n; i++) {
-            dfs(i, graph, quiet, result);
+            answer[i] = i;
         }
 
-        return result;
-    }
+        Queue<Integer> queue = new LinkedList<>();
 
-    private int dfs(int person,
-                    List<Integer>[] graph,
-                    int[] quiet,
-                    int[] result) {
-
-        // Already computed
-        if (result[person] != -1) {
-            return result[person];
-        }
-
-        // Initially assume this person is the answer
-        result[person] = person;
-
-        // Check every richer person
-        for (int richerPerson : graph[person]) {
-
-            int candidate = dfs(richerPerson, graph, quiet, result);
-
-            if (quiet[candidate] < quiet[result[person]]) {
-                result[person] = candidate;
+        // Start from richest people.
+        for (int i = 0; i < n; i++) {
+            if (indegree[i] == 0) {
+                queue.offer(i);
             }
         }
 
-        return result[person];
+        while (!queue.isEmpty()) {
+
+            int current = queue.poll();
+
+            for (int poorer : graph[current]) {
+
+                // Propagate quieter person.
+                if (quiet[answer[current]] < quiet[answer[poorer]]) {
+                    answer[poorer] = answer[current];
+                }
+
+                indegree[poorer]--;
+
+                if (indegree[poorer] == 0) {
+                    queue.offer(poorer);
+                }
+            }
+        }
+
+        return answer;
     }
 }
