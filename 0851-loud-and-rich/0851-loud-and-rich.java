@@ -19,20 +19,20 @@ class Solution {
     static int bfs(int index, List<Integer>[] adj, int[] quiet){
         int person = index;
         int quieter = Integer.MAX_VALUE;
-        Queue<int[]> q = new LinkedList<>();
-        q.offer(new int[]{index, quiet[index]});
+        Queue<Integer> q = new LinkedList<>();
+        q.offer(index);
 
         Set<Integer> set = new HashSet<>();
         set.add(index);
         while(!q.isEmpty()){
-            int[] cr = q.poll();
-            if(cr[1] < quieter) {
-                person = cr[0];
-                quieter = cr[1];
+            int cu = q.poll();
+            if(quiet[cu] < quieter) {
+                person = cu;
+                quieter = quiet[cu];
             }
-            for(int node: adj[cr[0]]){
+            for(int node: adj[cu]){
                 if(!set.contains(node)){
-                    q.offer(new int[]{node, quiet[node]});
+                    q.offer(node);
                     set.add(node);
                 }
             }
