@@ -147,6 +147,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
+| [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
 ## Sorting
 |  |
 | ------- |
@@ -205,6 +206,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0753-cracking-the-safe](https://github.com/Manohar2503/leetcode-solutions/tree/master/0753-cracking-the-safe) |
+| [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -214,6 +216,7 @@ If you find this repository useful:
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
+| [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
 ## Topological Sort
 |  |
 | ------- |
