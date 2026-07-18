@@ -139,6 +139,7 @@ If you find this repository useful:
 ## Array
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/Manohar2503/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
@@ -153,6 +154,7 @@ If you find this repository useful:
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/Manohar2503/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
 ## Sorting
