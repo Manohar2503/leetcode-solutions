@@ -139,6 +139,7 @@ If you find this repository useful:
 ## Array
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0528-random-pick-with-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
@@ -292,4 +293,12 @@ If you find this repository useful:
 |  |
 | ------- |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
+## Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
