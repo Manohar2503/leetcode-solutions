@@ -323,4 +323,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+## Database
+|  |
+| ------- |
+| [1280-students-and-examinations](https://github.com/Manohar2503/leetcode-solutions/tree/master/1280-students-and-examinations) |
 <!---LeetCode Topics End-->
