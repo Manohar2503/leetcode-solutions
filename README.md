@@ -227,6 +227,7 @@ If you find this repository useful:
 ## String
 |  |
 | ------- |
+| [0008-string-to-integer-atoi](https://github.com/Manohar2503/leetcode-solutions/tree/master/0008-string-to-integer-atoi) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0753-cracking-the-safe](https://github.com/Manohar2503/leetcode-solutions/tree/master/0753-cracking-the-safe) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
