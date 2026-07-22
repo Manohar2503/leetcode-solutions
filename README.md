@@ -241,6 +241,7 @@ If you find this repository useful:
 | [0443-string-compression](https://github.com/Manohar2503/leetcode-solutions/tree/master/0443-string-compression) |
 | [0753-cracking-the-safe](https://github.com/Manohar2503/leetcode-solutions/tree/master/0753-cracking-the-safe) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
+| [3499-maximize-active-section-with-trade-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -352,4 +353,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
+## Enumeration
+|  |
+| ------- |
+| [3499-maximize-active-section-with-trade-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 <!---LeetCode Topics End-->
