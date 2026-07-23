@@ -283,6 +283,7 @@ If you find this repository useful:
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0300-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
@@ -295,6 +296,7 @@ If you find this repository useful:
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0528-random-pick-with-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0633-sum-of-square-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0633-sum-of-square-numbers) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
@@ -357,4 +359,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
