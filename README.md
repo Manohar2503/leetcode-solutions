@@ -157,6 +157,7 @@ If you find this repository useful:
 | [0851-loud-and-rich](https://github.com/Manohar2503/leetcode-solutions/tree/master/0851-loud-and-rich) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Manohar2503/leetcode-solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Manohar2503/leetcode-solutions/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Manohar2503/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
@@ -167,6 +168,7 @@ If you find this repository useful:
 | [0041-first-missing-positive](https://github.com/Manohar2503/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
+| [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
 ## Sorting
 |  |
@@ -177,6 +179,7 @@ If you find this repository useful:
 | [0324-wiggle-sort-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0324-wiggle-sort-ii) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Manohar2503/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
 ## Counting
 |  |
@@ -197,6 +200,7 @@ If you find this repository useful:
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0443-string-compression](https://github.com/Manohar2503/leetcode-solutions/tree/master/0443-string-compression) |
 | [0633-sum-of-square-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0633-sum-of-square-numbers) |
+| [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -247,6 +251,7 @@ If you find this repository useful:
 | [0443-string-compression](https://github.com/Manohar2503/leetcode-solutions/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0753-cracking-the-safe](https://github.com/Manohar2503/leetcode-solutions/tree/master/0753-cracking-the-safe) |
+| [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
@@ -300,6 +305,7 @@ If you find this repository useful:
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
+| [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
