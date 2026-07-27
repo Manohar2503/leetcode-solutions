@@ -146,6 +146,7 @@ If you find this repository useful:
 | [0120-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/Manohar2503/leetcode-solutions/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0221-maximal-square](https://github.com/Manohar2503/leetcode-solutions/tree/master/0221-maximal-square) |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0324-wiggle-sort-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0324-wiggle-sort-ii) |
@@ -301,6 +302,7 @@ If you find this repository useful:
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/Manohar2503/leetcode-solutions/tree/master/0198-house-robber) |
+| [0221-maximal-square](https://github.com/Manohar2503/leetcode-solutions/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
@@ -355,6 +357,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
+| [0221-maximal-square](https://github.com/Manohar2503/leetcode-solutions/tree/master/0221-maximal-square) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 ## Stack
 |  |
