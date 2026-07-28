@@ -215,6 +215,7 @@ If you find this repository useful:
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
 | [0851-loud-and-rich](https://github.com/Manohar2503/leetcode-solutions/tree/master/0851-loud-and-rich) |
 | [0886-possible-bipartition](https://github.com/Manohar2503/leetcode-solutions/tree/master/0886-possible-bipartition) |
+| [1042-flower-planting-with-no-adjacent](https://github.com/Manohar2503/leetcode-solutions/tree/master/1042-flower-planting-with-no-adjacent) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -224,6 +225,7 @@ If you find this repository useful:
 | [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
 | [0886-possible-bipartition](https://github.com/Manohar2503/leetcode-solutions/tree/master/0886-possible-bipartition) |
+| [1042-flower-planting-with-no-adjacent](https://github.com/Manohar2503/leetcode-solutions/tree/master/1042-flower-planting-with-no-adjacent) |
 ## Union-Find
 |  |
 | ------- |
@@ -241,6 +243,7 @@ If you find this repository useful:
 | [0851-loud-and-rich](https://github.com/Manohar2503/leetcode-solutions/tree/master/0851-loud-and-rich) |
 | [0886-possible-bipartition](https://github.com/Manohar2503/leetcode-solutions/tree/master/0886-possible-bipartition) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Manohar2503/leetcode-solutions/tree/master/0990-satisfiability-of-equality-equations) |
+| [1042-flower-planting-with-no-adjacent](https://github.com/Manohar2503/leetcode-solutions/tree/master/1042-flower-planting-with-no-adjacent) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
 ## Backtracking
 |  |
