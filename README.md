@@ -170,6 +170,7 @@ If you find this repository useful:
 | ------- |
 | [0041-first-missing-positive](https://github.com/Manohar2503/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
+| [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
@@ -312,6 +313,7 @@ If you find this repository useful:
 | [0198-house-robber](https://github.com/Manohar2503/leetcode-solutions/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/Manohar2503/leetcode-solutions/tree/master/0221-maximal-square) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
+| [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
@@ -333,6 +335,7 @@ If you find this repository useful:
 | ------- |
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
+| [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0528-random-pick-with-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0633-sum-of-square-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0633-sum-of-square-numbers) |
@@ -356,6 +359,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 ## Quickselect
 |  |
