@@ -155,6 +155,7 @@ If you find this repository useful:
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
 | [0528-random-pick-with-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
+| [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
@@ -231,6 +232,7 @@ If you find this repository useful:
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0207-course-schedule](https://github.com/Manohar2503/leetcode-solutions/tree/master/0207-course-schedule) |
+| [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Manohar2503/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
@@ -338,6 +340,7 @@ If you find this repository useful:
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
+| [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
@@ -393,6 +396,7 @@ If you find this repository useful:
 | ------- |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0221-maximal-square](https://github.com/Manohar2503/leetcode-solutions/tree/master/0221-maximal-square) |
+| [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
