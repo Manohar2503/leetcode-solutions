@@ -224,6 +224,7 @@ If you find this repository useful:
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0130-surrounded-regions](https://github.com/Manohar2503/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/Manohar2503/leetcode-solutions/tree/master/0207-course-schedule) |
+| [0543-diameter-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Manohar2503/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
@@ -330,6 +331,7 @@ If you find this repository useful:
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0543-diameter-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -338,6 +340,7 @@ If you find this repository useful:
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0543-diameter-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Search
 |  |
 | ------- |
@@ -482,4 +485,8 @@ If you find this repository useful:
 | ------- |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
+## DP on Trees
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
