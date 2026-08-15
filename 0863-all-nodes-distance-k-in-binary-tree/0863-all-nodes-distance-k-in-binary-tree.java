@@ -9,54 +9,35 @@
  */
 class Solution {
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        Map<TreeNode , TreeNode> map = new HashMap<>();
-        Queue<TreeNode> qu = new LinkedList<>();
-        qu.offer(root);
-        while(!qu.isEmpty()){
-            TreeNode node = qu.poll();
-            if(node.left!=null) {
-                map.put(node.left,node);
-                qu.offer(node.left);
-            }
-            if(node.right!=null) {
-                map.put(node.right,node);
-                qu.offer(node.right);
-            }
+        Map<TreeNode, TreeNode> map = new HashMap<>();
+        findParents(root, map);
+        List<Integer> result = new ArrayList<>();
+        Set<TreeNode> set = new HashSet<>();
+        dfs(0, target, k, result,map,set);
+        return result;
+    }
+    static void dfs(int count, TreeNode node, int k, List<Integer> result, Map<TreeNode, TreeNode> map, Set<TreeNode> set){
+        if(node == null) return;
+        if(set.contains(node)) return;
+        set.add(node);
+        if(count == k) {
+            result.add(node.val);
+            return;
         }
-
-        Map<TreeNode,Boolean> map2 = new HashMap<>();
-        Queue<TreeNode> qu2 = new LinkedList<>();
-        qu2.offer(target);
-        map2.put(target,true);
-        int count =0;
-        while(!qu2.isEmpty()){
-            if(count == k) break;
-            int size = qu2.size();
-            for(int i=0;i<size;i++){
-                TreeNode node = qu2.poll();
-                 if(node.left!=null && !map2.containsKey(node.left)) {
-                map2.put(node.left,true);
-                qu2.offer(node.left);
-            }
-            if(node.right!=null && !map2.containsKey(node.right)) {
-                map2.put(node.right,true);
-                qu2.offer(node.right);
-            }
-            TreeNode parent = map.get(node);
-            if(parent!=null && !map2.containsKey(parent)){
-                map2.put(parent,true);
-                qu2.offer(parent);
-            }
-            }
-            count++;
-           
+        
+        dfs(count+1, node.left, k, result,map,set);
+        dfs(count+1, node.right, k, result,map,set);
+        dfs(count+1, map.get(node), k, result,map,set);
+    }
+    static void findParents(TreeNode root, Map<TreeNode, TreeNode> map){
+        if(root == null) return;
+        if(root.left!=null){
+            map.put(root.left, root);
+            findParents(root.left, map);
         }
-
-        List<Integer> list = new ArrayList<>();
-        while(!qu2.isEmpty()){
-            TreeNode node = qu2.poll();
-            list.add(node.val);
+        if(root.right!=null){
+            map.put(root.right, root);
+            findParents(root.right, map);
         }
-        return list;
     }
 }
