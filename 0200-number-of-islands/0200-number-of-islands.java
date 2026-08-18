@@ -1,32 +1,28 @@
 class Solution {
+    int rows = 0, cols = 0, cnt = 0;
     public int numIslands(char[][] grid) {
-        int m = grid.length;
-        int n = grid[0].length;
-        
-        int[][] dir = {{-1,0}, {1,0}, {0,-1},{0,1}};
-        int count=0;
-        for(int i =0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(grid[i][j]!='0'){
-                    count++;
-                    dfs(i,j,grid,dir);
-                }
-            }
-        }
-        return count;
+       this.rows = grid.length;
+       this.cols = grid[0].length;
+       for(int row = 0; row<rows; row++){
+        check(row, grid);
+       }
+       return cnt;
     }
 
-    static void dfs(int r, int c, char[][] grid, int[][] dir){
-        if(grid[r][c]=='0') return;
-        grid[r][c]='0';
-
-        for(int[] newdir:dir){
-            int nr = r + newdir[0];
-            int nc = c + newdir[1];
-
-            if(nr >=0 && nr < grid.length && nc>=0 && nc < grid[0].length && grid[nr][nc]=='1'){
-                dfs(nr,nc,grid,dir);
+    private void check(int row, char[][]grid){
+        for(int col=0; col < cols; col++){
+            if(grid[row][col] == '1'){
+                cnt++;
+                dfs(row, col, grid);
             }
         }
+    }
+
+    private void dfs(int row, int col, char[][]grid){
+        grid[row][col] = '*';
+        if(row-1 > -1 && grid[row - 1][col] == '1') dfs(row - 1, col, grid);
+        if(row + 1 < rows && grid[row + 1][col] == '1') dfs(row + 1, col, grid);
+        if(col - 1 > -1 && grid[row][col - 1] == '1') dfs(row, col - 1, grid);
+        if(col + 1 < cols && grid[row][col+1] == '1') dfs(row, col + 1, grid);
     }
 }
