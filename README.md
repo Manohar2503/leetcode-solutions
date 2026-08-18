@@ -233,6 +233,7 @@ If you find this repository useful:
 | [0199-binary-tree-right-side-view](https://github.com/Manohar2503/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Manohar2503/leetcode-solutions/tree/master/0207-course-schedule) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Manohar2503/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
@@ -259,6 +260,7 @@ If you find this repository useful:
 | [0130-surrounded-regions](https://github.com/Manohar2503/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/Manohar2503/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Manohar2503/leetcode-solutions/tree/master/0207-course-schedule) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Manohar2503/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
@@ -314,6 +316,7 @@ If you find this repository useful:
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0443-string-compression](https://github.com/Manohar2503/leetcode-solutions/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0753-cracking-the-safe](https://github.com/Manohar2503/leetcode-solutions/tree/master/0753-cracking-the-safe) |
@@ -354,6 +357,7 @@ If you find this repository useful:
 | [0199-binary-tree-right-side-view](https://github.com/Manohar2503/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -372,6 +376,7 @@ If you find this repository useful:
 | [0199-binary-tree-right-side-view](https://github.com/Manohar2503/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -484,6 +489,7 @@ If you find this repository useful:
 ## Design
 |  |
 | ------- |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 ## Hash Function
 |  |
