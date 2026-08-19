@@ -140,6 +140,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/Manohar2503/leetcode-solutions/tree/master/0016-3sum-closest) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0041-first-missing-positive](https://github.com/Manohar2503/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -397,6 +398,7 @@ If you find this repository useful:
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0300-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
