@@ -1,72 +1,146 @@
 class Solution {
-    public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
-        List<List<String>> ans = new ArrayList<>(); 
-        Map<String, Set<String>> reverse = new HashMap<>(); // reverse graph start from endWord
-        Set<String> wordSet = new HashSet<>(wordList); // remove the duplicate words
-        wordSet.remove(beginWord); // remove the first word to avoid cycle path
-        
-        Queue<String> queue = new LinkedList<>(); // store current layer nodes
-        queue.add(beginWord); // first layer has only beginWord
 
-        Set<String> nextLevel = new HashSet<>(); // store nextLayer nodes
-        boolean findEnd = false; // find endWord flag
+    public List<List<String>> findLadders(
+            String beginWord,
+            String endWord,
+            List<String> wordList) {
 
+        List<List<String>> result = new ArrayList<>();
 
-        while (!queue.isEmpty()) { // traverse current layer nodes
-            String word = queue.remove();
-            for (String next : wordSet) {
-                if (isLadder(word, next)) { // is ladder words
-					// construct the reverse graph from endWord
-                    Set<String> reverseLadders = reverse.computeIfAbsent(next, k -> new HashSet<>());
-                    reverseLadders.add(word); 
-                    if (endWord.equals(next)) {
-                        findEnd = true;
+        Set<String> words = new HashSet<>(wordList);
+
+        if (!words.contains(endWord)) {
+            return result;
+        }
+
+        Map<String, List<String>> map = new HashMap<>();
+
+        Queue<String> qu = new LinkedList<>();
+        qu.offer(beginWord);
+
+        // Words that have already been discovered
+        Set<String> visited = new HashSet<>();
+        visited.add(beginWord);
+
+        boolean found = false;
+
+        while (!qu.isEmpty() && !found) {
+
+            int size = qu.size();
+
+            // Words discovered in this level
+            Set<String> levelVisited = new HashSet<>();
+
+            for (int i = 0; i < size; i++) {
+
+                String value = qu.poll();
+
+                char[] valueArr = value.toCharArray();
+
+                for (int j = 0; j < valueArr.length; j++) {
+
+                    char original = valueArr[j];
+
+                    for (char ch = 'a'; ch <= 'z'; ch++) {
+
+                        if (ch == original) {
+                            continue;
+                        }
+
+                        valueArr[j] = ch;
+
+                        String s = new String(valueArr);
+
+                        if (words.contains(s)) {
+
+                            // s can be reached from value
+                            if (!visited.contains(s)) {
+
+                                map.computeIfAbsent(
+                                    s,
+                                    k -> new ArrayList<>()
+                                ).add(value);
+
+                                levelVisited.add(s);
+
+                                if (s.equals(endWord)) {
+                                    found = true;
+                                }
+                            }
+                            else if (levelVisited.contains(s)) {
+
+                                // Another shortest parent
+                                map.computeIfAbsent(
+                                    s,
+                                    k -> new ArrayList<>()
+                                ).add(value);
+                            }
+                        }
                     }
-                    nextLevel.add(next); // store next layer nodes
+
+                    valueArr[j] = original;
                 }
             }
-            if (queue.isEmpty()) { // when current layer is all visited
-                if (findEnd) break; // if find the endWord, then break the while loop
-                queue.addAll(nextLevel); // add next layer nodes to queue
-                wordSet.removeAll(nextLevel); // remove all next layer nodes in wordSet
-                nextLevel.clear();
+
+            visited.addAll(levelVisited);
+
+            // Add newly discovered words to queue
+            for (String word : levelVisited) {
+                qu.offer(word);
             }
         }
 
-        if (!findEnd) return ans; // if can't reach endWord from startWord, then return ans.
-        Set<String> path = new LinkedHashSet<>();
-        path.add(endWord);
-		// traverse reverse graph from endWord to beginWord
-        findPath(endWord, beginWord, reverse, ans, path); 
-        return ans;
+        List<String> path = new ArrayList<>();
+
+        dfs(
+            endWord,
+            beginWord,
+            map,
+            result,
+            path
+        );
+
+        return result;
     }
 
+    private void dfs(
+            String src,
+            String des,
+            Map<String, List<String>> map,
+            List<List<String>> result,
+            List<String> path) {
 
-    private void findPath(String endWord, String beginWord, Map<String, Set<String>> graph,
-    List<List<String>> ans, Set<String> path) {
-        Set<String> next = graph.get(endWord);
-        if (next == null) return;
-        for (String word : next) {
-            path.add(word);
-            if (beginWord.equals(word)) {
-                List<String> shortestPath = new ArrayList<>(path);
-                Collections.reverse(shortestPath); // reverse words in shortest path
-                ans.add(shortestPath); // add the shortest path to ans.
-            } else {
-                findPath(word, beginWord, graph, ans, path);
-            }
-            path.remove(word);
-        }
-    }
+        path.add(src);
 
-    private boolean isLadder(String s, String t) {
-        if (s.length() != t.length()) return false;
-        int diffCount = 0;
-        int n = s.length();
-        for (int i = 0; i < n; i++) {
-            if (s.charAt(i) != t.charAt(i)) diffCount++;
-            if (diffCount > 1) return false;
+        if (src.equals(des)) {
+
+            List<String> temp = new ArrayList<>(path);
+
+            Collections.reverse(temp);
+
+            result.add(temp);
+
+            path.remove(path.size() - 1);
+
+            return;
         }
-        return diffCount == 1;
+
+        if (!map.containsKey(src)) {
+            path.remove(path.size() - 1);
+            return;
+        }
+
+        for (String parent : map.get(src)) {
+
+            dfs(
+                parent,
+                des,
+                map,
+                result,
+                path
+            );
+        }
+
+        path.remove(path.size() - 1);
     }
 }
