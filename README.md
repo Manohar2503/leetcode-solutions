@@ -574,4 +574,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
