@@ -223,6 +223,7 @@ If you find this repository useful:
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0092-reverse-linked-list-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0092-reverse-linked-list-ii) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
@@ -467,6 +468,7 @@ If you find this repository useful:
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
@@ -563,6 +565,7 @@ If you find this repository useful:
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0002-add-two-numbers) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 ## Game Theory
 |  |
