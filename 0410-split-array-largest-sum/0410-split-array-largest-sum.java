@@ -1,48 +1,41 @@
 class Solution {
     public int splitArray(int[] nums, int k) {
         int n = nums.length;
-        int totalSum =0;
+        int min = 0;
         int max = 0;
-        for(int val: nums){
-            max = Math.max(max, val);
-            totalSum += val;
+        for(int ele: nums){
+            min = Math.max(min, ele);
+            max += ele;
         }
-        
-        int left =max;
-        int right = totalSum;
-        int result =0;
+        int left = min;
+        int right = max;
 
-        while(left <= right){
+        int result = 0;
+        while(left <= right ){
             int mid = left + (right - left)/2;
-
-            if(isPossible(mid, nums, k)){
+            if(possible(nums,k,mid)){
                 result = mid;
                 right = mid -1;
             }
             else{
                 
-                left = mid+1;
+                left = mid +1;
             }
         }
 
         return result;
     }
 
-    static boolean isPossible(int mid, int[] nums, int k){
-        int splits =1;
-        int currentSum =0;
-
+    static boolean possible(int[] nums, int k, int mid){
+        int newk =1;
+        int count =0;
         for(int i=0;i<nums.length;i++){
-            if(currentSum + nums[i] <= mid){
-                currentSum = currentSum + nums[i];
-            }
+            if(count + nums[i] <=mid) count += nums[i];
             else{
-                splits++;
-                System.out.print(splits+" ");
-                currentSum = nums[i];
+                count = nums[i];
+                newk++;
             }
         }
-
-        return (k>=splits)?true:false;
+        return (newk<=k)?true:false;
     }
 }
