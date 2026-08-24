@@ -146,6 +146,7 @@ If you find this repository useful:
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Manohar2503/leetcode-solutions/tree/master/0035-search-insert-position) |
 | [0041-first-missing-positive](https://github.com/Manohar2503/leetcode-solutions/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
@@ -192,6 +193,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0041-first-missing-positive](https://github.com/Manohar2503/leetcode-solutions/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
@@ -209,6 +211,7 @@ If you find this repository useful:
 | [0015-3sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Manohar2503/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
@@ -346,6 +349,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Manohar2503/leetcode-solutions/tree/master/0008-string-to-integer-atoi) |
+| [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
