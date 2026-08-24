@@ -1,4 +1,3 @@
-
 class Solution {
     public int longestConsecutive(int[] nums) {
       int max = Integer.MIN_VALUE;
