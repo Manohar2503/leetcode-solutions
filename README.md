@@ -244,6 +244,7 @@ If you find this repository useful:
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
+| [0876-middle-of-the-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -254,6 +255,7 @@ If you find this repository useful:
 | [0088-merge-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0443-string-compression](https://github.com/Manohar2503/leetcode-solutions/tree/master/0443-string-compression) |
 | [0633-sum-of-square-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0633-sum-of-square-numbers) |
+| [0876-middle-of-the-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 ## Depth-First Search
 |  |
