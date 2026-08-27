@@ -248,6 +248,7 @@ If you find this repository useful:
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0876-middle-of-the-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -262,6 +263,7 @@ If you find this repository useful:
 | [0633-sum-of-square-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0633-sum-of-square-numbers) |
 | [0876-middle-of-the-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Depth-First Search
 |  |
 | ------- |
