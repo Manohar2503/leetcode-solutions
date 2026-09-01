@@ -1,24 +1,30 @@
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        int n = nums2.length;
-        int m = nums1.length;
-        int[] result = new int[m];
-        if(nums1.length==0) return result;
 
-        Map<Integer, Integer> map = new HashMap<>();
+        int[] next = new int[20001];
+        Arrays.fill(next, -1);
+
         Stack<Integer> st = new Stack<>();
 
+        for (int i = nums2.length - 1; i >= 0; i--) {
 
-        for(int i=n-1;i>=0;i--){
             int val = nums2[i];
-            while(!st.isEmpty() && st.peek() < val) st.pop();
-            if(st.isEmpty()) map.put(val, -1);
-            else map.put(val, st.peek());
+
+            while (!st.isEmpty() && st.peek() < val) {
+                st.pop();
+            }
+
+            if (!st.isEmpty()) {
+                next[val + 10000] = st.peek();
+            }
+
             st.push(val);
         }
-        int j=0;
-        for(int num : nums1){
-            result[j++] = map.get(num);
+
+        int[] result = new int[nums1.length];
+
+        for (int i = 0; i < nums1.length; i++) {
+            result[i] = next[nums1[i] + 10000];
         }
 
         return result;
