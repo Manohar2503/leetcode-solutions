@@ -199,6 +199,7 @@ If you find this repository useful:
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 | [1929-concatenation-of-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
+| [2104-sum-of-subarray-ranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Hash Table
 |  |
 | ------- |
@@ -585,6 +586,7 @@ If you find this repository useful:
 | [0503-next-greater-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Manohar2503/leetcode-solutions/tree/master/0735-asteroid-collision) |
+| [2104-sum-of-subarray-ranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -592,6 +594,7 @@ If you find this repository useful:
 | [0084-largest-rectangle-in-histogram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
+| [2104-sum-of-subarray-ranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Binary Search Tree
 |  |
 | ------- |
