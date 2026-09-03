@@ -1,33 +1,35 @@
 class Solution {
     public int trap(int[] height) {
-        int total = 0;
-        int l = 0;
-        int r = height.length - 1;
-        int leftMax =0;
-        int rightMax = 0;
 
-       while(l<r){
-        if(height[l] <= height[r]){
-            if(leftMax > height[l]){
-                total += leftMax- height[l];
-                l++;
+        Deque<Integer> stack = new ArrayDeque<>();
+
+        int water = 0;
+
+        for (int i = 0; i < height.length; i++) {
+
+            while (!stack.isEmpty() &&
+                   height[i] > height[stack.peek()]) {
+
+                int bottom = stack.pop();
+
+                if (stack.isEmpty()) {
+                    break;
+                }
+
+                int left = stack.peek();
+
+                int width = i - left - 1;
+
+                int waterHeight =
+                    Math.min(height[left], height[i])
+                    - height[bottom];
+
+                water += width * waterHeight;
             }
-            else{
-                leftMax = height[l];
-                l++;
-            }
+
+            stack.push(i);
         }
-        else{
-            if(rightMax > height[r]){
-                total += rightMax- height[r];
-                r--;
-            }
-            else{
-                rightMax = height[r];
-                r--;
-            }          
-        }
-       }
-        return total;
+
+        return water;
     }
 }
