@@ -152,6 +152,7 @@ If you find this repository useful:
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0118-pascals-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0118-pascals-triangle) |
@@ -491,6 +492,7 @@ If you find this repository useful:
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
+| [0085-maximal-rectangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0120-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -567,6 +569,7 @@ If you find this repository useful:
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
+| [0085-maximal-rectangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/Manohar2503/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/Manohar2503/leetcode-solutions/tree/master/0221-maximal-square) |
@@ -583,6 +586,7 @@ If you find this repository useful:
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
@@ -597,6 +601,7 @@ If you find this repository useful:
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
