@@ -720,4 +720,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
