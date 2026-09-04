@@ -21,3 +21,13 @@ class Solution {
         return maxArea;
     }
 }
+
+/*
+          j
+        2 1 5 6 2 3
+        0 1 2 3 4 5
+
+        peekVal > curVal 2 > 1
+        width = j - peek
+        st - [ ]
+*/
