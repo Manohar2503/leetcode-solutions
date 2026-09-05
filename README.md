@@ -184,6 +184,7 @@ If you find this repository useful:
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Manohar2503/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0851-loud-and-rich](https://github.com/Manohar2503/leetcode-solutions/tree/master/0851-loud-and-rich) |
+| [0867-transpose-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Manohar2503/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 | [0904-fruit-into-baskets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
@@ -590,6 +591,7 @@ If you find this repository useful:
 | [0240-search-a-2d-matrix-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
+| [0867-transpose-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0867-transpose-matrix) |
 | [0994-rotting-oranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Manohar2503/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -728,6 +730,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/Manohar2503/leetcode-solutions/tree/master/0735-asteroid-collision) |
+| [0867-transpose-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0867-transpose-matrix) |
 | [1929-concatenation-of-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 ## Trie
 |  |
