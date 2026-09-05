@@ -31,12 +31,12 @@ class Solution {
 
             // down to top 
            if(left <=right){
-             for(int i=down;i>=top;i--){
+              for(int i=down;i>=top;i--){
                 int val = matrix[i][left];
                 list.add(val);
             }
            }
-
+               
             left++;
         }
 
