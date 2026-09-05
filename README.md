@@ -216,6 +216,7 @@ If you find this repository useful:
 | [0142-linked-list-cycle-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
@@ -392,6 +393,7 @@ If you find this repository useful:
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0402-remove-k-digits) |
+| [0424-longest-repeating-character-replacement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0443-string-compression](https://github.com/Manohar2503/leetcode-solutions/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
@@ -737,6 +739,7 @@ If you find this repository useful:
 ## Sliding Window
 |  |
 | ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
