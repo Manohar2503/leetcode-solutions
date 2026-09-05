@@ -200,6 +200,7 @@ If you find this repository useful:
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Manohar2503/leetcode-solutions/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Manohar2503/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
+| [1672-richest-customer-wealth](https://github.com/Manohar2503/leetcode-solutions/tree/master/1672-richest-customer-wealth) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 | [1929-concatenation-of-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1929-concatenation-of-array) |
@@ -592,6 +593,7 @@ If you find this repository useful:
 | [1020-number-of-enclaves](https://github.com/Manohar2503/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
+| [1672-richest-customer-wealth](https://github.com/Manohar2503/leetcode-solutions/tree/master/1672-richest-customer-wealth) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 ## Stack
 |  |
