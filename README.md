@@ -150,6 +150,7 @@ If you find this repository useful:
 | [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0059-spiral-matrix-ii) |
+| [0073-set-matrix-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -215,6 +216,7 @@ If you find this repository useful:
 | ------- |
 | [0041-first-missing-positive](https://github.com/Manohar2503/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
@@ -589,6 +591,7 @@ If you find this repository useful:
 | ------- |
 | [0054-spiral-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0059-spiral-matrix-ii) |
+| [0073-set-matrix-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0085-maximal-rectangle) |
