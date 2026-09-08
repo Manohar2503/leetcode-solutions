@@ -22,6 +22,7 @@ class Solution {
 
         while(!qu.isEmpty()){
             int len = qu.size();
+            count++;
             for(int i=0;i<len;i++){
                   int[] cur = qu.poll();
                   for(int[] arr: adj){
@@ -33,7 +34,7 @@ class Solution {
                       }
                   }
             }
-            count++;
+            
         }
         
         for(int i=0;i<n;i++){
