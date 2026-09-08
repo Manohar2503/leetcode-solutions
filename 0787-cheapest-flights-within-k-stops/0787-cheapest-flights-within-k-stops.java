@@ -1,7 +1,5 @@
 class Solution {
-    public int findCheapestPrice(int n, int[][] flights,
-                                 int src, int dst, int k) {
-
+    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
         List<List<int[]>> adj = new ArrayList<>();
         for(int i=0;i<n;i++) adj.add(new ArrayList<>());
 
