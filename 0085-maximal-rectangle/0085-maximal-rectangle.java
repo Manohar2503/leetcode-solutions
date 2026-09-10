@@ -1,10 +1,5 @@
 class Solution {
-    // static{
-    //     for(int i=0;i<500;i++){
-    //         char[][] matrix = {{'1','0'},{'0','1'}};
-    //             maximalRectangle(matrix);
-    //     }
-    // }
+    
     public static  int maximalRectangle(char[][] matrix) {
        
         int n = matrix.length;
