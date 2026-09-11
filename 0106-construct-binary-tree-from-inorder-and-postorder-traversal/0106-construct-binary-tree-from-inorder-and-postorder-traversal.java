@@ -1,40 +1,36 @@
+
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-    static int postLen;
-
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        postLen = postorder.length - 1;
-        return constructTree(inorder, postorder, 0, inorder.length - 1);
+        return recurse(inorder, 0, inorder.length-1, postorder, 0, postorder.length-1);
     }
-
-    static TreeNode constructTree(int[] inorder, int[] postorder,
-                                  int inLeft, int inRight) {
-
-        if (inLeft > inRight) {
-            return null;
-        }
-
-        int rootValue = postorder[postLen--];
-
-        TreeNode root = new TreeNode(rootValue);
-
-        int rootIndex = findRoot(inorder, rootValue, inLeft, inRight);
-
-        // IMPORTANT: build right first
-        root.right = constructTree(inorder, postorder,
-                                    rootIndex + 1, inRight);
-
-        root.left = constructTree(inorder, postorder,
-                                   inLeft, rootIndex - 1);
-
-        return root;
-    }
-
-    static int findRoot(int[] inorder, int root, int start, int end) {
-        for (int i = start; i <= end; i++) {
-            if (inorder[i] == root) {
-                return i;
+    public TreeNode recurse(int[] in, int a, int b, int[] post, int x, int y){
+        if(a>b || x>y) return null;
+        TreeNode root = new TreeNode(post[y]);
+        int i=b;
+        for(i=b;i>=a;i--){
+            if(post[y] == in[i]){
+                break;
             }
         }
-        return -1;
+        int numsRight = b-i;
+        root.right = recurse(in, i+1, b, post, y-numsRight,y-1);
+        root.left = recurse(in, a, i-1, post, x,y - numsRight -1);
+        return root;
     }
 }
