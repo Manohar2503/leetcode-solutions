@@ -158,6 +158,7 @@ If you find this repository useful:
 | [0085-maximal-rectangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0118-pascals-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0120-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
@@ -220,6 +221,7 @@ If you find this repository useful:
 | [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
@@ -456,6 +458,7 @@ If you find this repository useful:
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -479,6 +482,7 @@ If you find this repository useful:
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -575,6 +579,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
