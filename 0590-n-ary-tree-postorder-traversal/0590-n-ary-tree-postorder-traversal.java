@@ -21,15 +21,28 @@ class Solution {
     public List<Integer> postorder(Node root) {
         List<Integer> result = new ArrayList<>();
         if(root == null) return result;
-        traversal(root, result);
-        result.add(root.val);
+
+        Stack<Node> stack = new Stack<>();
+        stack.push(root);
+        
+        while(!stack.isEmpty()){
+            Node currentNode = stack.peek();
+            if(currentNode.children.size()==0){
+                result.add(currentNode.val);
+                stack.pop();
+                continue;
+            }
+            Node childNode = currentNode.children.get(0);
+            currentNode.children.remove(0);
+            stack.push(childNode);
+        }
         return result;
     }
-    static void traversal(Node node, List<Integer> list){
-        if(node == null) return;
-        for(Node n: node.children){
-            traversal(n, list);
-            list.add(n.val);
-        }
-    }
 }
+/*
+stack - > [1, 3]
+list -> [5, 6, ]
+
+1 -> 2 4
+
+*/
