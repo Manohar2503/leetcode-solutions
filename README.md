@@ -210,6 +210,7 @@ If you find this repository useful:
 | [0904-fruit-into-baskets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [0977-squares-of-a-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Manohar2503/leetcode-solutions/tree/master/0990-satisfiability-of-equality-equations) |
 | [0994-rotting-oranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
@@ -282,6 +283,7 @@ If you find this repository useful:
 | [0628-maximum-product-of-three-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [0977-squares-of-a-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1030-matrix-cells-in-distance-order](https://github.com/Manohar2503/leetcode-solutions/tree/master/1030-matrix-cells-in-distance-order) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
@@ -324,6 +326,7 @@ If you find this repository useful:
 | [0443-string-compression](https://github.com/Manohar2503/leetcode-solutions/tree/master/0443-string-compression) |
 | [0633-sum-of-square-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0633-sum-of-square-numbers) |
 | [0876-middle-of-the-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
+| [0977-squares-of-a-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Depth-First Search
