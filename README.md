@@ -140,6 +140,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Manohar2503/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0018-4sum) |
@@ -307,6 +308,7 @@ If you find this repository useful:
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Manohar2503/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0018-4sum) |
@@ -467,6 +469,7 @@ If you find this repository useful:
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0011-container-with-most-water) |
 | [0324-wiggle-sort-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0324-wiggle-sort-ii) |
 | [0402-remove-k-digits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
