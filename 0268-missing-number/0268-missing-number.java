@@ -1,10 +1,27 @@
 class Solution {
     public int missingNumber(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for(int num : nums) set.add(num);
-        for(int i=0;i<=nums.length;i++){
-            if(!set.contains(i)) return i;
-        }
-        return nums.length;
+        int n = nums.length;
+        int result = 0;
+
+        for(int i=0;i<=n;i++) result ^= i;
+        for(int value: nums) result ^= value;
+
+        return result; 
     }
 }
+/*
+
+            0 1 2 3   
+    Array - 0 1 # 3 -> 2
+
+        result ^ [0 1 2 3]
+        result ^ [3 0 1]
+
+        result - > 2
+
+
+        1 ^ 1 - 0
+        1 ^ 0 - 1
+        0 ^ 1 - 1
+        0 ^ 0 - 0
+*/
