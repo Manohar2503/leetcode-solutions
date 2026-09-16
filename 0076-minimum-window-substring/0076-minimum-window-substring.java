@@ -1,46 +1,22 @@
 class Solution {
     public String minWindow(String s, String t) {
-        if (s.length() < t.length()) return "";
+        int[] a = new int[128];
+        for (char c : t.toCharArray()) a[c]++;
 
-        Map<Character, Integer> tmap = new HashMap<>();
-        Map<Character, Integer> smap = new HashMap<>();
+        int l = 0, count = t.length(), start = 0, min = Integer.MAX_VALUE;
 
-        for (char ch : t.toCharArray()) {
-            tmap.put(ch, tmap.getOrDefault(ch, 0) + 1);
+        for (int r = 0; r < s.length(); r++) {
+            if (a[s.charAt(r)]-- > 0) count--;
+
+            while (count == 0) {
+                if (r - l + 1 < min) {
+                    min = r - l + 1;
+                    start = l;
+                }
+                if (++a[s.charAt(l++)] > 0) count++;
+            }
         }
 
-        int i = 0, j = 0;
-        int count = 0;
-        int minLen = Integer.MAX_VALUE;
-        int start = 0;
-
-        while (j < s.length()) {
-            char ch = s.charAt(j);
-            smap.put(ch, smap.getOrDefault(ch, 0) + 1);
-
-            if (tmap.containsKey(ch) && smap.get(ch).intValue() == tmap.get(ch).intValue()) {
-                count++;
-            }
-
-            // shrink window
-            while (count == tmap.size()) {
-                if (j - i + 1 < minLen) {
-                    minLen = j - i + 1;
-                    start = i;
-                }
-
-                char left = s.charAt(i);
-                smap.put(left, smap.get(left) - 1);
-
-                if (tmap.containsKey(left) && smap.get(left) < tmap.get(left)) {
-                    count--;
-                }
-                i++;
-            
-            }
-            j++;
-        }
-
-        return minLen == Integer.MAX_VALUE ? "" : s.substring(start, start + minLen);
+        return min == Integer.MAX_VALUE ? "" : s.substring(start, start + min);
     }
 }
