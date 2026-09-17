@@ -172,6 +172,7 @@ If you find this repository useful:
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Manohar2503/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/Manohar2503/leetcode-solutions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Manohar2503/leetcode-solutions/tree/master/0217-contains-duplicate) |
@@ -633,6 +634,7 @@ If you find this repository useful:
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0202-happy-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0202-happy-number) |
+| [0204-count-primes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0204-count-primes) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0268-missing-number) |
@@ -756,6 +758,7 @@ If you find this repository useful:
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0204-count-primes) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 ## Memoization
 |  |
@@ -896,4 +899,20 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
