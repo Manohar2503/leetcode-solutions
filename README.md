@@ -445,6 +445,7 @@ If you find this repository useful:
 ## Backtracking
 |  |
 | ------- |
+| [0077-combinations](https://github.com/Manohar2503/leetcode-solutions/tree/master/0077-combinations) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
