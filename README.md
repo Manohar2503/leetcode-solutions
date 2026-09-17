@@ -638,6 +638,7 @@ If you find this repository useful:
 | [0166-fraction-to-recurring-decimal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0202-happy-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0204-count-primes) |
+| [0231-power-of-two](https://github.com/Manohar2503/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0268-missing-number) |
@@ -785,6 +786,7 @@ If you find this repository useful:
 | [0002-add-two-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Manohar2503/leetcode-solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/Manohar2503/leetcode-solutions/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/Manohar2503/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 ## Game Theory
@@ -821,6 +823,7 @@ If you find this repository useful:
 | [0191-number-of-1-bits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/Manohar2503/leetcode-solutions/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0222-count-complete-tree-nodes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/Manohar2503/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0268-missing-number) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
 ## Boyer–Moore Majority Vote Algorithm
