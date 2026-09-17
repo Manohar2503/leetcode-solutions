@@ -168,6 +168,7 @@ If you find this repository useful:
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Manohar2503/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Manohar2503/leetcode-solutions/tree/master/0130-surrounded-regions) |
+| [0137-single-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0137-single-number-ii) |
 | [0162-find-peak-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Manohar2503/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/Manohar2503/leetcode-solutions/tree/master/0198-house-robber) |
@@ -813,6 +814,7 @@ If you find this repository useful:
 ## Bit Manipulation
 |  |
 | ------- |
+| [0137-single-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0137-single-number-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0268-missing-number) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
