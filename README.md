@@ -247,6 +247,7 @@ If you find this repository useful:
 | [0128-longest-consecutive-sequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0142-linked-list-cycle-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0166-fraction-to-recurring-decimal) |
+| [0202-happy-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/Manohar2503/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
@@ -328,6 +329,7 @@ If you find this repository useful:
 | [0088-merge-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0142-linked-list-cycle-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Manohar2503/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0202-happy-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0443-string-compression](https://github.com/Manohar2503/leetcode-solutions/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0567-permutation-in-string) |
@@ -630,6 +632,7 @@ If you find this repository useful:
 | [0050-powx-n](https://github.com/Manohar2503/leetcode-solutions/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0166-fraction-to-recurring-decimal) |
+| [0202-happy-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0202-happy-number) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0268-missing-number) |
@@ -853,6 +856,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0202-happy-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0202-happy-number) |
 ## Bracket Sequences
 |  |
 | ------- |
