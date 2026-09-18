@@ -217,6 +217,7 @@ If you find this repository useful:
 | [0904-fruit-into-baskets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Manohar2503/leetcode-solutions/tree/master/0990-satisfiability-of-equality-equations) |
 | [0994-rotting-oranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/0994-rotting-oranges) |
@@ -274,6 +275,7 @@ If you find this repository useful:
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Manohar2503/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -632,6 +634,7 @@ If you find this repository useful:
 | [0528-random-pick-with-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0560-subarray-sum-equals-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 ## Math
 |  |
