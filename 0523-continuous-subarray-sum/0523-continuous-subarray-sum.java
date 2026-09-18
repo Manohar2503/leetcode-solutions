@@ -1,36 +1,18 @@
 class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
-
-        if (nums.length < 2) {
-            return false;
-        }
-
+        int n = nums.length;
+        if(n == 0) return false;
         Map<Integer, Integer> map = new HashMap<>();
+        map.put(0,-1);
 
-        map.put(0, -1);
-
-        int prefixSum = 0;
-
-        for (int i = 0; i < nums.length; i++) {
-
+        int prefixSum =0;
+        for(int i=0;i<n;i++){
             prefixSum += nums[i];
-
-            int remainder = prefixSum % k;
-
-            if (map.containsKey(remainder)) {
-
-                int previousIndex = map.get(remainder);
-
-                if (i - previousIndex >= 2) {
-                    return true;
-                }
-
-            } else {
-
-                map.put(remainder, i);
+            if(map.containsKey(prefixSum % k)){
+                if((i - map.get(prefixSum % k)) >= 2) return true;
             }
+            else map.put((prefixSum %k),i); // 0,-1  5,0  1,1  2      
         }
-
         return false;
     }
 }
