@@ -571,6 +571,7 @@ If you find this repository useful:
 | [0033-search-in-rotated-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Manohar2503/leetcode-solutions/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/Manohar2503/leetcode-solutions/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/0162-find-peak-element) |
@@ -644,6 +645,7 @@ If you find this repository useful:
 | [0009-palindrome-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0009-palindrome-number) |
 | [0043-multiply-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/0043-multiply-strings) |
 | [0050-powx-n](https://github.com/Manohar2503/leetcode-solutions/tree/master/0050-powx-n) |
+| [0069-sqrtx](https://github.com/Manohar2503/leetcode-solutions/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0202-happy-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0202-happy-number) |
@@ -962,4 +964,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0365-water-and-jug-problem](https://github.com/Manohar2503/leetcode-solutions/tree/master/0365-water-and-jug-problem) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/Manohar2503/leetcode-solutions/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
