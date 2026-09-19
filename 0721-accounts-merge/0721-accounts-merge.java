@@ -1,68 +1,51 @@
 class Solution {
- static {
-      Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-        try (java.io.FileWriter fw = new java.io.FileWriter("display_runtime.txt")) {
-          fw.write("0");
-        } catch (Exception _) {
+    Map<String, String> parent;
+    private String find(String x){
+        if(!parent.containsKey(x)){
+            parent.put(x,x);
+            return x;
         }
-      }));
-    }
-    class DSU {
-        Map<String, String> parent = new HashMap<>();
-
-        String find(String x) {
-            if (!parent.containsKey(x))
-                parent.put(x, x);
-
-            if (!parent.get(x).equals(x))
-                parent.put(x, find(parent.get(x)));
-
-            return parent.get(x);
+        if(!parent.get(x).equals(x)){
+            parent.put(x, find(parent.get(x)));
         }
-
-        void union(String x, String y) {
-            parent.put(find(x), find(y));
-        }
+        return parent.get(x);
     }
 
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
-
-        DSU dsu = new DSU();
+        parent = new HashMap<>();
+        
         Map<String, String> emailToName = new HashMap<>();
-
-        // Step 1: Union emails
-        for (List<String> acc : accounts) {
-            String name = acc.get(0);
-            String firstEmail = acc.get(1);
-
-            for (int i = 1; i < acc.size(); i++) {
-                emailToName.put(acc.get(i), name);
-                dsu.union(firstEmail, acc.get(i));
+        for(List<String> account: accounts){
+            String name = account.get(0);
+            for(int i=1;i<account.size();i++){
+                emailToName.put(account.get(i), name);
             }
         }
 
-        // Step 2: Group emails by root
-        Map<String, List<String>> groups = new HashMap<>();
-
-        for (String email : emailToName.keySet()) {
-            String root = dsu.find(email);
-            groups.computeIfAbsent(root, k -> new ArrayList<>()).add(email);
+        for(List<String> account: accounts){
+            String parentMail = account.get(1);
+            for(int i=1;i<account.size();i++){
+                if(!find(parentMail).equals(find(account.get(i)))){
+                    parent.put(find(account.get(i)), find(parentMail));
+                }
+            }
         }
 
-        // Step 3: Build result
+        Map<String, List<String>> group = new HashMap<>();
+        for(String email: emailToName.keySet()){
+            String parent = find(email);
+            group.computeIfAbsent(parent, k -> new ArrayList<>()).add(email);
+        }
+
         List<List<String>> result = new ArrayList<>();
-
-        for (String root : groups.keySet()) {
-            List<String> emails = groups.get(root);
-            Collections.sort(emails);
-
-            List<String> temp = new ArrayList<>();
-            temp.add(emailToName.get(root)); // name
-            temp.addAll(emails);
-
-            result.add(temp);
+        for(Map.Entry<String, List<String>> entry: group.entrySet()){
+            String parentMail = entry.getKey();
+            List<String> list = entry.getValue();
+            Collections.sort(list);
+            String name = emailToName.get(parentMail);
+            list.add(0,name);
+            result.add(list);
         }
-
         return result;
     }
 }
