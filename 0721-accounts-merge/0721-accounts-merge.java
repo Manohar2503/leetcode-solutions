@@ -17,19 +17,14 @@ class Solution {
         Map<String, String> emailToName = new HashMap<>();
         for(List<String> account: accounts){
             String name = account.get(0);
+            String parentMail = account.get(1);
             for(int i=1;i<account.size();i++){
                 emailToName.put(account.get(i), name);
+                parent.put(find(account.get(i)), find(parentMail));
             }
         }
 
-        for(List<String> account: accounts){
-            String parentMail = account.get(1);
-            for(int i=1;i<account.size();i++){
-                if(!find(parentMail).equals(find(account.get(i)))){
-                    parent.put(find(account.get(i)), find(parentMail));
-                }
-            }
-        }
+       
 
         Map<String, List<String>> group = new HashMap<>();
         for(String email: emailToName.keySet()){
