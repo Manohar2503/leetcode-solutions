@@ -779,6 +779,7 @@ If you find this repository useful:
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0678-valid-parenthesis-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Manohar2503/leetcode-solutions/tree/master/0735-asteroid-collision) |
+| [0901-online-stock-span](https://github.com/Manohar2503/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [2104-sum-of-subarray-ranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Monotonic Stack
 |  |
@@ -789,6 +790,7 @@ If you find this repository useful:
 | [0402-remove-k-digits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
+| [0901-online-stock-span](https://github.com/Manohar2503/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [2104-sum-of-subarray-ranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Binary Search Tree
 |  |
@@ -810,6 +812,7 @@ If you find this repository useful:
 | [0304-range-sum-query-2d-immutable](https://github.com/Manohar2503/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Manohar2503/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
+| [0901-online-stock-span](https://github.com/Manohar2503/leetcode-solutions/tree/master/0901-online-stock-span) |
 ## Hash Function
 |  |
 | ------- |
@@ -1012,4 +1015,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/Manohar2503/leetcode-solutions/tree/master/0069-sqrtx) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/Manohar2503/leetcode-solutions/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
