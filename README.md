@@ -323,6 +323,7 @@ If you find this repository useful:
 | ------- |
 | [0002-add-two-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0021-merge-two-sorted-lists](https://github.com/Manohar2503/leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Manohar2503/leetcode-solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0092-reverse-linked-list-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0092-reverse-linked-list-ii) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
@@ -839,6 +840,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/Manohar2503/leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Manohar2503/leetcode-solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/Manohar2503/leetcode-solutions/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/Manohar2503/leetcode-solutions/tree/master/0231-power-of-two) |
