@@ -393,6 +393,7 @@ If you find this repository useful:
 | [0365-water-and-jug-problem](https://github.com/Manohar2503/leetcode-solutions/tree/master/0365-water-and-jug-problem) |
 | [0543-diameter-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Manohar2503/leetcode-solutions/tree/master/0547-number-of-provinces) |
+| [0572-subtree-of-another-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0589-n-ary-tree-preorder-traversal) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
@@ -586,6 +587,7 @@ If you find this repository useful:
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0589-n-ary-tree-preorder-traversal) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
@@ -616,6 +618,7 @@ If you find this repository useful:
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0814-binary-tree-pruning](https://github.com/Manohar2503/leetcode-solutions/tree/master/0814-binary-tree-pruning) |
@@ -852,6 +855,7 @@ If you find this repository useful:
 ## Hash Function
 |  |
 | ------- |
+| [0572-subtree-of-another-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 ## Enumeration
 |  |
@@ -1066,4 +1070,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Manohar2503/leetcode-solutions/tree/master/0146-lru-cache) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
