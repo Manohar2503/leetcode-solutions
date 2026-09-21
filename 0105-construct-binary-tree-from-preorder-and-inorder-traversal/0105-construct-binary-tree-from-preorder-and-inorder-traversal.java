@@ -16,40 +16,21 @@
 class Solution {
     static int index;
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        index = 0;
-        return build(0, inorder.length-1, preorder, inorder);
+        if(preorder.length==0 || inorder.length==0) return null;
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i=0;i<inorder.length;i++){
+            map.put(inorder[i], i);
+        }
+        index =0;
+        return dfs(0, inorder.length-1, preorder, inorder, map);
     }
 
-    static TreeNode build(int left, int right, int[] preorder, int[] inorder){
-        if(index >= preorder.length) return null;
-        if(left > right) return null;
-        TreeNode root = new TreeNode(preorder[index]);
-        int mid = search(left, right, inorder, preorder[index]);
-        index++;
-
-        root.left =  build(left, mid-1, preorder, inorder);
-        root.right =  build(mid+1, right, preorder, inorder);
-
+    static TreeNode dfs(int start, int end, int[] preorder, int[] inorder, Map<Integer, Integer> map){
+        if(start > end) return null;
+        int rootNode = preorder[index++];
+        TreeNode root = new TreeNode(rootNode);
+        root.left = dfs(start, map.get(rootNode)-1, preorder, inorder,map);
+        root.right = dfs(map.get(rootNode)+1, end, preorder, inorder,map);
         return root;
     }
-
-    static int search(int left, int right, int[] inorder, int target){
-        for(int i=left;i<=right;i++){
-            if(inorder[i] == target) return i;
-        }
-        return -1;
-    }
 }
-/*
-
-    preorder -> Root left right 
-    inorder  -> left root right
-
-                       j
-        pre - >    3 9 20 15 7
-                     
-                          i
-        ino - >    9 3 15 20 7
-
-
-*/
