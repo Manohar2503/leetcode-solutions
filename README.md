@@ -194,6 +194,7 @@ If you find this repository useful:
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0347-top-k-frequent-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/Manohar2503/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Manohar2503/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Manohar2503/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
@@ -777,6 +778,7 @@ If you find this repository useful:
 | [0239-sliding-window-maximum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 | [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/Manohar2503/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0743-network-delay-time](https://github.com/Manohar2503/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Manohar2503/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
