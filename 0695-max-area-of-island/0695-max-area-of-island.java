@@ -1,21 +1,34 @@
 class Solution {
-    int n,m;
     public int maxAreaOfIsland(int[][] grid) {
-        int count=0;
-        n=grid.length;
-        m=grid[0].length;
+        int n = grid.length;
+        int m = grid[0].length;
+        int count =0;
+        int[][] adj = {{0,1},{1,0},{0,-1},{-1,0}};
+
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                if(grid[i][j]>0) count =Math.max(count,DFS(i,j,grid));
+                if(grid[i][j] == 1){
+                    count = Math.max(count, dfs(i, j, grid, adj));
+                }
             }
         }
+
         return count;
     }
-    public int DFS(int i,int j,int[][] grid){
-        if(i<0||j<0||i>=n||j>=m||grid[i][j]<1){
-            return 0;
+
+    static int dfs(int r, int c, int[][] grid, int[][] adj){
+        grid[r][c] = 0;
+        int count =1;
+
+        for(int[] adjNode : adj){
+            int nr = r + adjNode[0];
+            int nc = c + adjNode[1];
+            
+            if(nr>=0 && nr< grid.length && nc>=0 && nc<grid[0].length && grid[nr][nc]==1){
+                count += dfs(nr, nc, grid, adj);
+            }
         }
-        grid[i][j]=0;
-        return 1+DFS(i-1,j,grid)+DFS(i,j-1,grid)+DFS(i+1,j,grid)+DFS(i,j+1,grid);
+
+        return count;
     }
 }
