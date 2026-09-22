@@ -7,16 +7,20 @@ class Solution {
             adj[edge[0]].add(edge[1]);
             adj[edge[1]].add(edge[0]);
         }
-        Set<Integer> set = new HashSet<>();
-        return dfs(source, destination, adj, set);
-    }
 
-    static boolean dfs(int source, int destination , List<Integer>[] adj, Set<Integer> set){
-        if(source == destination) return true;
+        Queue<Integer> qu = new LinkedList<>();
+        Set<Integer> set = new HashSet<>();
         set.add(source);
-        for(int val: adj[source]){
-            if(!set.contains(val)){
-                if(dfs(val, destination, adj, set)) return true;
+
+        qu.offer(source);
+        while(!qu.isEmpty()){
+            int u = qu.poll();
+            if(u == destination) return true;
+            for(int v: adj[u]){
+                if(!set.contains(v)){
+                    qu.offer(v);
+                    set.add(v);
+                }
             }
         }
 
