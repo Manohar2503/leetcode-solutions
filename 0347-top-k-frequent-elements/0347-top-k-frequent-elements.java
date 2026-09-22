@@ -1,34 +1,34 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-       int n = nums.length;
-        Map<Integer,Integer> map = new HashMap<>();
-        for(int num:nums){
-            map.put(num,map.getOrDefault(num,0)+1);
-        }
-        
+        int n = nums.length;
         List<Integer>[] list = new ArrayList[n+1];
-        for(Map.Entry<Integer,Integer> entry:map.entrySet()){
+        Map<Integer, Integer> map = new HashMap<>();
+        
+        for(int val: nums){
+            map.put(val, map.getOrDefault(val, 0)+1);
+        }
+
+        for(Map.Entry<Integer, Integer> entry: map.entrySet()){
             int key = entry.getKey();
             int val = entry.getValue();
-            if(list[val]==null) list[val]=new ArrayList<>();
+            
+            if(list[val] == null) list[val] = new ArrayList<>();
             list[val].add(key);
         }
 
-        int[] result = new int[k];
-        int newk=0;
-        for(int i=n;i>0;i--){
+        List<Integer> result = new ArrayList<>();
+        for(int i=n;i>=0;i--){
             if(list[i]!=null){
-                for(int li:list[i]){
-                    if(newk<k){
-                        result[newk++]= li;
-                    }
-                    else{
-                        break;
-                    }
-                }
+                for(int key: list[i]){
+                    if(--k>=0) result.add(key);
+                    else break;
+                } 
             }
         }
 
-        return result;
+        int[] arr = new int[result.size()];
+        for(int i=0;i<result.size();i++) arr[i] = result.get(i);
+
+        return arr; 
     }
 }
