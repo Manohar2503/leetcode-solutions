@@ -1,27 +1,25 @@
 class Solution {
-    class Dsu{
-        int parent[];
-        Dsu(int n){
-            parent= new int[n];
-            for(int i=0;i<n;i++){
-                parent[i]=i;
+    public boolean validPath(int n, int[][] edges, int source, int destination) {
+        List<Integer>[] adj = new ArrayList[n];
+        for(int i=0;i<n;i++) adj[i] = new ArrayList<>();
+        
+        for(int[] edge: edges){
+            adj[edge[0]].add(edge[1]);
+            adj[edge[1]].add(edge[0]);
+        }
+        Set<Integer> set = new HashSet<>();
+        return dfs(source, destination, adj, set);
+    }
+
+    static boolean dfs(int source, int destination , List<Integer>[] adj, Set<Integer> set){
+        if(source == destination) return true;
+        set.add(source);
+        for(int val: adj[source]){
+            if(!set.contains(val)){
+                if(dfs(val, destination, adj, set)) return true;
             }
         }
-        int find(int node){
-            if(parent[node]==node) return node;
-            return parent[node]= find(parent[node]);
-        }
-        void union(int i, int j){
-            int pi=find(i);
-            int pj=find(j);
-            parent[pi]=pj;
-        }
-    }
-    public boolean validPath(int n, int[][] edges, int source, int destination) {
-        Dsu dsu= new Dsu(n);
-        for(int x[]:edges){
-            dsu.union(x[0],x[1]);
-        }
-        return dsu.find(source)==dsu.find(destination);
+
+        return false;
     }
 }
