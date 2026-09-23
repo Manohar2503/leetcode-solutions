@@ -154,6 +154,7 @@ If you find this repository useful:
 | [0042-trapping-rain-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0054-spiral-matrix) |
+| [0056-merge-intervals](https://github.com/Manohar2503/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0059-spiral-matrix-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
@@ -306,6 +307,7 @@ If you find this repository useful:
 | [0016-3sum-closest](https://github.com/Manohar2503/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/Manohar2503/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Manohar2503/leetcode-solutions/tree/master/0217-contains-duplicate) |
@@ -1120,4 +1122,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/Manohar2503/leetcode-solutions/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
