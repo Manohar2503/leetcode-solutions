@@ -152,6 +152,7 @@ If you find this repository useful:
 | [0039-combination-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0041-first-missing-positive](https://github.com/Manohar2503/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Manohar2503/leetcode-solutions/tree/master/0056-merge-intervals) |
@@ -573,6 +574,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0011-container-with-most-water) |
+| [0045-jump-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0324-wiggle-sort-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0324-wiggle-sort-ii) |
 | [0402-remove-k-digits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
@@ -690,6 +692,7 @@ If you find this repository useful:
 | ------- |
 | [0022-generate-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0118-pascals-triangle) |
