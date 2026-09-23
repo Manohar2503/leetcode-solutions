@@ -43,7 +43,6 @@ class Solution {
             if (!pq.isEmpty()) {
 
                 Node current = pq.poll();
-
                 current.count--;
 
                 if (current.count > 0) {
