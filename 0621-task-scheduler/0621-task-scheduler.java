@@ -1,59 +1,32 @@
 class Solution {
-    static class Node {
-        char c;
-        int count;
-        int availableTime;
-
-        Node(char c, int count, int availableTime) {
-            this.c = c;
-            this.count = count;
-            this.availableTime = availableTime;
-        }
-    }
-
     public int leastInterval(char[] tasks, int n) {
 
-        Map<Character, Integer> map = new HashMap<>();
+        int[] freq = new int[26];
 
-        for (char ch : tasks) {
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
+
+        for (char task : tasks) {
+            freq[task - 'A']++;
         }
 
-        // Most frequent task first
-        PriorityQueue<Node> pq =
-            new PriorityQueue<>((a, b) -> b.count - a.count);
+        int maxFreq = 0;
 
-        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-            pq.offer(new Node(entry.getKey(), entry.getValue(), 0));
+        for (int f : freq) {
+            maxFreq = Math.max(maxFreq, f);
         }
 
-        Queue<Node> cooldown = new LinkedList<>();
+        int maxCount = 0;
 
-        int time = 0;
-
-        while (!pq.isEmpty() || !cooldown.isEmpty()) {
-
-            // Move tasks whose cooldown is finished back to heap
-            while (!cooldown.isEmpty()
-                    && cooldown.peek().availableTime <= time) {
-
-                pq.offer(cooldown.poll());
+        for (int f : freq) {
+            if (f == maxFreq) {
+                maxCount++;
             }
-
-            if (!pq.isEmpty()) {
-
-                Node current = pq.poll();
-                current.count--;
-
-                if (current.count > 0) {
-                    current.availableTime = time + n + 1;
-                    cooldown.offer(current);
-                }
-            }
-
-            time++;
         }
 
-        return time;
+
+        int result = (maxFreq - 1) * (n + 1) + maxCount;
+
+        return Math.max(tasks.length, result);
     }
 }
+        
+    
