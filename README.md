@@ -1110,4 +1110,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
+## K-D Tree
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
