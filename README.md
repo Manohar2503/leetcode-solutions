@@ -212,6 +212,7 @@ If you find this repository useful:
 | [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0605-can-place-flowers) |
+| [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0648-replace-words](https://github.com/Manohar2503/leetcode-solutions/tree/master/0648-replace-words) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -286,6 +287,7 @@ If you find this repository useful:
 | [0525-contiguous-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0648-replace-words](https://github.com/Manohar2503/leetcode-solutions/tree/master/0648-replace-words) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
@@ -314,6 +316,7 @@ If you find this repository useful:
 | [0347-top-k-frequent-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
@@ -327,6 +330,7 @@ If you find this repository useful:
 | ------- |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 ## Linked List
 |  |
 | ------- |
@@ -570,6 +574,7 @@ If you find this repository useful:
 | [0402-remove-k-digits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0605-can-place-flowers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0605-can-place-flowers) |
+| [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
@@ -785,6 +790,7 @@ If you find this repository useful:
 | [0347-top-k-frequent-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Manohar2503/leetcode-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Manohar2503/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/Manohar2503/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Manohar2503/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
