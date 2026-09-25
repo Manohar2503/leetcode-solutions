@@ -284,6 +284,7 @@ If you find this repository useful:
 | [0380-insert-delete-getrandom-o1](https://github.com/Manohar2503/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0432-all-oone-data-structure](https://github.com/Manohar2503/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0454-4sum-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0454-4sum-ii) |
@@ -353,6 +354,7 @@ If you find this repository useful:
 | [0143-reorder-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/Manohar2503/leetcode-solutions/tree/master/0146-lru-cache) |
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+| [0432-all-oone-data-structure](https://github.com/Manohar2503/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0876-middle-of-the-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -898,6 +900,7 @@ If you find this repository useful:
 | [0303-range-sum-query-immutable](https://github.com/Manohar2503/leetcode-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Manohar2503/leetcode-solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Manohar2503/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0432-all-oone-data-structure](https://github.com/Manohar2503/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Manohar2503/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0901-online-stock-span](https://github.com/Manohar2503/leetcode-solutions/tree/master/0901-online-stock-span) |
@@ -1123,6 +1126,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Manohar2503/leetcode-solutions/tree/master/0146-lru-cache) |
+| [0432-all-oone-data-structure](https://github.com/Manohar2503/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 ## String Matching
 |  |
 | ------- |
