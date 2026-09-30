@@ -1205,8 +1205,10 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/Manohar2503/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
+| [0886-possible-bipartition](https://github.com/Manohar2503/leetcode-solutions/tree/master/0886-possible-bipartition) |
 ## Bipartite Graph
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/Manohar2503/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
+| [0886-possible-bipartition](https://github.com/Manohar2503/leetcode-solutions/tree/master/0886-possible-bipartition) |
 <!---LeetCode Topics End-->
