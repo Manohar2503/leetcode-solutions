@@ -1,42 +1,35 @@
 class Solution {
     public int shipWithinDays(int[] weights, int days) {
-        //min capacity: max weight
-        //max capacity: total weight
-
-        //Binary search on capacities between min and max;
-
-        int max_weight = 0;
-        int total_weight = 0;
-        for(int weight: weights){
-            max_weight = Math.max(weight, max_weight);
-            total_weight += weight;
+        int n = weights.length;
+        int max = 0;
+        int total =0;
+        for(int val:weights) {
+            max = Math.max(max, val);
+            total += val;
         }
-
-        int left = max_weight;
-        int right = total_weight;
-
-        while(left < right){
-            int capacity = left + (right - left)/2;
-
-            int daysNeeded = 0;
-            int currWeight = 0;
-
-            for(int weight: weights){
-                if(currWeight + weight > capacity){
-                    daysNeeded++;
-                    currWeight = 0;
+        int result =0;
+        int left = max;
+        int right = total;
+        while(left <= right){
+            int mid = left + (right - left)/2;
+            int k =0;
+            int j=0;
+            while(j < n){
+                int sum =0;
+                while(j< n && sum+weights[j] <= mid){
+                    sum += weights[j];
+                    j++;
                 }
-                currWeight += weight;
+                k++;
             }
 
-            if(daysNeeded < days){ //this capacity works checks smaller as well
-                right = capacity;
+            if(k <= days){
+                right = mid-1;
+                result = mid;
             }
-            else{ // it doesnt work for this capacity
-                left = capacity + 1;
-            }
+            else left  = mid+1;
         }
 
-        return left;
+        return result;
     }
 }
