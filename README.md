@@ -705,6 +705,7 @@ If you find this repository useful:
 | [0300-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
+| [0441-arranging-coins](https://github.com/Manohar2503/leetcode-solutions/tree/master/0441-arranging-coins) |
 | [0528-random-pick-with-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0633-sum-of-square-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0633-sum-of-square-numbers) |
@@ -796,6 +797,7 @@ If you find this repository useful:
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0371-sum-of-two-integers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Manohar2503/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0441-arranging-coins](https://github.com/Manohar2503/leetcode-solutions/tree/master/0441-arranging-coins) |
 | [0523-continuous-subarray-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 | [0528-random-pick-with-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
