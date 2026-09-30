@@ -11,13 +11,11 @@ class Solution {
         }
 
         int startHealth = health - grid.get(0).get(0);
-
         if (startHealth < 1) {
             return false;
         }
 
         Queue<int[]> queue = new LinkedList<>();
-
         queue.offer(new int[]{0, 0, startHealth});
         maxHealth[0][0] = startHealth;
 
@@ -29,7 +27,6 @@ class Solution {
         };
 
         while (!queue.isEmpty()) {
-
             int[] current = queue.poll();
 
             int r = current[0];
@@ -53,9 +50,7 @@ class Solution {
 
                     if (newHealth >= 1 &&
                         newHealth > maxHealth[nr][nc]) {
-
                         maxHealth[nr][nc] = newHealth;
-
                         queue.offer(
                             new int[]{nr, nc, newHealth}
                         );
