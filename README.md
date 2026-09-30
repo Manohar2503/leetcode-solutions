@@ -261,6 +261,7 @@ If you find this repository useful:
 | [1929-concatenation-of-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
 | [2104-sum-of-subarray-ranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
+| [2187-minimum-time-to-complete-trips](https://github.com/Manohar2503/leetcode-solutions/tree/master/2187-minimum-time-to-complete-trips) |
 ## Hash Table
 |  |
 | ------- |
@@ -717,6 +718,7 @@ If you find this repository useful:
 | [1539-kth-missing-positive-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1539-kth-missing-positive-number) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Manohar2503/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
+| [2187-minimum-time-to-complete-trips](https://github.com/Manohar2503/leetcode-solutions/tree/master/2187-minimum-time-to-complete-trips) |
 ## Dynamic Programming
 |  |
 | ------- |
