@@ -1,58 +1,60 @@
 class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {
-     TreeMap<Integer, Integer> map = new TreeMap<>();
-     for(int[] item: items){
-        int u = item[0];
-        int v = item[1];
-        int prevalue = map.getOrDefault(u,0);
-        map.put(u, Math.max(prevalue, v));
-     }    
 
-     List<Integer> list = new ArrayList<>(map.keySet());
-     int max =0;
-     for(int n: list){
-            max = Math.max(max, map.get(n));
-            map.put(n, max);
-     }
+        Arrays.sort(items, (a, b) -> Integer.compare(a[0], b[0]));
 
-     int[] result = new int[queries.length];
-     int index =0; 
-     for(int query: queries){
-        result[index++] = binarySearch(list, query, map); 
-     }
+        int n = items.length;
 
-     return result;
-    }
+        // Store unique prices and maximum beauty up to that price
+        int[] prices = new int[n];
+        int[] beauties = new int[n];
 
-    static int binarySearch(List<Integer> list, int q, TreeMap<Integer, Integer> map){
-        int left =0;
-        int right= list.size()-1;
-        int answer =0;
-        while (left <= right) {
-        int mid = left + (right - left) / 2;
+        int size = 0;
+        int maxBeauty = 0;
 
-        if (list.get(mid) <= q) {
-            answer = map.get(list.get(mid));
-            left = mid + 1;
-        } else {
-            right = mid - 1;
+        for (int[] item : items) {
+            int price = item[0];
+            int beauty = item[1];
+
+            maxBeauty = Math.max(maxBeauty, beauty);
+
+            // Same price -> don't create another entry
+            if (size > 0 && prices[size - 1] == price) {
+                beauties[size - 1] = maxBeauty;
+            } else {
+                prices[size] = price;
+                beauties[size] = maxBeauty;
+                size++;
+            }
         }
+
+        int[] result = new int[queries.length];
+
+        for (int i = 0; i < queries.length; i++) {
+            result[i] = binarySearch(prices, beauties, size, queries[i]);
+        }
+
+        return result;
     }
+
+    private int binarySearch(int[] prices, int[] beauties, int size, int query) {
+
+        int left = 0;
+        int right = size - 1;
+        int answer = 0;
+
+        while (left <= right) {
+
+            int mid = left + (right - left) / 2;
+
+            if (prices[mid] <= query) {
+                answer = beauties[mid];
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
 
         return answer;
     }
 }
-/*
-    [1,2],[3,2],[2,4],[5,6],[3,5]
-    
-    map : {
-        1 : 2
-        3 : 5
-        2 : 4
-        5 : 6
-    }
-    keys = 1 2 3 5
-    queries = 1 2 4 5 3 6
-
-    
-*/
