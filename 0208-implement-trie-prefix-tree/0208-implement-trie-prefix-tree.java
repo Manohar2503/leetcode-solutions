@@ -1,40 +1,50 @@
 class Trie {
     static class Node{
         Node[] arr;
-        boolean isComplete;
+        String str;
         Node(){
             arr = new Node[26];
-            isComplete = false;
+            str = null;
         }
     }
+
     Node root;
     public Trie() {
         root = new Node();
     }
     
     public void insert(String word) {
-        Node cur = root;
+        Node node = root;
         for(char ch: word.toCharArray()){
-            if(cur.arr[ch - 'a']==null) cur.arr[ch - 'a'] = new Node();
-            cur = cur.arr[ch -'a'];
+            int index = (int) (ch - 'a');
+            if(node.arr[index]==null){
+                node.arr[index] = new Node();
+            }
+            node = node.arr[index];
         }
-        cur.isComplete = true;
+        node.str = word;
     }
     
     public boolean search(String word) {
-        Node cur = root;
+        Node node = root;
         for(char ch: word.toCharArray()){
-            if(cur.arr[ch - 'a']==null) return false;
-            cur = cur.arr[ch -'a'];
+            int index = (int) (ch - 'a');
+            if(node.arr[index]==null){
+                return false;
+            }
+            node = node.arr[index];
         }
-        return cur.isComplete;
+        return node.str!=null;
     }
     
     public boolean startsWith(String prefix) {
-        Node cur = root;
+        Node node = root;
         for(char ch: prefix.toCharArray()){
-            if(cur.arr[ch - 'a']==null) return false;
-            cur = cur.arr[ch -'a'];
+            int index = (int) (ch - 'a');
+            if(node.arr[index]==null){
+                return false;
+            }
+            node = node.arr[index];
         }
         return true;
     }
