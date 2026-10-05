@@ -299,6 +299,7 @@ If you find this repository useful:
 | [0268-missing-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Manohar2503/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0383-ransom-note](https://github.com/Manohar2503/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/Manohar2503/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
@@ -360,6 +361,7 @@ If you find this repository useful:
 | [0169-majority-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/Manohar2503/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 ## Linked List
 |  |
@@ -593,6 +595,7 @@ If you find this repository useful:
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0242-valid-anagram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0383-ransom-note](https://github.com/Manohar2503/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0402-remove-k-digits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
