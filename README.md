@@ -400,6 +400,7 @@ If you find this repository useful:
 | [0202-happy-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
+| [0392-is-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Manohar2503/leetcode-solutions/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0633-sum-of-square-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0633-sum-of-square-numbers) |
@@ -589,6 +590,7 @@ If you find this repository useful:
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0242-valid-anagram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0392-is-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0402-remove-k-digits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -769,6 +771,7 @@ If you find this repository useful:
 | [0337-house-robber-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0337-house-robber-iii) |
 | [0338-counting-bits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
+| [0392-is-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
