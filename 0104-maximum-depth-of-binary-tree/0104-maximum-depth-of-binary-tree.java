@@ -14,17 +14,10 @@
  * }
  */
 class Solution {
-    
     public int maxDepth(TreeNode root) {
-        return levelorder(root);
-        
-    }
-    static int levelorder(TreeNode root){
         if(root == null) return 0;
-
-        int l = levelorder(root.left);
-        int r = levelorder(root.right);
-
-        return 1 + Math.max(l,r);
+        int leftDepth = maxDepth(root.left);
+        int rightDepth = maxDepth(root.right);
+        return 1 + Math.max(leftDepth, rightDepth);
     }
 }
