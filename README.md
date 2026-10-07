@@ -178,6 +178,7 @@ If you find this repository useful:
 | [0130-surrounded-regions](https://github.com/Manohar2503/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/Manohar2503/leetcode-solutions/tree/master/0134-gas-station) |
 | [0137-single-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0137-single-number-ii) |
+| [0139-word-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Manohar2503/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/0162-find-peak-element) |
@@ -285,6 +286,7 @@ If you find this repository useful:
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Manohar2503/leetcode-solutions/tree/master/0146-lru-cache) |
@@ -589,6 +591,7 @@ If you find this repository useful:
 | [0125-valid-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0139-word-break) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Manohar2503/leetcode-solutions/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -770,6 +773,7 @@ If you find this repository useful:
 | [0120-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Manohar2503/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Manohar2503/leetcode-solutions/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/Manohar2503/leetcode-solutions/tree/master/0221-maximal-square) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
@@ -1000,6 +1004,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Binary Indexed Tree
@@ -1117,6 +1122,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Manohar2503/leetcode-solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0212-word-search-ii) |
@@ -1260,4 +1266,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0274-h-index](https://github.com/Manohar2503/leetcode-solutions/tree/master/0274-h-index) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
