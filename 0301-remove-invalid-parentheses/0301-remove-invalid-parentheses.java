@@ -1,85 +1,118 @@
 class Solution {
 
+    static int maxLen;
+
     public List<String> removeInvalidParentheses(String s) {
+
         Set<String> set = new HashSet<>();
-        int removeOpen = 0;
-        int removeClose = 0;
 
-        for (char ch : s.toCharArray()) {
+        maxLen = 0;
 
-            if (ch == '(') {
-                removeOpen++;
-            }
-            else if (ch == ')') {
+        paranthesis(0, 0, s, set, new StringBuilder());
 
-                if (removeOpen > 0) {
-                    removeOpen--;
-                }
-                else {
-                    removeClose++;
-                }
-            }
+        if (set.isEmpty()) {
+            set.add("");
         }
-        paranthesis(
-            0,
-            0,
-            removeOpen,
-            removeClose,
-            s,
-            set,
-            new StringBuilder()
-        );
 
         return new ArrayList<>(set);
     }
 
-    static void paranthesis(int index,int open,int removeOpen,int removeClose,String s,Set<String> set,
+    static void paranthesis(
+            int index,
+            int count,
+            String s,
+            Set<String> set,
             StringBuilder sb) {
 
+        // Reached the end
         if (index == s.length()) {
 
-            if (open == 0 &&
-                removeOpen == 0 &&
-                removeClose == 0) {
+            if (count == 0) {
 
-                set.add(sb.toString());
+                // Found a valid string longer than previous ones
+                if (sb.length() > maxLen) {
+                    maxLen = sb.length();
+
+                    set.clear();
+
+                    set.add(sb.toString());
+                }
+
+                // Another valid string with the same maximum length
+                else if (sb.length() == maxLen) {
+                    set.add(sb.toString());
+                }
             }
 
             return;
         }
 
         char ch = s.charAt(index);
+
+        // Normal character
         if (ch != '(' && ch != ')') {
 
             sb.append(ch);
-            paranthesis(index + 1,open,removeOpen,removeClose,s,set,sb);
+
+            paranthesis(index + 1, count, s, set, sb);
+
+            // Backtrack
             sb.deleteCharAt(sb.length() - 1);
 
             return;
         }
 
+        // -------------------------
+        // Take current parenthesis
+        // -------------------------
+
         if (ch == '(') {
 
-            if (removeOpen > 0) {
-                paranthesis(index + 1,open,removeOpen-1,removeClose,s,set,sb);
-            }
+            sb.append(ch);
 
-            sb.append('(');
-            paranthesis(index + 1,open+1,removeOpen,removeClose,s,set,sb);
+            paranthesis(
+                index + 1,
+                count + 1,
+                s,
+                set,
+                sb
+            );
+
+            // Backtrack
             sb.deleteCharAt(sb.length() - 1);
         }
 
-        else {
+        else { // ')'
 
-            if (removeClose > 0) {
-                paranthesis(index + 1,open,removeOpen,removeClose - 1,s,set,sb);
-            }
+            // We can keep ')' only if
+            // there is an unmatched '('
+            if (count > 0) {
 
-            if (open > 0) {
-                sb.append(')');
-                paranthesis(index + 1,open-1,removeOpen,removeClose,s,set,sb);
+                sb.append(ch);
+
+                paranthesis(
+                    index + 1,
+                    count - 1,
+                    s,
+                    set,
+                    sb
+                );
+
+                // Backtrack
                 sb.deleteCharAt(sb.length() - 1);
             }
         }
+
+        // -------------------------
+        // Don't take parenthesis
+        // -------------------------
+
+        paranthesis(
+            index + 1,
+            count,
+            s,
+            set,
+            sb
+        );
     }
 }
