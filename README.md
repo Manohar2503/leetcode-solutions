@@ -753,6 +753,7 @@ If you find this repository useful:
 | [0222-count-complete-tree-nodes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0268-missing-number) |
+| [0278-first-bad-version](https://github.com/Manohar2503/leetcode-solutions/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -1289,4 +1290,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0959-regions-cut-by-slashes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0959-regions-cut-by-slashes) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/Manohar2503/leetcode-solutions/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
