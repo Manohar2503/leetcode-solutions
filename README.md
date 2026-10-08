@@ -501,6 +501,7 @@ If you find this repository useful:
 | [0210-course-schedule-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/Manohar2503/leetcode-solutions/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0365-water-and-jug-problem](https://github.com/Manohar2503/leetcode-solutions/tree/master/0365-water-and-jug-problem) |
@@ -586,6 +587,7 @@ If you find this repository useful:
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0212-word-search-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0212-word-search-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
 ## String
@@ -614,6 +616,7 @@ If you find this repository useful:
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0242-valid-anagram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0383-ransom-note](https://github.com/Manohar2503/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0402-remove-k-digits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0402-remove-k-digits) |
