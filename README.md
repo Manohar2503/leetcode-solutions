@@ -264,6 +264,7 @@ If you find this repository useful:
 | [1539-kth-missing-positive-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1539-kth-missing-positive-number) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Manohar2503/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
 | [1572-matrix-diagonal-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/1572-matrix-diagonal-sum) |
+| [1636-sort-array-by-increasing-frequency](https://github.com/Manohar2503/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1672-richest-customer-wealth](https://github.com/Manohar2503/leetcode-solutions/tree/master/1672-richest-customer-wealth) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
@@ -330,6 +331,7 @@ If you find this repository useful:
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Manohar2503/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1636-sort-array-by-increasing-frequency](https://github.com/Manohar2503/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
 ## Sorting
 |  |
@@ -362,6 +364,7 @@ If you find this repository useful:
 | [1094-car-pooling](https://github.com/Manohar2503/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Manohar2503/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
+| [1636-sort-array-by-increasing-frequency](https://github.com/Manohar2503/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Manohar2503/leetcode-solutions/tree/master/2070-most-beautiful-item-for-each-query) |
 ## Counting
 |  |
