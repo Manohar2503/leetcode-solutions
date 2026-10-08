@@ -1,59 +1,43 @@
 class Solution {
+    boolean canAKillB(int[] a,int[] b){
+        long dx = (long)a[0] - (long)b[0];
+        long dy = (long)a[1] - (long)b[1];
+        long dis = (long) dx*dx + (long) dy*dy;
+        long radiusA = (long)a[2];
+        return dis<=radiusA*radiusA;
+    }
 
-    static class Node {
-        int u;
-        int v;
-        int dis;
-        Set<Node> connectedNodes;
-
-        Node(int u, int v, int dis) {
-            this.u = u;
-            this.v = v;
-            this.dis = dis;
-            connectedNodes = new HashSet<>();
+    void dfs(int node, Map<Integer,List<Integer>> adj, int[] vis, int[] count ){
+        vis[node] = 1;
+        count[0]++;
+        for(int child : adj.getOrDefault(node,new ArrayList<>())){
+            if(vis[child]==0)
+                dfs(child,adj,vis,count);
         }
     }
+
+
 
     public int maximumDetonation(int[][] bombs) {
+        //create adj
+        Map<Integer,List<Integer>> adj = new HashMap<>();
 
-        List<Node> nodes = new ArrayList<>();
-
-        for (int[] bomb : bombs) {
-            nodes.add(new Node(bomb[0], bomb[1], bomb[2]));
-        }
-
-        for (Node node1 : nodes) {
-            for (Node node2 : nodes) {
-                
-                if (node1 == node2) continue;
-                long dx = node1.u - node2.u;
-                long dy = node1.v - node2.v;
-
-                long distanceSquared = dx * dx + dy * dy;
-                if (distanceSquared <= (long) node1.dis * node1.dis) {
-                    node1.connectedNodes.add(node2);
+        for(int i=0;i<bombs.length;i++){
+            for(int j=0;j<bombs.length;j++){
+                if(i!=j && canAKillB(bombs[i],bombs[j])){
+                    adj.computeIfAbsent(i,k->new ArrayList<>()).add(j);
                 }
-
             }
         }
-
-        int result = 0;
-        for (Node node : nodes) {
-            Set<Node> visited = new HashSet<>();
-            dfs(node, visited);
-            result = Math.max(result, visited.size());
-        }
-        return result;
-    }
-
-    private void dfs(Node node, Set<Node> visited) {
-        if (visited.contains(node)) {
-            return;
+        int ans = 1;
+        for(int i=0;i<bombs.length;i++){
+            int[] vis = new int[bombs.length];
+            int[] count = new int[1];
+            dfs(i,adj,vis,count);
+            ans = Math.max(ans,count[0]);
         }
 
-        visited.add(node);
-        for (Node next : node.connectedNodes) {
-            dfs(next, visited);
-        }
+        return ans;
+
     }
 }
