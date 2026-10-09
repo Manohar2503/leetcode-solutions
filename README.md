@@ -1335,4 +1335,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
