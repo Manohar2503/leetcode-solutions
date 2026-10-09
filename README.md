@@ -277,6 +277,7 @@ If you find this repository useful:
 | [2104-sum-of-subarray-ranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 | [2187-minimum-time-to-complete-trips](https://github.com/Manohar2503/leetcode-solutions/tree/master/2187-minimum-time-to-complete-trips) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -588,6 +589,7 @@ If you find this repository useful:
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Manohar2503/leetcode-solutions/tree/master/2101-detonate-the-maximum-bombs) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 | [3604-minimum-time-to-reach-destination-in-directed-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/3604-minimum-time-to-reach-destination-in-directed-graph) |
 ## Backtracking
 |  |
@@ -927,6 +929,7 @@ If you find this repository useful:
 | [1094-car-pooling](https://github.com/Manohar2503/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1514-path-with-maximum-probability](https://github.com/Manohar2503/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 | [3604-minimum-time-to-reach-destination-in-directed-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/3604-minimum-time-to-reach-destination-in-directed-graph) |
 ## Quickselect
 |  |
@@ -971,6 +974,7 @@ If you find this repository useful:
 | [1672-richest-customer-wealth](https://github.com/Manohar2503/leetcode-solutions/tree/master/1672-richest-customer-wealth) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 ## Stack
 |  |
 | ------- |
@@ -1136,6 +1140,7 @@ If you find this repository useful:
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Manohar2503/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1514-path-with-maximum-probability](https://github.com/Manohar2503/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 | [3604-minimum-time-to-reach-destination-in-directed-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/3604-minimum-time-to-reach-destination-in-directed-graph) |
 ## Dijkstra's Algorithm
 |  |
