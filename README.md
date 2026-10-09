@@ -649,6 +649,7 @@ If you find this repository useful:
 | [0990-satisfiability-of-equality-equations](https://github.com/Manohar2503/leetcode-solutions/tree/master/0990-satisfiability-of-equality-equations) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
+| [1143-longest-common-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Manohar2503/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -836,6 +837,7 @@ If you find this repository useful:
 | [0931-minimum-falling-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
+| [1143-longest-common-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Manohar2503/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
@@ -1335,6 +1337,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [1143-longest-common-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 ## Longest Increasing Subsequence
 |  |
 | ------- |
