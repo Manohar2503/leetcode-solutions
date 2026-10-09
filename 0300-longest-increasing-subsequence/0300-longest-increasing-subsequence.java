@@ -17,3 +17,12 @@ class Solution {
         return r;
     }
 }
+/**
+
+        10 9 2 5 3 7 101 18
+                      i 
+               0 1 2  3
+        list : 2 3 7 18
+                      j
+
+ */
