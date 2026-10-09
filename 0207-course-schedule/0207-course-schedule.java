@@ -9,7 +9,7 @@ class Solution {
         }
         
         for(int[] arr: prerequisites){
-            adj[arr[0]].add(arr[1]);
+            adj[arr[1]].add(arr[0]);
         }
 
         int[] indegree = new int[numCourses];
@@ -27,9 +27,11 @@ class Solution {
         
         int[] result = new int[numCourses];
         int index=0;
+
         while(!qu.isEmpty()){
             int val = qu.poll();
             result[index++] = val;
+
             for(int neighbour: adj[val]){
                 indegree[neighbour]--;
                 if(indegree[neighbour]==0){
@@ -37,6 +39,7 @@ class Solution {
                 }
             }
         }
+        
         if(index!=numCourses){
             return false;
         }
