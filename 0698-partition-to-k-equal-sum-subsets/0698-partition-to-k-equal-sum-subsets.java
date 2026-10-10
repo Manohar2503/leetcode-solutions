@@ -53,9 +53,9 @@ class Solution {
             //        nums[i] == nums[i + 1]) {
             //     i++;
             // }
-            // if (currentSum == 0) {
-            //     return false;
-            // }
+            if (currentSum == 0) {
+                return false;
+            }
         }
         return false;
     }
