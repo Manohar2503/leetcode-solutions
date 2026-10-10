@@ -3,6 +3,7 @@ class Solution {
         if(list.size() > k) return;
         if(target == 0 && list.size() == k){
             result.add(new ArrayList<>(list));
+            return;
         }
         for(int choice=i; choice<=9; choice++){
             list.add(choice);
