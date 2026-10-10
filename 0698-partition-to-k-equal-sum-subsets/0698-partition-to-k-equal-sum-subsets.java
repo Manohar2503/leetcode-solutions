@@ -5,7 +5,7 @@ class Solution {
         if (sum % k != 0) return false;
 
         int target = sum / k;
-        //Arrays.sort(nums);
+        Arrays.sort(nums);
         if (nums[nums.length - 1] > target) return false;
         boolean[] used = new boolean[nums.length];
         return backtrack(nums, used, k, 0, 0, target);
