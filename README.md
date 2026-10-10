@@ -154,6 +154,7 @@ If you find this repository useful:
 | [0041-first-missing-positive](https://github.com/Manohar2503/leetcode-solutions/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0045-jump-game-ii) |
+| [0046-permutations](https://github.com/Manohar2503/leetcode-solutions/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/Manohar2503/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0055-jump-game) |
@@ -599,6 +600,7 @@ If you find this repository useful:
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/Manohar2503/leetcode-solutions/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/Manohar2503/leetcode-solutions/tree/master/0077-combinations) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
