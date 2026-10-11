@@ -1,33 +1,65 @@
 class Solution {
+    // static{
+    //     Solution o = new Solution();
+    //     for(int i = 0; i < 250; ++i){
+    //         o.canReach("011010", 2, 3);
+    //     }
+    // }
+
     public boolean canReach(String s, int minJump, int maxJump) {
         int n = s.length();
+
+        if(s.charAt(n-1) == '1'){
+            return false;
+        }
 
         boolean[] dp = new boolean[n];
         dp[0] = true;
 
-        int reachableCount = 0;
+        int farthest = 0;
 
-        for (int i = 1; i < n; i++) {
-
-            // Add the index entering the valid jump window
-            int add = i - minJump;
-            if (add >= 0 && dp[add]) {
-                reachableCount++;
+        for(int i = 0; i < n-1; ++i){
+            if(!dp[i] || s.charAt(i) == '1' || i + minJump >= n){
+                continue;
             }
 
-            // Remove the index leaving the valid jump window
-            int remove = i - maxJump - 1;
-            if (remove >= 0 && dp[remove]) {
-                reachableCount--;
+            if(i + maxJump >= n - 1){
+                return true;
             }
 
-            // A zero is reachable if at least one valid
-            // previous position is reachable
-            if (s.charAt(i) == '0' && reachableCount > 0) {
-                dp[i] = true;
+            for(int j = Math.max(i + minJump, farthest); j <= i + maxJump; ++j){
+                dp[j] = true;
             }
+            farthest = i + maxJump + 1;
         }
 
-        return dp[n - 1];
+        return dp[n-1];
     }
 }
+
+
+
+
+// class Solution {
+//     public boolean canReach(String s, int minJump, int maxJump) {
+//         int n = s.length();
+      
+//         int[] prefixSum = new int[n + 1];
+//         prefixSum[1] = 1;
+//         boolean[] isReachable = new boolean[n];
+//         isReachable[0] = true; 
+//         for (int i = 1; i < n; i++) {
+
+//             if (s.charAt(i) == '0') {
+//                 int leftBound = Math.max(0, i - maxJump);
+//                 int rightBound = i - minJump;
+
+//                 isReachable[i] = leftBound <= rightBound && 
+//                                 prefixSum[rightBound + 1] - prefixSum[leftBound] > 0;
+//             }
+          
+//             prefixSum[i + 1] = prefixSum[i] + (isReachable[i] ? 1 : 0);
+//         }
+//         return isReachable[n - 1];
+//     }
+// }
