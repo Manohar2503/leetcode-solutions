@@ -1,42 +1,32 @@
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
-        int n = trips.length;
-        int maxIndex = 0;
+        int min = Integer.MAX_VALUE;
+        int max = 0;
 
-        for(int[] trip: trips){
-            int right = trip[2];
-            if(maxIndex < right) maxIndex = right;
+        for (int[] trip : trips) {
+            min = Math.min(min, trip[1]); // pickup location
+            max = Math.max(max, trip[2]); // drop-off location
         }
 
-        int[] diffArray = new int[maxIndex+2];
-        for(int[] trip: trips){
-            int val = trip[0];
+        int[] result = new int[max + 1];
+
+        for (int[] trip : trips) {
+            int passengers = trip[0];
             int left = trip[1];
             int right = trip[2];
-            
-            diffArray[left] += val;
-            diffArray[right] -= val;
+
+            result[left]  += passengers;
+            result[right] -= passengers;
         }
 
-        int sum =0;
-        for(int i=0;i<=maxIndex;i++){
-            sum += diffArray[i];
-            if(sum>capacity) return false;
-        }
+        int currentPassengers = 0;
 
+        for (int i = 0; i <= max; i++) {
+            currentPassengers += result[i];
+            if (currentPassengers > capacity) {
+                return false;
+            }
+        }
         return true;
     }
 }
-/*
-    capacity - > 4
-
-    2  1  5 
-    3  3  7 
-
-    1 2 3 4 5 6 7 8
-    0 0 0 0 0 0 0 0
-    2       3-2  -3
-    2 2 2 2 5
-pre:2 2 5 5 5 3 3 0
-
-*/
