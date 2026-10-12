@@ -404,6 +404,7 @@ If you find this repository useful:
 | [0146-lru-cache](https://github.com/Manohar2503/leetcode-solutions/tree/master/0146-lru-cache) |
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0432-all-oone-data-structure](https://github.com/Manohar2503/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
+| [0445-add-two-numbers-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0876-middle-of-the-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -909,6 +910,7 @@ If you find this repository useful:
 | [0371-sum-of-two-integers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Manohar2503/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0441-arranging-coins](https://github.com/Manohar2503/leetcode-solutions/tree/master/0441-arranging-coins) |
+| [0445-add-two-numbers-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
 | [0523-continuous-subarray-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 | [0528-random-pick-with-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
@@ -1021,6 +1023,7 @@ If you find this repository useful:
 | [0155-min-stack](https://github.com/Manohar2503/leetcode-solutions/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0402-remove-k-digits) |
+| [0445-add-two-numbers-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0589-n-ary-tree-preorder-traversal) |
