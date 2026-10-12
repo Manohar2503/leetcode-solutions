@@ -1,15 +1,21 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
         int left=1;
-        int right= (int) 1e9;
+        int right=  0; //(int) 1e9;
+        for(int val: bloomDay) right = Math.max(right, val);
+        
         if(m*k>bloomDay.length){
             return -1;
         }
+
         int ans=-1;
+
         while(left<=right){
          int mid = left + (right-left)/2;
+
         int consecutiveLength =0;
         int bouquets=0;
+
         for(int i =0;i<bloomDay.length;i++){
             if(bloomDay[i]<=mid){
                  consecutiveLength++;
@@ -22,6 +28,7 @@ class Solution {
                 consecutiveLength=0;
             }
         }
+
         if(bouquets>=m){
             ans = mid;
             right = mid-1;
