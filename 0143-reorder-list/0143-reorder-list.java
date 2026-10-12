@@ -9,11 +9,7 @@
  * }
  */
 class Solution {
-    static{
-        for(int i=0; i<=500;i++){
-            new Solution().reorderList(null);
-        }
-    }
+
     public void reorderList(ListNode head) {
         if(head==null||head.next==null){
             return;
