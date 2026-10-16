@@ -2,8 +2,9 @@ class Solution {
     public int hammingWeight(int n) {
         int count =0;
         while(n >0){
-            if((n&1)==1) count++;
-            n = n>>1;
+            count++;
+            int val = n & (-n);
+            n ^= val;
         }
         return count;
     }
@@ -12,5 +13,11 @@ class Solution {
 
 
     11 - 1 0 1 1
+    10 - 1 0 1 0
 
+    1 0 1 1 
+          1
+    1 0 1 0
+        1 0
+    1 0 0 0 
  */
