@@ -1,51 +1,59 @@
+class MapSum {
+    static class Trie{
+        Trie[] tree;
+        List<String> words;
 
- class MapSum {
-
-    class TrieNode {
-        TrieNode[] children = new TrieNode[26];
-        int sum = 0;
+        Trie(){
+            tree = new Trie[26];
+            words = new ArrayList<>();
+        }
     }
-
-    private TrieNode root;
-    private HashMap<String, Integer> map;
-
+    
+    Map<String, Integer> map;
+    Trie root;
     public MapSum() {
-        root = new TrieNode();
         map = new HashMap<>();
+        root = new Trie();
     }
-
+    
     public void insert(String key, int val) {
-
-        int oldValue = map.getOrDefault(key, 0);
-        int difference = val - oldValue;
+        if(!map.containsKey(key)){
+            construct(key);
+        }
         map.put(key, val);
-        TrieNode current = root;
-
-        for (char ch : key.toCharArray()) {
-            int index = ch - 'a';
-
-            if (current.children[index] == null) {
-                current.children[index] = new TrieNode();
-            }
-
-            current = current.children[index];
-            current.sum += difference;
+    }
+    
+    public void construct(String word){
+        Trie node = root;
+        for(char c: word.toCharArray()){
+            int index = c - 'a';
+            if(node.tree[index] == null) node.tree[index] = new Trie();
+            node = node.tree[index];
+            node.words.add(word);
         }
     }
 
     public int sum(String prefix) {
-
-        TrieNode current = root;
-        for (char ch : prefix.toCharArray()) {
-            int index = ch - 'a';
-
-            if (current.children[index] == null) {
-                return 0;
-            }
-
-            current = current.children[index];
+        Trie node = root;
+        for(char c: prefix.toCharArray()){
+            int index = c - 'a';
+            if(node.tree[index] == null) return 0; 
+            node = node.tree[index];
+        }
+        
+        int result =0;
+        List<String> list = node.words;
+        for(String key: list){
+            result += map.get(key);
         }
 
-        return current.sum;
+        return result;
     }
 }
+
+/**
+ * Your MapSum object will be instantiated and called as such:
+ * MapSum obj = new MapSum();
+ * obj.insert(key,val);
+ * int param_2 = obj.sum(prefix);
+ */
