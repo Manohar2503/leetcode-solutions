@@ -1,34 +1,35 @@
 class Solution {
     public int[][] updateMatrix(int[][] mat) {
-        int n = mat.length, m = mat[0].length;
-        int[][] dis = new int[n][m];
-        Queue<int[]> q = new LinkedList<>();
+        int n = mat.length;
+        int m = mat[0].length;
 
-        for (int i = 0; i < n; i++)
-            for (int j = 0; j < m; j++) {
-                if (mat[i][j] == 0) {
-                    q.offer(new int[]{i, j});
-                } else {
-                    dis[i][j] = -1;
+        int[][] dp= new int[n][m];
+        Queue<int[]> qu = new LinkedList<>();
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(mat[i][j] == 0){
+                    qu.offer(new int[]{i,j});
                 }
+                else dp[i][j] = -1;
             }
+        }
+        int[][] adj = {{0,1}, {1,0}, {-1,0}, {0,-1}};
+        while(!qu.isEmpty()){
+            int[] current = qu.poll();
+            int r = current[0];
+            int c = current[1];
 
-        int[] dr = {1, -1, 0, 0};
-        int[] dc = {0, 0, 1, -1};
+            for(int[] adjNode : adj){
+                int nr = r + adjNode[0];
+                int nc = c + adjNode[1];
 
-        while (!q.isEmpty()) {
-            int[] curr = q.poll();
-            int r = curr[0], c = curr[1];
-
-            for (int i = 0; i < 4; i++) {
-                int nr = r + dr[i], nc = c + dc[i];
-                if (nr >= 0 && nc >= 0 && nr < n && nc < m && dis[nr][nc] == -1) {
-                    dis[nr][nc] = dis[r][c] + 1;
-                    q.offer(new int[]{nr, nc});
+                if(nr>=0 && nr <n && nc >=0 && nc < m && dp[nr][nc] == -1){
+                    dp[nr][nc] = dp[r][c] +1;
+                    qu.offer(new int[]{nr, nc});
                 }
             }
         }
 
-        return dis;
+        return dp;
     }
 }
