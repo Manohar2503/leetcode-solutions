@@ -240,6 +240,7 @@ If you find this repository useful:
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Manohar2503/leetcode-solutions/tree/master/0735-asteroid-collision) |
+| [0815-bus-routes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0815-bus-routes) |
 | [0851-loud-and-rich](https://github.com/Manohar2503/leetcode-solutions/tree/master/0851-loud-and-rich) |
 | [0867-transpose-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Manohar2503/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
@@ -335,6 +336,7 @@ If you find this repository useful:
 | [0677-map-sum-pairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0677-map-sum-pairs) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0815-bus-routes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0815-bus-routes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
@@ -540,6 +542,7 @@ If you find this repository useful:
 | [0787-cheapest-flights-within-k-stops](https://github.com/Manohar2503/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/Manohar2503/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
+| [0815-bus-routes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0815-bus-routes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0886-possible-bipartition](https://github.com/Manohar2503/leetcode-solutions/tree/master/0886-possible-bipartition) |
 | [0959-regions-cut-by-slashes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0959-regions-cut-by-slashes) |
