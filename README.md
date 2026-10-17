@@ -641,6 +641,7 @@ If you find this repository useful:
 | [0058-length-of-last-word](https://github.com/Manohar2503/leetcode-solutions/tree/master/0058-length-of-last-word) |
 | [0076-minimum-window-substring](https://github.com/Manohar2503/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
+| [0091-decode-ways](https://github.com/Manohar2503/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
@@ -837,6 +838,7 @@ If you find this repository useful:
 | [0063-unique-paths-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0085-maximal-rectangle) |
+| [0091-decode-ways](https://github.com/Manohar2503/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Manohar2503/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
