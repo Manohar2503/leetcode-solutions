@@ -869,6 +869,7 @@ If you find this repository useful:
 | [0931-minimum-falling-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
+| [1137-n-th-tribonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Manohar2503/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -931,6 +932,7 @@ If you find this repository useful:
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1030-matrix-cells-in-distance-order](https://github.com/Manohar2503/leetcode-solutions/tree/master/1030-matrix-cells-in-distance-order) |
+| [1137-n-th-tribonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Manohar2503/leetcode-solutions/tree/master/2101-detonate-the-maximum-bombs) |
 ## Randomized
 |  |
@@ -1104,6 +1106,7 @@ If you find this repository useful:
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0509-fibonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [1137-n-th-tribonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
 ## Binary Indexed Tree
 |  |
 | ------- |
