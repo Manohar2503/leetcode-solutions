@@ -241,6 +241,7 @@ If you find this repository useful:
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Manohar2503/leetcode-solutions/tree/master/0735-asteroid-collision) |
+| [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0815-bus-routes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0815-bus-routes) |
 | [0851-loud-and-rich](https://github.com/Manohar2503/leetcode-solutions/tree/master/0851-loud-and-rich) |
 | [0867-transpose-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0867-transpose-matrix) |
@@ -490,6 +491,7 @@ If you find this repository useful:
 | [0743-network-delay-time](https://github.com/Manohar2503/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0753-cracking-the-safe](https://github.com/Manohar2503/leetcode-solutions/tree/master/0753-cracking-the-safe) |
 | [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
+| [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Manohar2503/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Manohar2503/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
@@ -541,6 +543,7 @@ If you find this repository useful:
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/Manohar2503/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
+| [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Manohar2503/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Manohar2503/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
@@ -572,6 +575,7 @@ If you find this repository useful:
 | [0695-max-area-of-island](https://github.com/Manohar2503/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
+| [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Manohar2503/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0886-possible-bipartition](https://github.com/Manohar2503/leetcode-solutions/tree/master/0886-possible-bipartition) |
 | [0959-regions-cut-by-slashes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0959-regions-cut-by-slashes) |
@@ -816,6 +820,7 @@ If you find this repository useful:
 | [0633-sum-of-square-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0633-sum-of-square-numbers) |
 | [0704-binary-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/0713-subarray-product-less-than-k) |
+| [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0875-koko-eating-bananas](https://github.com/Manohar2503/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Manohar2503/leetcode-solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -976,6 +981,7 @@ If you find this repository useful:
 | [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Manohar2503/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/Manohar2503/leetcode-solutions/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Manohar2503/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/1046-last-stone-weight) |
@@ -1015,6 +1021,7 @@ If you find this repository useful:
 | [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/Manohar2503/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
+| [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0867-transpose-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0867-transpose-matrix) |
 | [0931-minimum-falling-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [0959-regions-cut-by-slashes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0959-regions-cut-by-slashes) |
@@ -1211,6 +1218,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/Manohar2503/leetcode-solutions/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Manohar2503/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1514-path-with-maximum-probability](https://github.com/Manohar2503/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 ## Bellman–Ford Algorithm
@@ -1410,4 +1418,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+## Minimax
+|  |
+| ------- |
+| [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 <!---LeetCode Topics End-->
