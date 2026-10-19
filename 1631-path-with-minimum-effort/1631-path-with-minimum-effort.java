@@ -14,7 +14,7 @@ class Solution {
         }
 
         PriorityQueue<int[]> pq =
-            new PriorityQueue<>(Comparator.comparingInt(a -> a[2]));
+            new PriorityQueue<>((a,b) -> a[2] - b[2]);
 
         pq.offer(new int[]{0, 0, 0});
         dp[0][0] = 0;
