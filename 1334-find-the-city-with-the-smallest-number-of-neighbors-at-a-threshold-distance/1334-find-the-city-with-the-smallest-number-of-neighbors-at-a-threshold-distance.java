@@ -1,48 +1,37 @@
 class Solution {
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
-        int[][] dp = constructadj(n,edges);
-        for(int k=0;k<n;k++){
-            for(int i=0;i<n;i++){
-                for(int j=0;j<n;j++){
-                    if(dp[i][k]!=Integer.MAX_VALUE && dp[k][j]!=Integer.MAX_VALUE){
-                        dp[i][j] = Math.min(dp[i][j], dp[i][k]+dp[k][j]);
-                    }
+        int[][] dist=new int[n][n];
+        for(int i=0;i<n;i++){
+        Arrays.fill(dist[i],(int)1e9);
+        dist[i][i]=0;}
+            for(int e[]:edges){
+            int u=e[0];
+            int v=e[1];
+            int w=e[2];
+            dist[u][v]=w;
+            dist[v][u]=w;}
+        
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                for(int k=0;k<n;k++){
+                    if(dist[j][i]+dist[i][k]<dist[j][k])
+                    dist[j][k]=dist[j][i]+dist[i][k];
                 }
             }
         }
-    int[] len = new int[n];
+        int min=n;
+        int res=-1;
         for(int i=0;i<n;i++){
-            int count=0;
+            int reach=0;
             for(int j=0;j<n;j++){
-                    if(dp[i][j]<=distanceThreshold){
-                        count++;
-                    }
+                if(i!=j && dist[i][j]<=distanceThreshold)
+                reach++;
             }
-            len[i]=count;
-        }
-    int min = Integer.MAX_VALUE;
-    int result=-1;
-        for(int i=0;i<n;i++){
-            if(min >= len[i]){
-                min = len[i];
-                result = i;
+            if(reach<=min){
+                min=reach;
+                res=i;
             }
         }
-        return result;
-    }
-
-    static int[][] constructadj(int n, int[][] edges){
-        int[][] dp = new int[n][n];
-        for(int[] edge:dp){
-            Arrays.fill(edge,Integer.MAX_VALUE);
-        }
-        for(int i=0;i<n;i++){
-            dp[i][i]=0;
-        }
-        for(int[] arr:edges){
-            dp[arr[0]][arr[1]]=arr[2];
-            dp[arr[1]][arr[0]]=arr[2];
-        }
-        return dp;
+        return res;
     }
 }
