@@ -1,43 +1,50 @@
-import java.util.*;
-
 class Solution {
     public int networkDelayTime(int[][] times, int n, int k) {
-        List<List<int[]>> adj = new ArrayList<>();
-        for (int i = 0; i <= n; i++) adj.add(new ArrayList<>());
-        for (int[] arr : times) {
-            adj.get(arr[0]).add(new int[]{arr[1], arr[2]});
+        List<int[]>[] adjList = new ArrayList[n+1];
+        for(int i=0;i<=n;i++) adjList[i] = new ArrayList<>();
+
+        for(int[] time: times){
+            int u = time[0];
+            int v = time[1];
+            int w = time[2];
+
+            adjList[u].add(new int[]{v,w});
         }
-        int[] dist = new int[n + 1];
-        Arrays.fill(dist, Integer.MAX_VALUE);
-        dist[k] = 0;
 
-        // PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] - b[1]);
-        Queue<int[]> pq = new LinkedList<>();
-        pq.offer(new int[]{k, 0});
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a , b) -> a[0] - b[0]);
+        int[] shortestDis = new int[n+1];
+        Arrays.fill(shortestDis, Integer.MAX_VALUE);
+        shortestDis[k] =0;
+        pq.offer(new int[]{0,k});
 
-        while (!pq.isEmpty()) {
-            int[] temp = pq.poll();
-            int node = temp[0];
-            int time = temp[1];
+        while(!pq.isEmpty()){
+            int[] current = pq.poll();
+            int currentNode = current[1];
+            int currentWeight = current[0];
 
-            if (time > dist[node]) continue;
+            if(currentWeight > shortestDis[currentNode]) continue;
+            for(int[] adj: adjList[currentNode]){
+                int v = adj[0];
+                int w = adj[1];
 
-            for (int[] sub : adj.get(node)) {
-                int next = sub[0];
-                int weight = sub[1];
-                int newDist = time + weight;
-                if (newDist < dist[next]) {
-                    dist[next] = newDist;
-                    pq.offer(new int[]{next, newDist});
+                if(currentWeight + w < shortestDis[v]){
+                    shortestDis[v] = currentWeight + w;
+                    pq.offer(new int[]{shortestDis[v], v});
                 }
             }
         }
-
-        int maxTime = 0;
-        for (int i = 1; i <= n; i++) {
-            if (dist[i] == Integer.MAX_VALUE) return -1;
-            maxTime = Math.max(maxTime, dist[i]);
+        int time =0;
+        for(int i=1;i<=n;i++){
+            if(shortestDis[i] == Integer.MAX_VALUE) return -1;
+            time = Math.max(time, shortestDis[i]);
         }
-        return maxTime;
+
+        return time;
     }
 }
+/**
+
+
+
+
+*/
