@@ -7,31 +7,45 @@ class Solution {
             int[][] prerequisites,
             int[][] queries) {
 
-        boolean[][] reachable = new boolean[numCourses][numCourses];
+        List<List<Integer>> adj = new ArrayList<>();
 
-        // Step 1: Initialize direct prerequisites
-        for (int[] p : prerequisites) {
-            reachable[p[0]][p[1]] = true;
+        for (int i = 0; i < numCourses; i++) {
+            adj.add(new ArrayList<>());
         }
 
-        // Step 2: Compute indirect prerequisites
-        for (int k = 0; k < numCourses; k++) {
-            for (int i = 0; i < numCourses; i++) {
-                for (int j = 0; j < numCourses; j++) {
-                    if (reachable[i][k] && reachable[k][j]) {
-                        reachable[i][j] = true;
-                    }
+        for (int[] p : prerequisites) {
+            adj.get(p[0]).add(p[1]);
+        }
+
+        List<Boolean> answer = new ArrayList<>();
+
+        for (int[] q : queries) {
+            boolean[] visited = new boolean[numCourses];
+
+            answer.add(dfs(q[0], q[1], adj, visited));
+        }
+
+        return answer;
+    }
+
+    private boolean dfs(int src, int dest,
+                        List<List<Integer>> adj,
+                        boolean[] visited) {
+
+        visited[src] = true;
+
+        for (int next : adj.get(src)) {
+            if (next == dest) {
+                return true;
+            }
+
+            if (!visited[next]) {
+                if (dfs(next, dest, adj, visited)) {
+                    return true;
                 }
             }
         }
 
-        // Step 3: Answer queries
-        List<Boolean> answer = new ArrayList<>();
-
-        for (int[] q : queries) {
-            answer.add(reachable[q[0]][q[1]]);
-        }
-
-        return answer;
+        return false;
     }
 }
