@@ -509,6 +509,7 @@ If you find this repository useful:
 | [1020-number-of-enclaves](https://github.com/Manohar2503/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Manohar2503/leetcode-solutions/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
+| [1462-course-schedule-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
@@ -563,6 +564,7 @@ If you find this repository useful:
 | [1091-shortest-path-in-binary-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1129-shortest-path-with-alternating-colors](https://github.com/Manohar2503/leetcode-solutions/tree/master/1129-shortest-path-with-alternating-colors) |
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
+| [1462-course-schedule-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
@@ -612,6 +614,7 @@ If you find this repository useful:
 | [1042-flower-planting-with-no-adjacent](https://github.com/Manohar2503/leetcode-solutions/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1129-shortest-path-with-alternating-colors](https://github.com/Manohar2503/leetcode-solutions/tree/master/1129-shortest-path-with-alternating-colors) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Manohar2503/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1462-course-schedule-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [1514-path-with-maximum-probability](https://github.com/Manohar2503/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 | [1791-find-center-of-star-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/1791-find-center-of-star-graph) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
@@ -721,6 +724,7 @@ If you find this repository useful:
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0802-find-eventual-safe-states](https://github.com/Manohar2503/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
 | [0851-loud-and-rich](https://github.com/Manohar2503/leetcode-solutions/tree/master/0851-loud-and-rich) |
+| [1462-course-schedule-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
 ## Tree
 |  |
