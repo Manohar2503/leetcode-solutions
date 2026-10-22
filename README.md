@@ -265,6 +265,7 @@ If you find this repository useful:
 | [1030-matrix-cells-in-distance-order](https://github.com/Manohar2503/leetcode-solutions/tree/master/1030-matrix-cells-in-distance-order) |
 | [1046-last-stone-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/1046-last-stone-weight) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
+| [1049-last-stone-weight-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1049-last-stone-weight-ii) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1094-car-pooling](https://github.com/Manohar2503/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1109-corporate-flight-bookings](https://github.com/Manohar2503/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
@@ -894,6 +895,7 @@ If you find this repository useful:
 | [0918-maximum-sum-circular-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0931-minimum-falling-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
+| [1049-last-stone-weight-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1049-last-stone-weight-ii) |
 | [1092-shortest-common-supersequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
 | [1137-n-th-tribonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
@@ -1398,6 +1400,7 @@ If you find this repository useful:
 | [0322-coin-change](https://github.com/Manohar2503/leetcode-solutions/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0518-coin-change-ii) |
+| [1049-last-stone-weight-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1049-last-stone-weight-ii) |
 ## Complete Knapsack
 |  |
 | ------- |
@@ -1450,4 +1453,5 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
+| [1049-last-stone-weight-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1049-last-stone-weight-ii) |
 <!---LeetCode Topics End-->
