@@ -297,6 +297,7 @@ If you find this repository useful:
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/Manohar2503/leetcode-solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 ## Hash Table
 |  |
 | ------- |
@@ -1216,6 +1217,7 @@ If you find this repository useful:
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/Manohar2503/leetcode-solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
