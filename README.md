@@ -251,6 +251,7 @@ If you find this repository useful:
 | [0867-transpose-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Manohar2503/leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
+| [0879-profitable-schemes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0879-profitable-schemes) |
 | [0904-fruit-into-baskets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0930-binary-subarrays-with-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
@@ -898,6 +899,7 @@ If you find this repository useful:
 | [0787-cheapest-flights-within-k-stops](https://github.com/Manohar2503/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0790-domino-and-tromino-tiling](https://github.com/Manohar2503/leetcode-solutions/tree/master/0790-domino-and-tromino-tiling) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
+| [0879-profitable-schemes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0879-profitable-schemes) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0931-minimum-falling-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
@@ -1413,6 +1415,7 @@ If you find this repository useful:
 | [0416-partition-equal-subset-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0474-ones-and-zeroes) |
 | [0518-coin-change-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0518-coin-change-ii) |
+| [0879-profitable-schemes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0879-profitable-schemes) |
 | [1049-last-stone-weight-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1049-last-stone-weight-ii) |
 ## Complete Knapsack
 |  |
@@ -1467,5 +1470,6 @@ If you find this repository useful:
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0474-ones-and-zeroes) |
+| [0879-profitable-schemes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0879-profitable-schemes) |
 | [1049-last-stone-weight-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1049-last-stone-weight-ii) |
 <!---LeetCode Topics End-->
