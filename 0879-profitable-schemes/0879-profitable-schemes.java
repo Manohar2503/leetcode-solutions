@@ -1,29 +1,35 @@
+
 class Solution {
-    private static final int MOD = 1_000_000_007;
+    static final int MOD = 1_000_000_007;
 
-    public int profitableSchemes(int n, int minProfit, int[] group, int[] profit) {
-        int crimes = group.length;
-        int[][] f = new int[n + 1][minProfit + 1];
-        f[0][0] = 1;
+    public int profitableSchemes(int n, int minProfit,
+                                 int[] group, int[] profit) {
 
-        for (int i = 0; i < crimes; ++i) {
-            int g = group[i];
+        int[][] dp = new int[n + 1][minProfit + 1];
+
+        dp[0][0] = 1;
+
+        for (int i = 0; i < group.length; i++) {
+            int members = group[i];
             int earn = profit[i];
-            for (int used = n - g; used >= 0; --used) {
-                for (int p = minProfit; p >= 0; --p) {
-                    if (f[used][p] == 0) continue;
 
-                    int newUsed = used + g;
+            for (int j = n; j >= members; j--) {
+                for (int p = minProfit; p >= 0; p--) {
+
                     int newProfit = Math.min(minProfit, p + earn);
-                    f[newUsed][newProfit] = (f[newUsed][newProfit] + f[used][p]) % MOD;
+
+                    dp[j][newProfit] =
+                        (dp[j][newProfit] + dp[j - members][p]) % MOD;
                 }
             }
         }
-        
-        int ret = 0;
-        for (int used = 0; used <= n; ++used) {
-            ret = (ret + f[used][minProfit]) % MOD;
+
+        int ans = 0;
+
+        for (int j = 0; j <= n; j++) {
+            ans = (ans + dp[j][minProfit]) % MOD;
         }
-        return ret;
+
+        return ans;
     }
 }
