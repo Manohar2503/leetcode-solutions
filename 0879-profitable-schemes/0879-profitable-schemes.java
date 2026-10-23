@@ -1,52 +1,29 @@
 class Solution {
-    static final int MOD = 1_000_000_007;
+    private static final int MOD = 1_000_000_007;
 
-    public int profitableSchemes(int n, int minProfit,
-                                 int[] group, int[] profit) {
+    public int profitableSchemes(int n, int minProfit, int[] group, int[] profit) {
+        int crimes = group.length;
+        int[][] f = new int[n + 1][minProfit + 1];
+        f[0][0] = 1;
 
-        int len = group.length;
+        for (int i = 0; i < crimes; ++i) {
+            int g = group[i];
+            int earn = profit[i];
+            for (int used = n - g; used >= 0; --used) {
+                for (int p = minProfit; p >= 0; --p) {
+                    if (f[used][p] == 0) continue;
 
-        int[][][] dp = new int[len][n + 1][minProfit + 1];
-
-        for (int[][] matrix : dp) {
-            for (int[] row : matrix) {
-                Arrays.fill(row, -1);
+                    int newUsed = used + g;
+                    int newProfit = Math.min(minProfit, p + earn);
+                    f[newUsed][newProfit] = (f[newUsed][newProfit] + f[used][p]) % MOD;
+                }
             }
         }
-
-        return schemes(0, 0, 0, n, minProfit, group, profit, dp);
-    }
-
-    private int schemes(int index, int members, int currProfit,
-                        int n, int minProfit, int[] group,
-                        int[] profit, int[][][] dp) {
-
-        if (members > n) return 0;
-
-        if (index == group.length) {
-            return currProfit >= minProfit ? 1 : 0;
+        
+        int ret = 0;
+        for (int used = 0; used <= n; ++used) {
+            ret = (ret + f[used][minProfit]) % MOD;
         }
-
-        if (dp[index][members][currProfit] != -1) {
-            return dp[index][members][currProfit];
-        }
-
-        int notTake = schemes(index + 1, members, currProfit,
-                              n, minProfit, group, profit, dp);
-
-        int take = 0;
-
-        if (members + group[index] <= n) {
-            int newProfit = Math.min(minProfit,
-                                     currProfit + profit[index]);
-
-            take = schemes(index + 1,
-                           members + group[index],
-                           newProfit, n, minProfit,
-                           group, profit, dp);
-        }
-
-        return dp[index][members][currProfit] =
-                (int) ((take + (long) notTake) % MOD);
+        return ret;
     }
 }
