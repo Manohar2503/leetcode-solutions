@@ -703,6 +703,7 @@ If you find this repository useful:
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Manohar2503/leetcode-solutions/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
+| [2409-count-days-spent-together](https://github.com/Manohar2503/leetcode-solutions/tree/master/2409-count-days-spent-together) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/3863-minimum-operations-to-sort-a-string) |
 ## Eulerian Circuit
@@ -976,6 +977,7 @@ If you find this repository useful:
 | [1030-matrix-cells-in-distance-order](https://github.com/Manohar2503/leetcode-solutions/tree/master/1030-matrix-cells-in-distance-order) |
 | [1137-n-th-tribonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Manohar2503/leetcode-solutions/tree/master/2101-detonate-the-maximum-bombs) |
+| [2409-count-days-spent-together](https://github.com/Manohar2503/leetcode-solutions/tree/master/2409-count-days-spent-together) |
 ## Randomized
 |  |
 | ------- |
