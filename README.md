@@ -539,6 +539,7 @@ If you find this repository useful:
 | [0207-course-schedule](https://github.com/Manohar2503/leetcode-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0226-invert-binary-tree) |
+| [0279-perfect-squares](https://github.com/Manohar2503/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/Manohar2503/leetcode-solutions/tree/master/0322-coin-change) |
@@ -878,6 +879,7 @@ If you find this repository useful:
 | [0221-maximal-square](https://github.com/Manohar2503/leetcode-solutions/tree/master/0221-maximal-square) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
+| [0279-perfect-squares](https://github.com/Manohar2503/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Manohar2503/leetcode-solutions/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -960,6 +962,7 @@ If you find this repository useful:
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/Manohar2503/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0343-integer-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0343-integer-break) |
 | [0365-water-and-jug-problem](https://github.com/Manohar2503/leetcode-solutions/tree/master/0365-water-and-jug-problem) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
@@ -1417,6 +1420,7 @@ If you find this repository useful:
 ## Knapsack Problem
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/Manohar2503/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Manohar2503/leetcode-solutions/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0474-ones-and-zeroes) |
@@ -1426,6 +1430,7 @@ If you find this repository useful:
 ## Complete Knapsack
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/Manohar2503/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Manohar2503/leetcode-solutions/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0518-coin-change-ii) |
 ## Graph Coloring
