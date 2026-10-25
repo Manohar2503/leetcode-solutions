@@ -1,51 +1,43 @@
 
-import java.util.Arrays;
-
 class Solution {
     public int minFallingPathSum(int[][] grid) {
         int n = grid.length;
-        int[][] dp = new int[n][n];
 
-        for (int[] row : dp) {
-            Arrays.fill(row, Integer.MAX_VALUE);
+        int[] dp = grid[0].clone();
+
+        for (int row = 1; row < n; row++) {
+            int min1 = Integer.MAX_VALUE;
+            int min2 = Integer.MAX_VALUE;
+            int minCol = -1;
+
+            // Find the smallest and second-smallest values
+            // in the previous row.
+            for (int col = 0; col < n; col++) {
+                if (dp[col] < min1) {
+                    min2 = min1;
+                    min1 = dp[col];
+                    minCol = col;
+                } else if (dp[col] < min2) {
+                    min2 = dp[col];
+                }
+            }
+
+            int[] curr = new int[n];
+
+            for (int col = 0; col < n; col++) {
+                int best = (col == minCol) ? min2 : min1;
+                curr[col] = grid[row][col] + best;
+            }
+
+            dp = curr;
         }
 
         int result = Integer.MAX_VALUE;
 
-        for (int col = 0; col < n; col++) {
-            result = Math.min(
-                result,
-                grid[0][col] + pathSum(1, col, grid, dp)
-            );
+        for (int value : dp) {
+            result = Math.min(result, value);
         }
 
         return result;
-    }
-
-    static int pathSum(int index, int prevCol, int[][] grid, int[][] dp) {
-        int n = grid.length;
-
-        if (index == n) {
-            return 0;
-        }
-
-        if (dp[index][prevCol] != Integer.MAX_VALUE) {
-            return dp[index][prevCol];
-        }
-
-        int result = Integer.MAX_VALUE;
-
-        for (int col = 0; col < n; col++) {
-            if (col == prevCol) {
-                continue;
-            }
-
-            int current = grid[index][col]
-                        + pathSum(index + 1, col, grid, dp);
-
-            result = Math.min(result, current);
-        }
-
-        return dp[index][prevCol] = result;
     }
 }
