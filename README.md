@@ -236,6 +236,7 @@ If you find this repository useful:
 | [0605-can-place-flowers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0648-replace-words](https://github.com/Manohar2503/leetcode-solutions/tree/master/0648-replace-words) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0695-max-area-of-island](https://github.com/Manohar2503/leetcode-solutions/tree/master/0695-max-area-of-island) |
@@ -388,6 +389,7 @@ If you find this repository useful:
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0977-squares-of-a-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
@@ -726,6 +728,7 @@ If you find this repository useful:
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0605-can-place-flowers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0678-valid-parenthesis-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
@@ -902,6 +905,7 @@ If you find this repository useful:
 | [0518-coin-change-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0639-decode-ways-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0639-decode-ways-ii) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -1476,6 +1480,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 ## Bitmask
 |  |
 | ------- |
