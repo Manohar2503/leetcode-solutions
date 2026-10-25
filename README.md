@@ -162,6 +162,7 @@ If you find this repository useful:
 | [0057-insert-interval](https://github.com/Manohar2503/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0059-spiral-matrix-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
@@ -867,6 +868,7 @@ If you find this repository useful:
 | [0055-jump-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Manohar2503/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0091-decode-ways](https://github.com/Manohar2503/leetcode-solutions/tree/master/0091-decode-ways) |
@@ -1046,6 +1048,7 @@ If you find this repository useful:
 | [0054-spiral-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0079-word-search) |
