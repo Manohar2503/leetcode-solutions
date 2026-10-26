@@ -3,35 +3,36 @@ import java.util.*;
 class Solution {
     public int bestTeamScore(int[] scores, int[] ages) {
         int n = scores.length;
-        Integer[] indices = new Integer[n];
+        int[][] arr = new int[n][2];
 
         for (int i = 0; i < n; i++) {
-            indices[i] = i;
+            arr[i][0] = ages[i];
+            arr[i][1] = scores[i];
         }
 
-        Arrays.sort(indices, (a, b) -> {
-            if (ages[a] != ages[b]) {
-                return Integer.compare(ages[a], ages[b]);
+        Arrays.sort(arr, (a, b) -> {
+            if (a[0] == b[0]) {
+                return a[1] - b[1];
             }
-            return Integer.compare(scores[a], scores[b]);
+            return a[0] - b[0];
         });
 
         int[] dp = new int[n];
-        int answer = 0;
+        int ans = 0;
 
         for (int i = 0; i < n; i++) {
-            int score = scores[indices[i]];
-            dp[i] = score;
+            dp[i] = arr[i][1];
 
             for (int j = 0; j < i; j++) {
-                if (scores[indices[j]] <= score) {
-                    dp[i] = Math.max(dp[i], dp[j] + score);
+                if (arr[j][1] <= arr[i][1]) {
+                    dp[i] = Math.max(dp[i],
+                                     dp[j] + arr[i][1]);
                 }
             }
 
-            answer = Math.max(answer, dp[i]);
+            ans = Math.max(ans, dp[i]);
         }
 
-        return answer;
+        return ans;
     }
 }
