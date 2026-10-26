@@ -218,6 +218,7 @@ If you find this repository useful:
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Manohar2503/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
+| [0413-arithmetic-slices](https://github.com/Manohar2503/leetcode-solutions/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Manohar2503/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -902,6 +903,7 @@ If you find this repository useful:
 | [0377-combination-sum-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
+| [0413-arithmetic-slices](https://github.com/Manohar2503/leetcode-solutions/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
@@ -1339,6 +1341,7 @@ If you find this repository useful:
 | [0076-minimum-window-substring](https://github.com/Manohar2503/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0413-arithmetic-slices](https://github.com/Manohar2503/leetcode-solutions/tree/master/0413-arithmetic-slices) |
 | [0424-longest-repeating-character-replacement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0567-permutation-in-string) |
