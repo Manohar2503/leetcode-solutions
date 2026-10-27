@@ -306,6 +306,7 @@ If you find this repository useful:
 | [2104-sum-of-subarray-ranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 | [2187-minimum-time-to-complete-trips](https://github.com/Manohar2503/leetcode-solutions/tree/master/2187-minimum-time-to-complete-trips) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
+| [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2518-number-of-great-partitions](https://github.com/Manohar2503/leetcode-solutions/tree/master/2518-number-of-great-partitions) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -943,6 +944,7 @@ If you find this repository useful:
 | [1626-best-team-with-no-conflicts](https://github.com/Manohar2503/leetcode-solutions/tree/master/1626-best-team-with-no-conflicts) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
+| [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2466-count-ways-to-build-good-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/2466-count-ways-to-build-good-strings) |
 | [2518-number-of-great-partitions](https://github.com/Manohar2503/leetcode-solutions/tree/master/2518-number-of-great-partitions) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
@@ -1104,6 +1106,7 @@ If you find this repository useful:
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1672-richest-customer-wealth](https://github.com/Manohar2503/leetcode-solutions/tree/master/1672-richest-customer-wealth) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
+| [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 ## Stack
