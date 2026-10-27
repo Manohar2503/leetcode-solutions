@@ -2,20 +2,28 @@ class Solution {
     public int calculateMinimumHP(int[][] dungeon) {
         int n = dungeon.length;
         int m = dungeon[0].length;
-
         int[][] dp = new int[n][m];
-        dp[n-1][m-1] = (dungeon[n-1][m-1] >0)?1:(1-dungeon[n-1][m-1]);
-
-        for(int i=m-2;i>=0;i--) dp[n-1][i] = Math.max(1, dp[n-1][i+1] - dungeon[n-1][i]);
-        for(int i=n-2;i>=0;i--) dp[i][m-1] = Math.max(1, dp[i+1][m-1] - dungeon[i][m-1]);
-
-        for(int i=n-2;i>=0;i--){
-            for(int j=m-2;j>=0;j--){
-                int min_val = Math.min(dp[i+1][j], dp[i][j+1]);
-                dp[i][j] = Math.max(1, min_val - dungeon[i][j]);
-            }
+        for(int[] arr: dp){
+            Arrays.fill(arr,-1);
         }
 
-        return dp[0][0];
+        return f(0,0,dungeon,n,m,dp);
+    }
+
+    public static int f(int i, int j, int[][] arr, int row, int col,int[][] dp){
+        if(i==row-1 && j==col-1){
+            return arr[i][j]<=0? 1+Math.abs(arr[i][j]):1;
+        }
+        if(i>=row || j>=col){
+            return (int)1e9;
+        }
+        if(dp[i][j]!=-1) return dp[i][j];
+
+        int down = f(i+1,j,arr,row,col,dp);
+        int right =f(i,j+1,arr,row,col,dp);
+
+        int nextHealth =  Math.min(down,right);
+        return dp[i][j] = Math.max(1, nextHealth - arr[i][j]);
+
     }
 }
