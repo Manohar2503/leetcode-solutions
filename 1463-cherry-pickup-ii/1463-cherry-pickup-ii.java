@@ -1,60 +1,60 @@
 import java.util.Arrays;
 
 class Solution {
-
-    int[][][] dp;
-    int rows, cols;
-    int[] dir = {-1, 0, 1};
-
     public int cherryPickup(int[][] grid) {
-        rows = grid.length;
-        cols = grid[0].length;
+        int n = grid.length;
+        int m = grid[0].length;
+        int[][][] dp = new int[n][m][m];
 
-        dp = new int[rows][cols][cols];
-
-        for (int[][] layer : dp) {
-            for (int[] row : layer) {
+        for (int[][] matrix : dp) {
+            for (int[] row : matrix) {
                 Arrays.fill(row, -1);
             }
         }
 
-        return dfs(0, 0, cols - 1, grid);
+        int[] adj = {-1, 0, 1};
+
+        return paths(0, 0, m - 1, grid, dp, adj);
     }
 
-    private int dfs(int row, int col1, int col2, int[][] grid) {
+    static int paths(int r, int c1, int c2,
+                 int[][] grid, int[][][] dp, int[] adj) {
 
-        // Out of bounds
-        if (col1 < 0 || col1 >= cols || col2 < 0 || col2 >= cols) {
-            return Integer.MIN_VALUE;
-        }
-
-        // Last row
-        if (row == rows - 1) {
-            if (col1 == col2)
-                return grid[row][col1];
-            return grid[row][col1] + grid[row][col2];
-        }
-
-        if (dp[row][col1][col2] != -1)
-            return dp[row][col1][col2];
-
-        int max = 0;
-
-        // Try all 9 combinations
-        for (int d1 : dir) {
-            for (int d2 : dir) {
-                max = Math.max(max,
-                        dfs(row + 1, col1 + d1, col2 + d2, grid));
-            }
-        }
-
-        int cherries;
-        if (col1 == col2)
-            cherries = grid[row][col1];
-        else
-            cherries = grid[row][col1] + grid[row][col2];
-
-        dp[row][col1][col2] = cherries + max;
-        return dp[row][col1][col2];
+    int n = grid.length;
+    int m = grid[0].length;
+    // 1. Reject invalid columns first
+    if (c1 < 0 || c1 >= m || c2 < 0 || c2 >= m) {
+        return Integer.MIN_VALUE / 2;
     }
+
+    // 2. Base case: last row
+    if (r == n - 1) {
+        if (c1 == c2) {
+            return grid[r][c1];
+        }
+        return grid[r][c1] + grid[r][c2];
+    }
+
+    // 3. Memoization lookup
+    if (dp[r][c1][c2] != -1) {
+        return dp[r][c1][c2];
+    }
+
+    int current = (c1 == c2)
+        ? grid[r][c1]
+        : grid[r][c1] + grid[r][c2];
+
+    int best = Integer.MIN_VALUE / 2;
+
+    for (int i : adj) {
+        for (int j : adj) {
+            int next = paths(r + 1, c1 + i, c2 + j,
+                             grid, dp, adj);
+
+            best = Math.max(best, current + next);
+        }
+    }
+
+    return dp[r][c1][c2] = best;
+}
 }
