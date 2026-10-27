@@ -1,80 +1,65 @@
 import java.util.Arrays;
 
 class Solution {
+    static final int NEG = -1_000_000;
+
     public int cherryPickup(int[][] grid) {
         int n = grid.length;
-        int steps = 2 * n - 2;
+        int[][][][] dp = new int[n][n][n][n];
 
-        // dp[k][r1][r2]:
-        // Maximum cherries collected after k moves,
-        // with person 1 at (r1, k-r1)
-        // and person 2 at (r2, k-r2).
-
-        int[][][] dp = new int[steps + 1][n][n];
-
-        for (int[][] layer : dp) {
-            for (int[] row : layer) {
-                Arrays.fill(row, -1);
-            }
-        }
-
-        dp[0][0][0] = grid[0][0];
-
-        for (int k = 1; k <= steps; k++) {
-            int minRow = Math.max(0, k - (n - 1));
-            int maxRow = Math.min(n - 1, k);
-
-            for (int r1 = minRow; r1 <= maxRow; r1++) {
-                for (int r2 = minRow; r2 <= maxRow; r2++) {
-
-                    int c1 = k - r1;
-                    int c2 = k - r2;
-
-                    if (grid[r1][c1] == -1 ||
-                        grid[r2][c2] == -1) {
-                        continue;
-                    }
-
-                    int best = -1;
-
-                    // Both came from above.
-                    best = Math.max(best,
-                        dp[k - 1][r1][r2]);
-
-                    // Person 1 came from the left.
-                    if (r1 > 0) {
-                        best = Math.max(best,
-                            dp[k - 1][r1 - 1][r2]);
-                    }
-
-                    // Person 2 came from the left.
-                    if (r2 > 0) {
-                        best = Math.max(best,
-                            dp[k - 1][r1][r2 - 1]);
-                    }
-
-                    // Both came from the left.
-                    if (r1 > 0 && r2 > 0) {
-                        best = Math.max(best,
-                            dp[k - 1][r1 - 1][r2 - 1]);
-                    }
-
-                    if (best == -1) {
-                        continue;
-                    }
-
-                    int cherries = grid[r1][c1];
-
-                    // Avoid counting a shared cell twice.
-                    if (r1 != r2) {
-                        cherries += grid[r2][c2];
-                    }
-
-                    dp[k][r1][r2] = best + cherries;
+        for (int[][][] a : dp) {
+            for (int[][] b : a) {
+                for (int[] c : b) {
+                    Arrays.fill(c, -1);
                 }
             }
         }
 
-        return Math.max(0, dp[steps][n - 1][n - 1]);
+        int result = path(0, 0, 0, 0, grid, dp);
+        return Math.max(0, result);
+    }
+
+    static int path(int r1, int c1, int r2, int c2,
+                    int[][] grid, int[][][][] dp) {
+
+        int n = grid.length;
+
+        if (r1 >= n || c1 >= n ||
+            r2 >= n || c2 >= n ||
+            grid[r1][c1] == -1 ||
+            grid[r2][c2] == -1) {
+            return NEG;
+        }
+
+        if (r1 == n - 1 && c1 == n - 1 &&
+            r2 == n - 1 && c2 == n - 1) {
+            return grid[r1][c1];
+        }
+
+        if (dp[r1][c1][r2][c2] != -1) {
+            return dp[r1][c1][r2][c2];
+        }
+
+        int cherries = grid[r1][c1];
+
+        if (r1 != r2 || c1 != c2) {
+            cherries += grid[r2][c2];
+        }
+
+        int f1 = path(r1, c1 + 1, r2, c2 + 1, grid, dp);
+        int f2 = path(r1 + 1, c1, r2, c2 + 1, grid, dp);
+        int f3 = path(r1 + 1, c1, r2 + 1, c2, grid, dp);
+        int f4 = path(r1, c1 + 1, r2 + 1, c2, grid, dp);
+
+        int best = Math.max(
+            Math.max(f1, f2),
+            Math.max(f3, f4)
+        );
+
+        if (best == NEG) {
+            return dp[r1][c1][r2][c2] = NEG;
+        }
+
+        return dp[r1][c1][r2][c2] = cherries + best;
     }
 }
