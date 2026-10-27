@@ -24,7 +24,7 @@ class Solution {
     int m = grid[0].length;
     // 1. Reject invalid columns first
     if (c1 < 0 || c1 >= m || c2 < 0 || c2 >= m) {
-        return Integer.MIN_VALUE / 2;
+        return 0;
     }
 
     // 2. Base case: last row
@@ -44,7 +44,7 @@ class Solution {
         ? grid[r][c1]
         : grid[r][c1] + grid[r][c2];
 
-    int best = Integer.MIN_VALUE / 2;
+    int best = 0;
 
     for (int i : adj) {
         for (int j : adj) {
