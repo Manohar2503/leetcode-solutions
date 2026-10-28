@@ -1,27 +1,33 @@
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        int temp=image[sr][sc];
-        image[sr][sc]=color;
-        int m=image.length;
-        int n=image[0].length;
-        if (temp == color) return image; 
-        // Check right
-        if(sc+1<n && image[sr][sc+1]==temp){
-           floodFill(image,sr,sc+1,color);
-        }
-        // Check left
-        if(sc-1>=0 && image[sr][sc-1]==temp){
-           floodFill(image,sr,sc-1,color);
-        }
-        // Check up
-        if(sr-1>=0 && image[sr-1][sc]==temp){
-           floodFill(image,sr-1,sc,color);
-        }
-        // Check down
-        if(sr+1<m && image[sr+1][sc]==temp){
-           floodFill(image,sr+1,sc,color);
+        int m = image.length;
+        int n = image[0].length;
+
+        if(image[sr][sc] == color) return image;
+        int originalColor = image[sr][sc];
+
+        Queue<int[]> qu = new LinkedList<>();
+        qu.offer(new int[]{sr,sc});
+        int[][] adj = {{0,1},{1,0},{-1,0},{0,-1}};
+        image[sr][sc] = color;
+
+        while(!qu.isEmpty()){
+            int[] current = qu.poll();
+            int r = current[0];
+            int c = current[1];
+
+            for(int[] node: adj){
+                int nr = r + node[0];
+                int nc = c + node[1];
+
+                if(nr>=0 && nr<m && nc>=0 && nc<n && image[nr][nc]==originalColor){
+                    qu.offer(new int[]{nr,nc});
+                    image[nr][nc]=color;
+                }
+            }
         }
 
-        return image;
+
+        return image; 
     }
 }
