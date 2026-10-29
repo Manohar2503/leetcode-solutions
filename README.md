@@ -286,6 +286,7 @@ If you find this repository useful:
 | [1268-search-suggestions-system](https://github.com/Manohar2503/leetcode-solutions/tree/master/1268-search-suggestions-system) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Manohar2503/leetcode-solutions/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1289-minimum-falling-path-sum-ii) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Manohar2503/leetcode-solutions/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1301-number-of-paths-with-max-score](https://github.com/Manohar2503/leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
@@ -594,6 +595,7 @@ If you find this repository useful:
 | [1129-shortest-path-with-alternating-colors](https://github.com/Manohar2503/leetcode-solutions/tree/master/1129-shortest-path-with-alternating-colors) |
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1254-number-of-closed-islands](https://github.com/Manohar2503/leetcode-solutions/tree/master/1254-number-of-closed-islands) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Manohar2503/leetcode-solutions/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1462-course-schedule-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -1114,6 +1116,7 @@ If you find this repository useful:
 | [1091-shortest-path-in-binary-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1254-number-of-closed-islands](https://github.com/Manohar2503/leetcode-solutions/tree/master/1254-number-of-closed-islands) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1289-minimum-falling-path-sum-ii) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Manohar2503/leetcode-solutions/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1301-number-of-paths-with-max-score](https://github.com/Manohar2503/leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
