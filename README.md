@@ -544,6 +544,7 @@ If you find this repository useful:
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Manohar2503/leetcode-solutions/tree/master/2101-detonate-the-maximum-bombs) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -604,6 +605,7 @@ If you find this repository useful:
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Manohar2503/leetcode-solutions/tree/master/2101-detonate-the-maximum-bombs) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Union-Find
 |  |
@@ -628,6 +630,7 @@ If you find this repository useful:
 | [1559-detect-cycles-in-2d-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Graph Theory
 |  |
 | ------- |
@@ -657,6 +660,7 @@ If you find this repository useful:
 | [1971-find-if-path-exists-in-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Manohar2503/leetcode-solutions/tree/master/2101-detonate-the-maximum-bombs) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 | [3604-minimum-time-to-reach-destination-in-directed-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/3604-minimum-time-to-reach-destination-in-directed-graph) |
