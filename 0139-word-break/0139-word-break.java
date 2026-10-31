@@ -1,25 +1,24 @@
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
-        Map<String, Integer> map = new HashMap<>();
-        for(String str: wordDict) map.put(str, map.getOrDefault(str, 0)+1);
+        Set<String> wordSet = new HashSet<>(wordDict);
         Boolean[] visited = new Boolean[s.length()];
-        return isValid(0, s, map, visited);
+        return segmentation(0, s, wordSet, visited);
     }
+    static boolean segmentation(int index, String s, Set<String> wordSet, Boolean[] visited){
+        if(s == null || s.length() == 0) return true;
+        if(index >= s.length()) return true;
 
-    static boolean isValid(int start, String s, Map<String, Integer> map, Boolean[] visited){
-        if(start >= s.length()) return true;
-        if(visited[start] !=null) return visited[start];
+        if(visited[index] != null) return visited[index];
+        visited[index] = false;
+        for(int i = index; i<s.length();i++){
+            String left = s.substring(index, i+1);
 
-        for(int i= start; i< s.length();i++){
-            String prefix = s.substring(start, i+1);
-            if(map.containsKey(prefix)){
-                if (isValid(i + 1, s, map, visited)) {
-                    visited[start] = true;
-                    return true;
-                }
+            if(wordSet.contains(left)){
+                visited[index] |= segmentation(i+1, s, wordSet,visited);
+                if(visited[index]) break;
             }
         }
-        visited[start] = false;
-        return visited[start];
+
+        return visited[index];
     }
 }
