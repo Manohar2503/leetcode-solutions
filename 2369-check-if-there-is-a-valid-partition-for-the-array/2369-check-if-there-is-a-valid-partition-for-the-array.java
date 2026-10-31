@@ -1,44 +1,15 @@
 class Solution {
     public boolean validPartition(int[] nums) {
         int n = nums.length;
-        Boolean[] dp = new Boolean[n];
-
-        return partition(0, nums, dp);
-    }
-
-    static boolean partition(int index, int[] nums, Boolean[] dp) {
-        int n = nums.length;
-
-        if(index == n) return true;
-
-        if(dp[index] != null) return dp[index];
-
-        boolean result = false;
-
-        // Two equal elements
-        if(index + 1 < n &&
-           nums[index] == nums[index + 1]) {
-            result = partition(index + 2, nums, dp);
-        }
-
-        // Three elements
-        if(index + 2 < n) {
-
-            // Three equal elements
-            if(nums[index] == nums[index + 1] &&
-               nums[index + 1] == nums[index + 2]) {
-
-                result |= partition(index + 3, nums, dp);
-            }
-
-            // Three consecutive increasing elements
-            if(nums[index] + 1 == nums[index + 1] &&
-               nums[index + 1] + 1 == nums[index + 2]) {
-
-                result |= partition(index + 3, nums, dp);
+        boolean[] dp = new boolean[n + 1];
+        dp[0] = true;
+        for (int i = 2; i <= n; i++) {
+            if (nums[i - 1] == nums[i - 2] && dp[i - 2]) dp[i] = true;
+            if (i >= 3 && dp[i - 3]) {
+                if (nums[i - 1] == nums[i - 2] && nums[i - 2] == nums[i - 3]) dp[i] = true;
+                if (nums[i - 1] - nums[i - 2] == 1 && nums[i - 2] - nums[i - 3] == 1) dp[i] = true;
             }
         }
-
-        return dp[index] = result;
+        return dp[n];
     }
 }
