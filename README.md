@@ -294,6 +294,7 @@ If you find this repository useful:
 | [1289-minimum-falling-path-sum-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Manohar2503/leetcode-solutions/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1301-number-of-paths-with-max-score](https://github.com/Manohar2503/leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
+| [1340-jump-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Manohar2503/leetcode-solutions/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -421,6 +422,7 @@ If you find this repository useful:
 | [1094-car-pooling](https://github.com/Manohar2503/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1268-search-suggestions-system](https://github.com/Manohar2503/leetcode-solutions/tree/master/1268-search-suggestions-system) |
+| [1340-jump-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Manohar2503/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
 | [1626-best-team-with-no-conflicts](https://github.com/Manohar2503/leetcode-solutions/tree/master/1626-best-team-with-no-conflicts) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Manohar2503/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
@@ -983,6 +985,7 @@ If you find this repository useful:
 | [1301-number-of-paths-with-max-score](https://github.com/Manohar2503/leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Manohar2503/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1340-jump-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
