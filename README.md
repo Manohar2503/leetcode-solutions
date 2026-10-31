@@ -309,6 +309,7 @@ If you find this repository useful:
 | [1672-richest-customer-wealth](https://github.com/Manohar2503/leetcode-solutions/tree/master/1672-richest-customer-wealth) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
+| [1911-maximum-alternating-subsequence-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/1911-maximum-alternating-subsequence-sum) |
 | [1929-concatenation-of-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Manohar2503/leetcode-solutions/tree/master/2070-most-beautiful-item-for-each-query) |
@@ -979,6 +980,7 @@ If you find this repository useful:
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1626-best-team-with-no-conflicts](https://github.com/Manohar2503/leetcode-solutions/tree/master/1626-best-team-with-no-conflicts) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
+| [1911-maximum-alternating-subsequence-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/1911-maximum-alternating-subsequence-sum) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2466-count-ways-to-build-good-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/2466-count-ways-to-build-good-strings) |
