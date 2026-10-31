@@ -320,6 +320,7 @@ If you find this repository useful:
 | [2104-sum-of-subarray-ranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 | [2187-minimum-time-to-complete-trips](https://github.com/Manohar2503/leetcode-solutions/tree/master/2187-minimum-time-to-complete-trips) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
+| [2369-check-if-there-is-a-valid-partition-for-the-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/2369-check-if-there-is-a-valid-partition-for-the-array) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2518-number-of-great-partitions](https://github.com/Manohar2503/leetcode-solutions/tree/master/2518-number-of-great-partitions) |
 | [2707-extra-characters-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
@@ -995,6 +996,7 @@ If you find this repository useful:
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/1911-maximum-alternating-subsequence-sum) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
+| [2369-check-if-there-is-a-valid-partition-for-the-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/2369-check-if-there-is-a-valid-partition-for-the-array) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2466-count-ways-to-build-good-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/2466-count-ways-to-build-good-strings) |
 | [2518-number-of-great-partitions](https://github.com/Manohar2503/leetcode-solutions/tree/master/2518-number-of-great-partitions) |
