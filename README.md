@@ -281,6 +281,7 @@ If you find this repository useful:
 | [1020-number-of-enclaves](https://github.com/Manohar2503/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1030-matrix-cells-in-distance-order](https://github.com/Manohar2503/leetcode-solutions/tree/master/1030-matrix-cells-in-distance-order) |
 | [1035-uncrossed-lines](https://github.com/Manohar2503/leetcode-solutions/tree/master/1035-uncrossed-lines) |
+| [1043-partition-array-for-maximum-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/1043-partition-array-for-maximum-sum) |
 | [1046-last-stone-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/1046-last-stone-weight) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1049-last-stone-weight-ii) |
@@ -978,6 +979,7 @@ If you find this repository useful:
 | [0931-minimum-falling-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [0983-minimum-cost-for-tickets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0983-minimum-cost-for-tickets) |
 | [1035-uncrossed-lines](https://github.com/Manohar2503/leetcode-solutions/tree/master/1035-uncrossed-lines) |
+| [1043-partition-array-for-maximum-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/1043-partition-array-for-maximum-sum) |
 | [1048-longest-string-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1049-last-stone-weight-ii) |
 | [1092-shortest-common-supersequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
