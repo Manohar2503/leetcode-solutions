@@ -320,6 +320,7 @@ If you find this repository useful:
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2518-number-of-great-partitions](https://github.com/Manohar2503/leetcode-solutions/tree/master/2518-number-of-great-partitions) |
+| [2707-extra-characters-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
@@ -385,6 +386,7 @@ If you find this repository useful:
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Manohar2503/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Manohar2503/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
+| [2707-extra-characters-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 ## Sorting
 |  |
@@ -750,6 +752,7 @@ If you find this repository useful:
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
 | [2409-count-days-spent-together](https://github.com/Manohar2503/leetcode-solutions/tree/master/2409-count-days-spent-together) |
+| [2707-extra-characters-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/3863-minimum-operations-to-sort-a-string) |
 ## Eulerian Circuit
@@ -990,6 +993,7 @@ If you find this repository useful:
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2466-count-ways-to-build-good-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/2466-count-ways-to-build-good-strings) |
 | [2518-number-of-great-partitions](https://github.com/Manohar2503/leetcode-solutions/tree/master/2518-number-of-great-partitions) |
+| [2707-extra-characters-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 ## Prefix Sum
 |  |
@@ -1381,6 +1385,7 @@ If you find this repository useful:
 | [0677-map-sum-pairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0677-map-sum-pairs) |
 | [1268-search-suggestions-system](https://github.com/Manohar2503/leetcode-solutions/tree/master/1268-search-suggestions-system) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
+| [2707-extra-characters-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
