@@ -1429,6 +1429,7 @@ If you find this repository useful:
 | ------- |
 | [0020-valid-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0022-generate-parentheses) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 ## Range Minimum/Maximum Query
 |  |
