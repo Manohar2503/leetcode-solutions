@@ -961,6 +961,7 @@ If you find this repository useful:
 | [0338-counting-bits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0343-integer-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0376-wiggle-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0376-wiggle-subsequence) |
 | [0377-combination-sum-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0392-is-subsequence) |
@@ -1065,6 +1066,7 @@ If you find this repository useful:
 | [0365-water-and-jug-problem](https://github.com/Manohar2503/leetcode-solutions/tree/master/0365-water-and-jug-problem) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0371-sum-of-two-integers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Manohar2503/leetcode-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0441-arranging-coins](https://github.com/Manohar2503/leetcode-solutions/tree/master/0441-arranging-coins) |
 | [0445-add-two-numbers-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
@@ -1302,6 +1304,7 @@ If you find this repository useful:
 ## Game Theory
 |  |
 | ------- |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 ## Directed Acyclic Graph
 |  |
@@ -1606,6 +1609,7 @@ If you find this repository useful:
 ## Minimax
 |  |
 | ------- |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 ## 0-1 Knapsack
 |  |
