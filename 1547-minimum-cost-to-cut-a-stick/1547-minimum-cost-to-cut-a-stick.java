@@ -28,9 +28,9 @@ class Solution {
                     dp[i][j] = Math.min(dp[i][j], cost);
                 }
 
-                if (j == i + 1) {
-                    dp[i][j] = 0;
-                }
+                // if (j == i + 1) {
+                //     dp[i][j] = 0;
+                // }
             }
         }
 
