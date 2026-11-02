@@ -307,6 +307,7 @@ If you find this repository useful:
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1514-path-with-maximum-probability](https://github.com/Manohar2503/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 | [1539-kth-missing-positive-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1539-kth-missing-positive-number) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Manohar2503/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Manohar2503/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1572-matrix-diagonal-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/1572-matrix-diagonal-sum) |
@@ -433,6 +434,7 @@ If you find this repository useful:
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1268-search-suggestions-system](https://github.com/Manohar2503/leetcode-solutions/tree/master/1268-search-suggestions-system) |
 | [1340-jump-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1340-jump-game-v) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Manohar2503/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Manohar2503/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
 | [1626-best-team-with-no-conflicts](https://github.com/Manohar2503/leetcode-solutions/tree/master/1626-best-team-with-no-conflicts) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Manohar2503/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
@@ -1005,6 +1007,7 @@ If you find this repository useful:
 | [1340-jump-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Manohar2503/leetcode-solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1626-best-team-with-no-conflicts](https://github.com/Manohar2503/leetcode-solutions/tree/master/1626-best-team-with-no-conflicts) |
 | [1696-jump-game-vi](https://github.com/Manohar2503/leetcode-solutions/tree/master/1696-jump-game-vi) |
