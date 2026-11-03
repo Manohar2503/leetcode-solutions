@@ -294,6 +294,7 @@ If you find this repository useful:
 | [1094-car-pooling](https://github.com/Manohar2503/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1109-corporate-flight-bookings](https://github.com/Manohar2503/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Manohar2503/leetcode-solutions/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+| [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1254-number-of-closed-islands](https://github.com/Manohar2503/leetcode-solutions/tree/master/1254-number-of-closed-islands) |
 | [1268-search-suggestions-system](https://github.com/Manohar2503/leetcode-solutions/tree/master/1268-search-suggestions-system) |
@@ -1003,6 +1004,7 @@ If you find this repository useful:
 | [1092-shortest-common-supersequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1092-shortest-common-supersequence) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Manohar2503/leetcode-solutions/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1137-n-th-tribonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
+| [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1143-longest-common-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/Manohar2503/leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
@@ -1042,6 +1044,7 @@ If you find this repository useful:
 | [1004-max-consecutive-ones-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1094-car-pooling](https://github.com/Manohar2503/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1109-corporate-flight-bookings](https://github.com/Manohar2503/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
+| [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Math
@@ -1086,6 +1089,7 @@ If you find this repository useful:
 | [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
 | [1030-matrix-cells-in-distance-order](https://github.com/Manohar2503/leetcode-solutions/tree/master/1030-matrix-cells-in-distance-order) |
 | [1137-n-th-tribonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
+| [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Manohar2503/leetcode-solutions/tree/master/2101-detonate-the-maximum-bombs) |
 | [2409-count-days-spent-together](https://github.com/Manohar2503/leetcode-solutions/tree/master/2409-count-days-spent-together) |
 ## Randomized
@@ -1316,6 +1320,7 @@ If you find this repository useful:
 | [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 | [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
+| [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
@@ -1624,6 +1629,7 @@ If you find this repository useful:
 | [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 ## 0-1 Knapsack
 |  |
 | ------- |
@@ -1670,4 +1676,5 @@ If you find this repository useful:
 | ------- |
 | [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 <!---LeetCode Topics End-->
