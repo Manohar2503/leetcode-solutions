@@ -231,6 +231,7 @@ If you find this repository useful:
 | [0463-island-perimeter](https://github.com/Manohar2503/leetcode-solutions/tree/master/0463-island-perimeter) |
 | [0472-concatenated-words](https://github.com/Manohar2503/leetcode-solutions/tree/master/0472-concatenated-words) |
 | [0474-ones-and-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0474-ones-and-zeroes) |
+| [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
@@ -970,6 +971,7 @@ If you find this repository useful:
 | [0416-partition-equal-subset-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0472-concatenated-words](https://github.com/Manohar2503/leetcode-solutions/tree/master/0472-concatenated-words) |
 | [0474-ones-and-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0474-ones-and-zeroes) |
+| [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
@@ -1073,6 +1075,7 @@ If you find this repository useful:
 | [0441-arranging-coins](https://github.com/Manohar2503/leetcode-solutions/tree/master/0441-arranging-coins) |
 | [0445-add-two-numbers-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0523-continuous-subarray-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 | [0528-random-pick-with-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
@@ -1303,12 +1306,14 @@ If you find this repository useful:
 | [0231-power-of-two](https://github.com/Manohar2503/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
+| [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0509-fibonacci-number) |
 ## Game Theory
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
+| [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 | [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
 ## Directed Acyclic Graph
@@ -1616,6 +1621,7 @@ If you find this repository useful:
 | ------- |
 | [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
+| [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 ## 0-1 Knapsack
 |  |
@@ -1658,4 +1664,8 @@ If you find this repository useful:
 | ------- |
 | [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
 | [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
