@@ -992,6 +992,7 @@ If you find this repository useful:
 | [0918-maximum-sum-circular-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0931-minimum-falling-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [0983-minimum-cost-for-tickets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0983-minimum-cost-for-tickets) |
+| [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
 | [1035-uncrossed-lines](https://github.com/Manohar2503/leetcode-solutions/tree/master/1035-uncrossed-lines) |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/Manohar2503/leetcode-solutions/tree/master/1039-minimum-score-triangulation-of-polygon) |
 | [1043-partition-array-for-maximum-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/1043-partition-array-for-maximum-sum) |
@@ -1079,6 +1080,7 @@ If you find this repository useful:
 | [0633-sum-of-square-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0633-sum-of-square-numbers) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
 | [1030-matrix-cells-in-distance-order](https://github.com/Manohar2503/leetcode-solutions/tree/master/1030-matrix-cells-in-distance-order) |
 | [1137-n-th-tribonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Manohar2503/leetcode-solutions/tree/master/2101-detonate-the-maximum-bombs) |
@@ -1308,6 +1310,7 @@ If you find this repository useful:
 | [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
+| [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
@@ -1645,6 +1648,7 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
+| [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
 ## Nim Game
 |  |
 | ------- |
@@ -1653,4 +1657,5 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
+| [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
 <!---LeetCode Topics End-->
