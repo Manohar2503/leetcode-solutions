@@ -1062,6 +1062,7 @@ If you find this repository useful:
 | [0264-ugly-number-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/Manohar2503/leetcode-solutions/tree/master/0279-perfect-squares) |
+| [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
 | [0343-integer-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0343-integer-break) |
 | [0365-water-and-jug-problem](https://github.com/Manohar2503/leetcode-solutions/tree/master/0365-water-and-jug-problem) |
 | [0368-largest-divisible-subset](https://github.com/Manohar2503/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
@@ -1304,6 +1305,7 @@ If you find this repository useful:
 ## Game Theory
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 ## Directed Acyclic Graph
@@ -1609,6 +1611,7 @@ If you find this repository useful:
 ## Minimax
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 ## 0-1 Knapsack
@@ -1638,4 +1641,16 @@ If you find this repository useful:
 |  |
 | ------- |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Manohar2503/leetcode-solutions/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
+## Nim Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
+## Impartial Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
