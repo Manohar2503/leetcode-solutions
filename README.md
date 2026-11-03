@@ -1623,6 +1623,7 @@ If you find this repository useful:
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
+| [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 ## 0-1 Knapsack
 |  |
 | ------- |
@@ -1668,4 +1669,5 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
