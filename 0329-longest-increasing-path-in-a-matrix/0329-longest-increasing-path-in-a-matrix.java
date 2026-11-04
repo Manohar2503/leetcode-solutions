@@ -1,58 +1,49 @@
 class Solution {
-    public int longestIncreasingPath(int[][] matrix) {
-        int n = matrix.length;
-        int m = matrix[0].length;
+    public int getLongestPath(int i, int j, int[][] matrix, int[][] cache) {
+        if (cache[i][j] != 0)
+            return cache[i][j];
 
-        int[][] dp = new int[n][m];
 
-        int count = 0;
-
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < m; j++){
-                count = Math.max(count, dfs(i, j, matrix, dp));
-            }
-        }
-
-        return count;
-    }
-
-    static int dfs(int i, int j, int[][] matrix, int[][] dp) {
-
-        // Already calculated
-        if(dp[i][j] != 0){
-            return dp[i][j];
-        }
-
-        int[][] adj = {
-            {0,1},
-            {1,0},
-            {-1,0},
-            {0,-1}
-        };
-
-        int count = 1;
+        int maxLength = 0;
         int val = matrix[i][j];
 
-        for(int[] node : adj){
 
-            int nr = i + node[0];
-            int nc = j + node[1];
+        if (i + 1 < matrix.length && matrix[i + 1][j] > val)
+            maxLength = Math.max(maxLength, getLongestPath(i + 1, j, matrix, cache));
 
-            if(nr >= 0 &&
-               nr < matrix.length &&
-               nc >= 0 &&
-               nc < matrix[0].length &&
-               matrix[nr][nc] > val){
 
-                count = Math.max(
-                    count,
-                    1 + dfs(nr, nc, matrix, dp)
-                );
+        if (i - 1 >= 0 && matrix[i - 1][j] > val)
+            maxLength = Math.max(maxLength, getLongestPath(i - 1, j, matrix, cache));
+
+
+        if (j + 1 < matrix[0].length && matrix[i][j + 1] > val)
+            maxLength = Math.max(maxLength, getLongestPath(i, j + 1, matrix, cache));
+
+
+        if (j - 1 >= 0 && matrix[i][j - 1] > val)
+            maxLength = Math.max(maxLength, getLongestPath(i, j - 1, matrix, cache));
+
+
+        cache[i][j] = 1 + maxLength;
+        return cache[i][j];
+    }
+
+
+    public int longestIncreasingPath(int[][] matrix) {
+        int longestPathLength = 0;
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        int[][] cache = new int[rows][cols];
+
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                int l = getLongestPath(i, j, matrix, cache);
+                longestPathLength = Math.max(l, longestPathLength);
             }
         }
 
-        dp[i][j] = count;
 
-        return count;
+        return longestPathLength;
     }
 }
