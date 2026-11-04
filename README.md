@@ -238,6 +238,7 @@ If you find this repository useful:
 | [0518-coin-change-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0525-contiguous-array) |
+| [0526-beautiful-arrangement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0526-beautiful-arrangement) |
 | [0528-random-pick-with-weight](https://github.com/Manohar2503/leetcode-solutions/tree/master/0528-random-pick-with-weight) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
@@ -709,6 +710,7 @@ If you find this repository useful:
 | [0216-combination-sum-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0216-combination-sum-iii) |
 | [0301-remove-invalid-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
+| [0526-beautiful-arrangement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0526-beautiful-arrangement) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
 ## String
@@ -978,6 +980,7 @@ If you find this repository useful:
 | [0509-fibonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0518-coin-change-ii) |
+| [0526-beautiful-arrangement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0526-beautiful-arrangement) |
 | [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/0583-delete-operation-for-two-strings) |
 | [0639-decode-ways-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0639-decode-ways-ii) |
@@ -1372,6 +1375,7 @@ If you find this repository useful:
 | [0338-counting-bits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0526-beautiful-arrangement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0526-beautiful-arrangement) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Manohar2503/leetcode-solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
@@ -1627,6 +1631,7 @@ If you find this repository useful:
 ## Bitmask
 |  |
 | ------- |
+| [0526-beautiful-arrangement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0526-beautiful-arrangement) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Minimax
 |  |
