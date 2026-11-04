@@ -1,24 +1,26 @@
 class Solution {
-    static int count;
+    int count = 0;
 
     public int countArrangement(int n) {
-        count =0;
-        permutation(1, n, new HashSet<>());
-        return count;    
+        permutation(1, n, 0);
+        return count;
     }
-    static void permutation(int index, int n, Set<Integer> set){
-        if(index > n){
+
+    void permutation(int index, int n, int mask) {
+        if (index > n) {
             count++;
             return;
         }
 
-        for(int i=1;i<=n;i++){
-            if(((i % index) ==0 || (index % i) == 0) && !set.contains(i)){
-                set.add(i);
-                permutation(index+1, n, set);
-                set.remove(i);
+        for (int num = 1; num <= n; num++) {
+
+            int bit = 1 << (num - 1);
+
+            if ((mask & bit) == 0 &&
+                (num % index == 0 || index % num == 0)) {
+
+                permutation(index + 1, n, mask | bit);
             }
         }
     }
-
 }
