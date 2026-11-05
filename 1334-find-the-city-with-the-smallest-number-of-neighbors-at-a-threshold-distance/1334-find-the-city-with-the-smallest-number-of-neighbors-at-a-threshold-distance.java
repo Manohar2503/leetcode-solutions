@@ -11,14 +11,19 @@ class Solution {
             dist[u][v]=w;
             dist[v][u]=w;}
         
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                for(int k=0;k<n;k++){
-                    if(dist[j][i]+dist[i][k]<dist[j][k])
-                    dist[j][k]=dist[j][i]+dist[i][k];
+        for(int k=0;k<n;k++){
+            for(int i=0;i<n;i++){
+                for(int j=0;j<n;j++){
+                    if(dist[i][k] !=(int)1e9 && dist[k][j]!=(int)1e9){
+                    dist[i][j] = Math.min(
+                    dist[i][j],
+                    dist[i][k] + dist[k][j]
+                );
+                    }
                 }
             }
         }
+         
         int min=n;
         int res=-1;
         for(int i=0;i<n;i++){
