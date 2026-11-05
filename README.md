@@ -696,6 +696,7 @@ If you find this repository useful:
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1462-course-schedule-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [1514-path-with-maximum-probability](https://github.com/Manohar2503/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
+| [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Manohar2503/leetcode-solutions/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
 | [1791-find-center-of-star-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/1791-find-center-of-star-graph) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
@@ -819,6 +820,7 @@ If you find this repository useful:
 | [0802-find-eventual-safe-states](https://github.com/Manohar2503/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
 | [0851-loud-and-rich](https://github.com/Manohar2503/leetcode-solutions/tree/master/0851-loud-and-rich) |
 | [1462-course-schedule-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1462-course-schedule-iv) |
+| [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Manohar2503/leetcode-solutions/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 ## Tree
@@ -1039,6 +1041,7 @@ If you find this repository useful:
 | [1626-best-team-with-no-conflicts](https://github.com/Manohar2503/leetcode-solutions/tree/master/1626-best-team-with-no-conflicts) |
 | [1696-jump-game-vi](https://github.com/Manohar2503/leetcode-solutions/tree/master/1696-jump-game-vi) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
+| [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Manohar2503/leetcode-solutions/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/1911-maximum-alternating-subsequence-sum) |
 | [2008-maximum-earnings-from-taxi](https://github.com/Manohar2503/leetcode-solutions/tree/master/2008-maximum-earnings-from-taxi) |
@@ -1168,6 +1171,7 @@ If you find this repository useful:
 | [1514-path-with-maximum-probability](https://github.com/Manohar2503/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1696-jump-game-vi](https://github.com/Manohar2503/leetcode-solutions/tree/master/1696-jump-game-vi) |
+| [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Manohar2503/leetcode-solutions/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 | [3604-minimum-time-to-reach-destination-in-directed-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/3604-minimum-time-to-reach-destination-in-directed-graph) |
@@ -1421,6 +1425,7 @@ If you find this repository useful:
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Manohar2503/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1514-path-with-maximum-probability](https://github.com/Manohar2503/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
+| [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Manohar2503/leetcode-solutions/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 | [3604-minimum-time-to-reach-destination-in-directed-graph](https://github.com/Manohar2503/leetcode-solutions/tree/master/3604-minimum-time-to-reach-destination-in-directed-graph) |
@@ -1433,6 +1438,7 @@ If you find this repository useful:
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1514-path-with-maximum-probability](https://github.com/Manohar2503/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Manohar2503/leetcode-solutions/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
 ## Bellman–Ford Algorithm
 |  |
 | ------- |
