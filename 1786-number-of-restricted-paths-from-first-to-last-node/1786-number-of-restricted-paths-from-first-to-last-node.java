@@ -1,15 +1,27 @@
+
+import java.util.*;
+
 class Solution {
-    static final int MOD = 1_000_000_007;
+
+    private static final int MOD = 1_000_000_007;
+
+    List<int[]>[] adj;
+    int[] dist;
+    int[] dp;
+    int n;
 
     public int countRestrictedPaths(int n, int[][] edges) {
 
-        List<int[]>[] adj = new ArrayList[n + 1];
+        this.n = n;
+
+        adj = new ArrayList[n + 1];
 
         for (int i = 1; i <= n; i++) {
             adj[i] = new ArrayList<>();
         }
 
         for (int[] edge : edges) {
+
             int u = edge[0];
             int v = edge[1];
             int w = edge[2];
@@ -18,76 +30,72 @@ class Solution {
             adj[v].add(new int[]{u, w});
         }
 
-        // Step 1: Dijkstra from node n
+        dist = new int[n + 1];
 
-        long[] dist = new long[n + 1];
-        Arrays.fill(dist, Long.MAX_VALUE);
+        Arrays.fill(dist, Integer.MAX_VALUE);
 
-        PriorityQueue<long[]> pq = new PriorityQueue<>(
-            (a, b) -> Long.compare(a[1], b[1])
-        );
+        PriorityQueue<int[]> pq =
+            new PriorityQueue<>((a, b) -> a[1] - b[1]);
 
         dist[n] = 0;
-        pq.offer(new long[]{n, 0});
+
+        pq.offer(new int[]{n, 0});
 
         while (!pq.isEmpty()) {
 
-            long[] curr = pq.poll();
+            int[] curr = pq.poll();
 
-            int u = (int) curr[0];
-            long d = curr[1];
+            int node = curr[0];
+            int weight = curr[1];
 
-            if (d > dist[u]) continue;
+            if (weight > dist[node]) {
+                continue;
+            }
 
-            for (int[] edge : adj[u]) {
+            for (int[] edge : adj[node]) {
 
-                int v = edge[0];
-                long nd = d + edge[1];
+                int next = edge[0];
+                int newDist = weight + edge[1];
 
-                if (nd < dist[v]) {
-                    dist[v] = nd;
-                    pq.offer(new long[]{v, nd});
+                if (newDist < dist[next]) {
+
+                    dist[next] = newDist;
+
+                    pq.offer(new int[]{next, newDist});
                 }
             }
         }
 
-        // Step 2: Sort nodes by increasing distance
+        dp = new int[n + 1];
 
-        Integer[] nodes = new Integer[n];
+        Arrays.fill(dp, -1);
 
-        for (int i = 0; i < n; i++) {
-            nodes[i] = i + 1;
+        return dfs(1);
+    }
+
+    private int dfs(int node) {
+        if (node == n) {
+            return 1;
         }
 
-        Arrays.sort(nodes, (a, b) ->
-            Long.compare(dist[a], dist[b])
-        );
+        if (dp[node] != -1) {
+            return dp[node];
+        }
 
-        // Step 3: DP
+        long ways = 0;
 
-        int[] dp = new int[n + 1];
+        for (int[] edge : adj[node]) {
 
-        dp[n] = 1;
+            int next = edge[0];
 
-        for (int u : nodes) {
+            if (dist[node] > dist[next]) {
 
-            if (u == n) continue;
+                ways += dfs(next);
 
-            long ways = 0;
-
-            for (int[] edge : adj[u]) {
-
-                int v = edge[0];
-
-                if (dist[u] > dist[v]) {
-                    ways += dp[v];
-                    ways %= MOD;
-                }
+                ways %= MOD;
             }
-
-            dp[u] = (int) ways;
         }
 
-        return dp[1];
+        return dp[node] = (int) ways;
     }
 }
