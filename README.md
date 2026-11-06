@@ -261,6 +261,7 @@ If you find this repository useful:
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Manohar2503/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0741-cherry-pickup](https://github.com/Manohar2503/leetcode-solutions/tree/master/0741-cherry-pickup) |
+| [0752-open-the-lock](https://github.com/Manohar2503/leetcode-solutions/tree/master/0752-open-the-lock) |
 | [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0815-bus-routes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0815-bus-routes) |
@@ -393,6 +394,7 @@ If you find this repository useful:
 | [0677-map-sum-pairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0677-map-sum-pairs) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0752-open-the-lock](https://github.com/Manohar2503/leetcode-solutions/tree/master/0752-open-the-lock) |
 | [0815-bus-routes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0815-bus-routes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
@@ -618,6 +620,7 @@ If you find this repository useful:
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/Manohar2503/leetcode-solutions/tree/master/0743-network-delay-time) |
+| [0752-open-the-lock](https://github.com/Manohar2503/leetcode-solutions/tree/master/0752-open-the-lock) |
 | [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
@@ -772,6 +775,7 @@ If you find this repository useful:
 | [0678-valid-parenthesis-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0721-accounts-merge](https://github.com/Manohar2503/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0752-open-the-lock](https://github.com/Manohar2503/leetcode-solutions/tree/master/0752-open-the-lock) |
 | [0753-cracking-the-safe](https://github.com/Manohar2503/leetcode-solutions/tree/master/0753-cracking-the-safe) |
 | [0943-find-the-shortest-superstring](https://github.com/Manohar2503/leetcode-solutions/tree/master/0943-find-the-shortest-superstring) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Manohar2503/leetcode-solutions/tree/master/0990-satisfiability-of-equality-equations) |
@@ -1371,6 +1375,7 @@ If you find this repository useful:
 | ------- |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
+| [0752-open-the-lock](https://github.com/Manohar2503/leetcode-solutions/tree/master/0752-open-the-lock) |
 | [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 ## DP on Trees
 |  |
