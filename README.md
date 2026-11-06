@@ -307,6 +307,7 @@ If you find this repository useful:
 | [1289-minimum-falling-path-sum-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Manohar2503/leetcode-solutions/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1301-number-of-paths-with-max-score](https://github.com/Manohar2503/leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
+| [1306-jump-game-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1306-jump-game-iii) |
 | [1340-jump-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1406-stone-game-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1406-stone-game-iii) |
@@ -578,6 +579,7 @@ If you find this repository useful:
 | [1042-flower-planting-with-no-adjacent](https://github.com/Manohar2503/leetcode-solutions/tree/master/1042-flower-planting-with-no-adjacent) |
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1254-number-of-closed-islands](https://github.com/Manohar2503/leetcode-solutions/tree/master/1254-number-of-closed-islands) |
+| [1306-jump-game-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1306-jump-game-iii) |
 | [1462-course-schedule-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
@@ -643,6 +645,7 @@ If you find this repository useful:
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1254-number-of-closed-islands](https://github.com/Manohar2503/leetcode-solutions/tree/master/1254-number-of-closed-islands) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Manohar2503/leetcode-solutions/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1306-jump-game-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1306-jump-game-iii) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1462-course-schedule-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1462-course-schedule-iv) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1559-detect-cycles-in-2d-grid) |
