@@ -261,6 +261,7 @@ If you find this repository useful:
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Manohar2503/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0741-cherry-pickup](https://github.com/Manohar2503/leetcode-solutions/tree/master/0741-cherry-pickup) |
+| [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0815-bus-routes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0815-bus-routes) |
 | [0851-loud-and-rich](https://github.com/Manohar2503/leetcode-solutions/tree/master/0851-loud-and-rich) |
@@ -618,6 +619,7 @@ If you find this repository useful:
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/Manohar2503/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
+| [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Manohar2503/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Manohar2503/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -723,6 +725,7 @@ If you find this repository useful:
 | [0494-target-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0494-target-sum) |
 | [0526-beautiful-arrangement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0526-beautiful-arrangement) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
 ## String
 |  |
@@ -1008,6 +1011,7 @@ If you find this repository useful:
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Manohar2503/leetcode-solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0741-cherry-pickup](https://github.com/Manohar2503/leetcode-solutions/tree/master/0741-cherry-pickup) |
+| [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Manohar2503/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0790-domino-and-tromino-tiling](https://github.com/Manohar2503/leetcode-solutions/tree/master/0790-domino-and-tromino-tiling) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
@@ -1209,6 +1213,7 @@ If you find this repository useful:
 | [0695-max-area-of-island](https://github.com/Manohar2503/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/Manohar2503/leetcode-solutions/tree/master/0741-cherry-pickup) |
+| [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
 | [0867-transpose-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0867-transpose-matrix) |
 | [0931-minimum-falling-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
@@ -1319,6 +1324,7 @@ If you find this repository useful:
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0509-fibonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [1137-n-th-tribonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 ## Binary Indexed Tree
@@ -1365,6 +1371,7 @@ If you find this repository useful:
 | ------- |
 | [0126-word-ladder-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Manohar2503/leetcode-solutions/tree/master/0127-word-ladder) |
+| [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 ## DP on Trees
 |  |
 | ------- |
@@ -1730,4 +1737,12 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0943-find-the-shortest-superstring](https://github.com/Manohar2503/leetcode-solutions/tree/master/0943-find-the-shortest-superstring) |
+## Heuristic Search
+|  |
+| ------- |
+| [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
+## A* Search
+|  |
+| ------- |
+| [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 <!---LeetCode Topics End-->
