@@ -16,9 +16,7 @@ class Solution {
 
         for(int i=1;i<n;i++){
             for(int j=1;j<m;j++){
-                int val1 = dp[i-1][j];
-                int val2 = dp[i][j-1];
-                dp[i][j] = grid[i][j] + Math.min(val1, val2);
+                dp[i][j] = grid[i][j] + Math.min(dp[i-1][j], dp[i][j-1]);
             }
         }
 
