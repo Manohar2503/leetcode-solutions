@@ -1,35 +1,54 @@
+import java.util.*;
 
 class Solution {
-    static final int MOD = 1_000_000_007;
+    static int MOD = 1_000_000_007;
 
-    public int profitableSchemes(int n, int minProfit,
-                                 int[] group, int[] profit) {
+    public int profitableSchemes(int n, int minProfit, int[] group, int[] profit) {
+        int m = group.length;
 
-        int[][] dp = new int[n + 1][minProfit + 1];
+        Integer[][][] dp = new Integer[m][n + 1][minProfit + 1];
 
-        dp[0][0] = 1;
+        return schemes(0, 0, n, minProfit, group, profit, dp);
+    }
 
-        for (int i = 0; i < group.length; i++) {
-            int members = group[i];
-            int earn = profit[i];
+    static int schemes(int index, int members, int n,
+                       int minProfit, int[] group,
+                       int[] profit, Integer[][][] dp) {
 
-            for (int j = n; j >= members; j--) {
-                for (int p = minProfit; p >= 0; p--) {
-
-                    int newProfit = Math.min(minProfit, p + earn);
-
-                    dp[j][newProfit] =
-                        (dp[j][newProfit] + dp[j - members][p]) % MOD;
-                }
-            }
+        // All crimes have been considered
+        if (index == group.length) {
+            return minProfit == 0 ? 1 : 0;
         }
 
-        int ans = 0;
-
-        for (int j = 0; j <= n; j++) {
-            ans = (ans + dp[j][minProfit]) % MOD;
+        if (dp[index][members][minProfit] != null) {
+            return dp[index][members][minProfit];
         }
 
-        return ans;
+        // Don't take the current crime
+        long notTake = schemes(
+            index + 1, members, n, minProfit,
+            group, profit, dp
+        );
+
+        // Take the current crime
+        long take = 0;
+
+        if (members + group[index] <= n) {
+
+            int newMinProfit = Math.max(0, minProfit - profit[index]);
+
+            take = schemes(
+                index + 1,
+                members + group[index],
+                n,
+                newMinProfit,
+                group,
+                profit,
+                dp
+            );
+        }
+
+        return dp[index][members][minProfit] =
+            (int)((take + notTake) % MOD);
     }
 }
