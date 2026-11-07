@@ -283,6 +283,7 @@ If you find this repository useful:
 | [0973-k-closest-points-to-origin](https://github.com/Manohar2503/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
+| [0978-longest-turbulent-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0978-longest-turbulent-subarray) |
 | [0983-minimum-cost-for-tickets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0983-minimum-cost-for-tickets) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Manohar2503/leetcode-solutions/tree/master/0990-satisfiability-of-equality-equations) |
 | [0994-rotting-oranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/0994-rotting-oranges) |
@@ -1030,6 +1031,7 @@ If you find this repository useful:
 | [0918-maximum-sum-circular-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0931-minimum-falling-path-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
 | [0943-find-the-shortest-superstring](https://github.com/Manohar2503/leetcode-solutions/tree/master/0943-find-the-shortest-superstring) |
+| [0978-longest-turbulent-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0978-longest-turbulent-subarray) |
 | [0983-minimum-cost-for-tickets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0983-minimum-cost-for-tickets) |
 | [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
 | [1035-uncrossed-lines](https://github.com/Manohar2503/leetcode-solutions/tree/master/1035-uncrossed-lines) |
@@ -1531,6 +1533,7 @@ If you find this repository useful:
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0904-fruit-into-baskets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
+| [0978-longest-turbulent-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0978-longest-turbulent-subarray) |
 | [1004-max-consecutive-ones-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Manohar2503/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Manohar2503/leetcode-solutions/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
