@@ -1014,6 +1014,7 @@ If you find this repository useful:
 | [0518-coin-change-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0518-coin-change-ii) |
 | [0526-beautiful-arrangement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0526-beautiful-arrangement) |
 | [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
+| [0576-out-of-boundary-paths](https://github.com/Manohar2503/leetcode-solutions/tree/master/0576-out-of-boundary-paths) |
 | [0583-delete-operation-for-two-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/0583-delete-operation-for-two-strings) |
 | [0639-decode-ways-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0639-decode-ways-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
