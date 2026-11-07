@@ -302,6 +302,7 @@ If you find this repository useful:
 | [1109-corporate-flight-bookings](https://github.com/Manohar2503/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Manohar2503/leetcode-solutions/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
+| [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Manohar2503/leetcode-solutions/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1254-number-of-closed-islands](https://github.com/Manohar2503/leetcode-solutions/tree/master/1254-number-of-closed-islands) |
 | [1268-search-suggestions-system](https://github.com/Manohar2503/leetcode-solutions/tree/master/1268-search-suggestions-system) |
@@ -1044,6 +1045,7 @@ If you find this repository useful:
 | [1137-n-th-tribonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
 | [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1143-longest-common-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
+| [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Manohar2503/leetcode-solutions/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/Manohar2503/leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
