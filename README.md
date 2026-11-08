@@ -314,6 +314,7 @@ If you find this repository useful:
 | [1340-jump-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Manohar2503/leetcode-solutions/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1406-stone-game-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1406-stone-game-iii) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/Manohar2503/leetcode-solutions/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Manohar2503/leetcode-solutions/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
@@ -1053,6 +1054,7 @@ If you find this repository useful:
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Manohar2503/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1340-jump-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1340-jump-game-v) |
 | [1406-stone-game-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1406-stone-game-iii) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/Manohar2503/leetcode-solutions/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1463-cherry-pickup-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1510-stone-game-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1510-stone-game-iv) |
@@ -1677,6 +1679,7 @@ If you find this repository useful:
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Manohar2503/leetcode-solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [1035-uncrossed-lines](https://github.com/Manohar2503/leetcode-solutions/tree/master/1035-uncrossed-lines) |
 | [1143-longest-common-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/Manohar2503/leetcode-solutions/tree/master/1458-max-dot-product-of-two-subsequences) |
 ## Longest Increasing Subsequence
 |  |
 | ------- |
