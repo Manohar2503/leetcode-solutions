@@ -330,6 +330,7 @@ If you find this repository useful:
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Manohar2503/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1672-richest-customer-wealth](https://github.com/Manohar2503/leetcode-solutions/tree/master/1672-richest-customer-wealth) |
+| [1690-stone-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1690-stone-game-vii) |
 | [1696-jump-game-vi](https://github.com/Manohar2503/leetcode-solutions/tree/master/1696-jump-game-vi) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
@@ -1068,6 +1069,7 @@ If you find this repository useful:
 | [1563-stone-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1563-stone-game-v) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1626-best-team-with-no-conflicts](https://github.com/Manohar2503/leetcode-solutions/tree/master/1626-best-team-with-no-conflicts) |
+| [1690-stone-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1690-stone-game-vii) |
 | [1696-jump-game-vi](https://github.com/Manohar2503/leetcode-solutions/tree/master/1696-jump-game-vi) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Manohar2503/leetcode-solutions/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
@@ -1149,6 +1151,7 @@ If you find this repository useful:
 | [1406-stone-game-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1563-stone-game-v) |
+| [1690-stone-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1690-stone-game-vii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Manohar2503/leetcode-solutions/tree/master/2101-detonate-the-maximum-bombs) |
 | [2409-count-days-spent-together](https://github.com/Manohar2503/leetcode-solutions/tree/master/2409-count-days-spent-together) |
 ## Randomized
@@ -1391,6 +1394,7 @@ If you find this repository useful:
 | [1406-stone-game-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Manohar2503/leetcode-solutions/tree/master/1563-stone-game-v) |
+| [1690-stone-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1690-stone-game-vii) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
@@ -1713,6 +1717,7 @@ If you find this repository useful:
 | [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1510-stone-game-iv) |
+| [1690-stone-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1690-stone-game-vii) |
 ## 0-1 Knapsack
 |  |
 | ------- |
@@ -1763,6 +1768,7 @@ If you find this repository useful:
 | [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Manohar2503/leetcode-solutions/tree/master/1510-stone-game-iv) |
+| [1690-stone-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1690-stone-game-vii) |
 ## Sprague–Grundy Theorem
 |  |
 | ------- |
