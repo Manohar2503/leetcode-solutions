@@ -1,24 +1,23 @@
 
 class Solution {
     public boolean winnerSquareGame(int n) {
+        Boolean[] dp = new Boolean[n + 1];
+        return game(n, dp);
+    }
 
-        boolean[] dp = new boolean[n + 1];
+    static boolean game(int n, Boolean[] dp) {
 
-        dp[0] = false;
+        if (n == 0) return false;
 
-        for (int i = 1; i <= n; i++) {
+        if (dp[n] != null) return dp[n];
 
-            for (int j = 1; j * j <= i; j++) {
+        for (int x = 1; x * x <= n; x++) {
 
-                int remaining = i - (j * j);
-
-                if (!dp[remaining]) {
-                    dp[i] = true;
-                    break;
-                }
+            if (!game(n - x * x, dp)) {
+                return dp[n] = true;
             }
         }
 
-        return dp[n];
+        return dp[n] = false;
     }
 }
