@@ -1012,6 +1012,7 @@ If you find this repository useful:
 | [0410-split-array-largest-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0410-split-array-largest-sum) |
 | [0413-arithmetic-slices](https://github.com/Manohar2503/leetcode-solutions/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
+| [0464-can-i-win](https://github.com/Manohar2503/leetcode-solutions/tree/master/0464-can-i-win) |
 | [0472-concatenated-words](https://github.com/Manohar2503/leetcode-solutions/tree/master/0472-concatenated-words) |
 | [0474-ones-and-zeroes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0474-ones-and-zeroes) |
 | [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
@@ -1136,6 +1137,7 @@ If you find this repository useful:
 | [0441-arranging-coins](https://github.com/Manohar2503/leetcode-solutions/tree/master/0441-arranging-coins) |
 | [0445-add-two-numbers-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0464-can-i-win](https://github.com/Manohar2503/leetcode-solutions/tree/master/0464-can-i-win) |
 | [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0523-continuous-subarray-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0523-continuous-subarray-sum) |
@@ -1353,6 +1355,7 @@ If you find this repository useful:
 | [0139-word-break](https://github.com/Manohar2503/leetcode-solutions/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0464-can-i-win](https://github.com/Manohar2503/leetcode-solutions/tree/master/0464-can-i-win) |
 | [0509-fibonacci-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
@@ -1387,6 +1390,7 @@ If you find this repository useful:
 | ------- |
 | [0292-nim-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0292-nim-game) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0375-guess-number-higher-or-lower-ii) |
+| [0464-can-i-win](https://github.com/Manohar2503/leetcode-solutions/tree/master/0464-can-i-win) |
 | [0486-predict-the-winner](https://github.com/Manohar2503/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/0877-stone-game) |
 | [1025-divisor-game](https://github.com/Manohar2503/leetcode-solutions/tree/master/1025-divisor-game) |
@@ -1441,6 +1445,7 @@ If you find this repository useful:
 | [0338-counting-bits](https://github.com/Manohar2503/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0464-can-i-win](https://github.com/Manohar2503/leetcode-solutions/tree/master/0464-can-i-win) |
 | [0526-beautiful-arrangement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0526-beautiful-arrangement) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Manohar2503/leetcode-solutions/tree/master/0864-shortest-path-to-get-all-keys) |
@@ -1703,6 +1708,7 @@ If you find this repository useful:
 ## Bitmask
 |  |
 | ------- |
+| [0464-can-i-win](https://github.com/Manohar2503/leetcode-solutions/tree/master/0464-can-i-win) |
 | [0526-beautiful-arrangement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0526-beautiful-arrangement) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0943-find-the-shortest-superstring](https://github.com/Manohar2503/leetcode-solutions/tree/master/0943-find-the-shortest-superstring) |
