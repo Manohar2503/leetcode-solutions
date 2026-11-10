@@ -1,60 +1,51 @@
 class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {
+        Arrays.sort(items, (a,b)-> a[0] - b[0]);
+        int n = queries.length;
+        int[] result = new int[n];
+        int[] max_beauty = new int[items.length];
 
-        Arrays.sort(items, (a, b) -> Integer.compare(a[0], b[0]));
-
-        int n = items.length;
-
-        // Store unique prices and maximum beauty up to that price
-        int[] prices = new int[n];
-        int[] beauties = new int[n];
-
-        int size = 0;
-        int maxBeauty = 0;
-
-        for (int[] item : items) {
-            int price = item[0];
+        int max =0;
+        for(int i=0;i<items.length;i++){
+            int[] item = items[i];
             int beauty = item[1];
-
-            maxBeauty = Math.max(maxBeauty, beauty);
-
-            // Same price -> don't create another entry
-            if (size > 0 && prices[size - 1] == price) {
-                beauties[size - 1] = maxBeauty;
-            } else {
-                prices[size] = price;
-                beauties[size] = maxBeauty;
-                size++;
-            }
+            max = Math.max(max, beauty);
+            max_beauty[i] = max;
         }
 
-        int[] result = new int[queries.length];
-
-        for (int i = 0; i < queries.length; i++) {
-            result[i] = binarySearch(prices, beauties, size, queries[i]);
+        for(int i=0;i<n;i++){
+            int querie = queries[i];
+            int value = binarySearch(querie, items, max_beauty);
+            result[i] = value;
         }
 
         return result;
     }
 
-    private int binarySearch(int[] prices, int[] beauties, int size, int query) {
+    static int binarySearch(int target, int[][] items, int[] max_beauty){
+        int n = items.length;
+        int left =0;
+        int right = n-1;
 
-        int left = 0;
-        int right = size - 1;
-        int answer = 0;
+        int ans = -1;
+        while(left <= right){
+            int mid = left + (right - left)/2;
 
-        while (left <= right) {
-
-            int mid = left + (right - left) / 2;
-
-            if (prices[mid] <= query) {
-                answer = beauties[mid];
-                left = mid + 1;
-            } else {
-                right = mid - 1;
+            if(items[mid][0] <= target){
+                ans = max_beauty[mid];
+                left = mid+1;
             }
+            else right = mid -1;
         }
 
-        return answer;
+        return (ans==-1)?0:ans;
     }
 }
+/**
+
+    1,2
+    2,4
+    3,5 
+    3,2
+    5,6
+ */
