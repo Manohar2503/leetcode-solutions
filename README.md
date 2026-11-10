@@ -340,6 +340,7 @@ If you find this repository useful:
 | [1929-concatenation-of-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 | [2008-maximum-earnings-from-taxi](https://github.com/Manohar2503/leetcode-solutions/tree/master/2008-maximum-earnings-from-taxi) |
 | [2050-parallel-courses-iii](https://github.com/Manohar2503/leetcode-solutions/tree/master/2050-parallel-courses-iii) |
+| [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Manohar2503/leetcode-solutions/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Manohar2503/leetcode-solutions/tree/master/2070-most-beautiful-item-for-each-query) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Manohar2503/leetcode-solutions/tree/master/2101-detonate-the-maximum-bombs) |
 | [2104-sum-of-subarray-ranges](https://github.com/Manohar2503/leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
@@ -831,6 +832,7 @@ If you find this repository useful:
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Manohar2503/leetcode-solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0765-couples-holding-hands](https://github.com/Manohar2503/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Manohar2503/leetcode-solutions/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+| [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Manohar2503/leetcode-solutions/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
 ## Topological Sort
@@ -968,6 +970,7 @@ If you find this repository useful:
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/Manohar2503/leetcode-solutions/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 | [2008-maximum-earnings-from-taxi](https://github.com/Manohar2503/leetcode-solutions/tree/master/2008-maximum-earnings-from-taxi) |
+| [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Manohar2503/leetcode-solutions/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Manohar2503/leetcode-solutions/tree/master/2070-most-beautiful-item-for-each-query) |
 | [2187-minimum-time-to-complete-trips](https://github.com/Manohar2503/leetcode-solutions/tree/master/2187-minimum-time-to-complete-trips) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
