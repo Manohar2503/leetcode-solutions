@@ -1,25 +1,28 @@
 class Solution {
     public int minimizedMaximum(int n, int[] quantities) {
 
-        int left =1;
-        int total =0;
-        for(int num: quantities) total = Math.max(total, num);
+        int left = 1;
+        int right = 0;
 
-        int right = total;
-        int result = 0;
+        for (int num : quantities) {
+            right = Math.max(right, num);
+        }
 
-        while(left < right){
-            int mid = left + (right - left)/2;
+        while (left < right) {
+
+            int mid = left + (right - left) / 2;
 
             int count = 0;
-            for(int quantity : quantities){
-                count += (quantity + mid -1)/ mid;
+
+            for (int quantity : quantities) {
+                count += (quantity + mid - 1) / mid;
             }
 
-            if(count <= n){
+            if (count <= n) {
                 right = mid;
+            } else {
+                left = mid + 1;
             }
-            else left = mid +1;
         }
 
         return left;
