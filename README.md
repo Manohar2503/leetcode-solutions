@@ -251,6 +251,7 @@ If you find this repository useful:
 | [0648-replace-words](https://github.com/Manohar2503/leetcode-solutions/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Manohar2503/leetcode-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0675-cut-off-trees-for-golf-event](https://github.com/Manohar2503/leetcode-solutions/tree/master/0675-cut-off-trees-for-golf-event) |
 | [0695-max-area-of-island](https://github.com/Manohar2503/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0704-binary-search](https://github.com/Manohar2503/leetcode-solutions/tree/master/0704-binary-search) |
@@ -625,6 +626,7 @@ If you find this repository useful:
 | [0547-number-of-provinces](https://github.com/Manohar2503/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/Manohar2503/leetcode-solutions/tree/master/0617-merge-two-binary-trees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0675-cut-off-trees-for-golf-event](https://github.com/Manohar2503/leetcode-solutions/tree/master/0675-cut-off-trees-for-golf-event) |
 | [0684-redundant-connection](https://github.com/Manohar2503/leetcode-solutions/tree/master/0684-redundant-connection) |
 | [0685-redundant-connection-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0685-redundant-connection-ii) |
 | [0695-max-area-of-island](https://github.com/Manohar2503/leetcode-solutions/tree/master/0695-max-area-of-island) |
@@ -1199,6 +1201,7 @@ If you find this repository useful:
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
+| [0675-cut-off-trees-for-golf-event](https://github.com/Manohar2503/leetcode-solutions/tree/master/0675-cut-off-trees-for-golf-event) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Manohar2503/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/Manohar2503/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/Manohar2503/leetcode-solutions/tree/master/0778-swim-in-rising-water) |
@@ -1247,6 +1250,7 @@ If you find this repository useful:
 | [0417-pacific-atlantic-water-flow](https://github.com/Manohar2503/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/Manohar2503/leetcode-solutions/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Manohar2503/leetcode-solutions/tree/master/0542-01-matrix) |
+| [0675-cut-off-trees-for-golf-event](https://github.com/Manohar2503/leetcode-solutions/tree/master/0675-cut-off-trees-for-golf-event) |
 | [0695-max-area-of-island](https://github.com/Manohar2503/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Manohar2503/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/Manohar2503/leetcode-solutions/tree/master/0741-cherry-pickup) |
