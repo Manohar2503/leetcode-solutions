@@ -1,17 +1,19 @@
 class Solution {
     public int minInsertions(String s) {
-        String sb = new StringBuilder(s).reverse().toString();
-        int len = subsequence(s,sb);
-        return s.length()-len;
+        String ns = new StringBuilder(s).reverse().toString();
+        int val = partition(s,ns);
+        return s.length() - val;
     }
 
-    static int subsequence(String s, String r){
+    static int partition(String s, String r){
         int n = s.length();
         int[][] dp = new int[n+1][n+1];
 
         for(int i=1;i<=n;i++){
             for(int j=1;j<=n;j++){
-                if(s.charAt(i-1) == r.charAt(j-1)) dp[i][j] = 1 + dp[i-1][j-1];
+                if(s.charAt(i-1) == r.charAt(j-1)) {
+                    dp[i][j] = dp[i-1][j-1]+1;
+                }
                 else{
                     dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
                 }
