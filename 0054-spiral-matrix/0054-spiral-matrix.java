@@ -1,45 +1,45 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
-        List<Integer> list = new ArrayList<>();
-        int top= 0;
-        int left =0;
-        int right = matrix[0].length-1;
-        int down = matrix.length-1;
+        int n = matrix.length;
+        int m = matrix[0].length;
 
-        while(left <= right && top <= down){
-            // left to right 
-            for(int i=left; i<=right;i++){
-                int val = matrix[top][i];
-                list.add(val);
+        int top = 0;
+        int left = 0;
+        int right = m-1;
+        int bottom = n-1;
+
+        List<Integer> result = new ArrayList<>();
+
+        while(left <= right && top <= bottom){
+            // left to right
+            for(int i=left;i<=right;i++){
+                result.add(matrix[top][i]);
             }
             top++;
-            // top to down 
-            for(int i=top;i<=down;i++){
-                int val = matrix[i][right];
-                list.add(val);
+
+            // top to bottom
+            for(int i=top;i<=bottom;i++){
+                result.add(matrix[i][right]);
             }
             right--;
-            //right to left
 
-            if(top<=down){
-                for(int i=right; i>=left;i--){
-                int val = matrix[down][i];
-                list.add(val);
+            // right to left
+            if(top <= bottom){
+                for(int i= right;i>=left;i--){
+                result.add(matrix[bottom][i]);
             }
             }
-            down--;
+            bottom--;
 
-            // down to top 
-           if(left <=right){
-              for(int i=down;i>=top;i--){
-                int val = matrix[i][left];
-                list.add(val);
+            //bottom to up
+            if(left <= right){
+                for(int i = bottom; i>=top; i--){
+                result.add(matrix[i][left]);
             }
-           }
-               
+            }
             left++;
-        }
+        }    
 
-        return list;
+        return result;  
     }
 }
