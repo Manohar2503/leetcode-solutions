@@ -781,6 +781,7 @@ If you find this repository useful:
 | [0208-implement-trie-prefix-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Manohar2503/leetcode-solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0212-word-search-ii) |
+| [0214-shortest-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0242-valid-anagram](https://github.com/Manohar2503/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -1366,6 +1367,7 @@ If you find this repository useful:
 ## Hash Function
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/0214-shortest-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -1663,6 +1665,7 @@ If you find this repository useful:
 ## String Matching
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/0214-shortest-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 ## K-D Tree
 |  |
@@ -1766,6 +1769,7 @@ If you find this repository useful:
 ## Rolling Hash
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/0214-shortest-palindrome) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Triangulation
 |  |
@@ -1823,4 +1827,16 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Manohar2503/leetcode-solutions/tree/master/0075-sort-colors) |
+## Manacher
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/0214-shortest-palindrome) |
+## Z Algorithm
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/0214-shortest-palindrome) |
+## Knuth–Morris–Pratt Algorithm
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/Manohar2503/leetcode-solutions/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
