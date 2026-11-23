@@ -1,38 +1,33 @@
-import java.util.*;
-
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
-        List<Integer> ans = new ArrayList<>();
-        int n = s.length(), m = p.length();
+        int plen = p.length();
+        int slen = s.length();
+        List<Integer> result = new ArrayList<>();
 
-        if (m > n) return ans;
+        if(plen > slen) return result;
+        int[] freqs = new int[26];
+        int[] freqp = new int[26];
 
-        int[] freqP = new int[26];
-        int[] freqW = new int[26];
-
-        // Build frequency for p and first window of s
-        for (int i = 0; i < m; i++) {
-            freqP[p.charAt(i) - 'a']++;
-            freqW[s.charAt(i) - 'a']++;
+        for(char ch: p.toCharArray()){
+            freqp[ch-'a']++;
         }
 
-        // Check first window
-        if (Arrays.equals(freqP, freqW)) ans.add(0);
-
-        // Slide the window
-        for (int i = m; i < n; i++) {
-            // add new char
-            freqW[s.charAt(i) - 'a']++;
-
-            // remove old char
-            freqW[s.charAt(i - m) - 'a']--;
-
-            // check anagram
-            if (Arrays.equals(freqP, freqW)) {
-                ans.add(i - m + 1);
-            }
+        for(int i=0;i<plen;i++) {
+            char c = s.charAt(i);
+            freqs[c - 'a']++;
         }
 
-        return ans;
+        if(Arrays.equals(freqp, freqs)) result.add(0);
+
+        for(int i=plen;i<s.length();i++){
+            int prev = s.charAt(i-plen) - 'a';
+            int current = s.charAt(i) - 'a';
+            freqs[prev]--;
+            freqs[current]++;
+
+            if(Arrays.equals(freqp, freqs)) result.add(i - plen + 1);
+        }
+
+        return result;
     }
 }
