@@ -20,6 +20,7 @@ class Solution {
 
         Queue<TreeNode> qu = new LinkedList<>();
         qu.offer(root);
+
         while(!qu.isEmpty()){
             int size = qu.size();
             List<Integer> list = new ArrayList<>();
@@ -27,10 +28,9 @@ class Solution {
             for(int i=0;i<size;i++){
                 TreeNode node = qu.poll();
                 list.add(node.val);
-                if(node.left != null) qu.offer(node.left);
-                if(node.right != null) qu.offer(node.right);
+                if(node.left!=null) qu.offer(node.left);
+                if(node.right!=null) qu.offer(node.right);
             }
-
             result.add(list);
         }
 
