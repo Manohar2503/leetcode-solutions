@@ -1,5 +1,3 @@
-
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -16,21 +14,35 @@
  * }
  */
 class Solution {
+    static int index;
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        return recurse(inorder, 0, inorder.length-1, postorder, 0, postorder.length-1);
-    }
-    public TreeNode recurse(int[] in, int a, int b, int[] post, int x, int y){
-        if(a>b || x>y) return null;
-        TreeNode root = new TreeNode(post[y]);
-        int i=b;
-        for(i=b;i>=a;i--){
-            if(post[y] == in[i]){
-                break;
-            }
+        int n = inorder.length;
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i=0;i<n;i++){
+            map.put(inorder[i], i);
         }
-        int numsRight = b-i;
-        root.right = recurse(in, i+1, b, post, y-numsRight,y-1);
-        root.left = recurse(in, a, i-1, post, x,y - numsRight -1);
+        index = n-1;
+        return build(0, n-1, inorder, postorder, map);
+    }
+
+    static TreeNode build(int start, int end, int[] inorder, int[] postorder, Map<Integer, Integer> map){
+        if(start > end) return null;
+        if(index < 0) return null;
+
+        int value = postorder[index];
+        int pos = map.get(value);
+        TreeNode root = new TreeNode(postorder[index--]);
+
+        root.right = build(pos+1, end, inorder, postorder, map);
+        root.left = build(start, pos-1, inorder, postorder, map);
+    
         return root;
     }
 }
+/**
+                       I
+    post - > 9 15 7 20 3
+             M
+    in - > 9 3 15 20 7
+
+*/
