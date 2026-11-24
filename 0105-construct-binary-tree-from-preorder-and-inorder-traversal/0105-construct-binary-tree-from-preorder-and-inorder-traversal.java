@@ -16,21 +16,38 @@
 class Solution {
     static int index;
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        if(preorder.length==0 || inorder.length==0) return null;
+        int n = preorder.length;
         Map<Integer, Integer> map = new HashMap<>();
-        for(int i=0;i<inorder.length;i++){
+
+        for(int i=0;i<n;i++){
             map.put(inorder[i], i);
         }
-        index =0;
-        return dfs(0, inorder.length-1, preorder, inorder, map);
+
+        index = 0;
+        return build(0, n, preorder, inorder, map);
     }
 
-    static TreeNode dfs(int start, int end, int[] preorder, int[] inorder, Map<Integer, Integer> map){
+    static TreeNode build(int start, int end, int[] preorder, int[] inorder, Map<Integer, Integer> map){
         if(start > end) return null;
-        int rootNode = preorder[index++];
-        TreeNode root = new TreeNode(rootNode);
-        root.left = dfs(start, map.get(rootNode)-1, preorder, inorder,map);
-        root.right = dfs(map.get(rootNode)+1, end, preorder, inorder,map);
+        if(index >= preorder.length) return null;
+        
+        int nodeIndex = map.get(preorder[index]);
+        TreeNode root = new TreeNode(preorder[index++]);
+        
+        root.left = build(start, nodeIndex-1, preorder, inorder, map);
+        root.right = build(nodeIndex+1, end, preorder, inorder, map);
+
         return root;
     }
 }
+/**
+
+    preorder - > Root left right
+    inorder - > left Root right
+           I
+    pre -> 3 9 20 15 7
+             M
+    in ->  9 3 15 20 7
+    
+ 
+*/
