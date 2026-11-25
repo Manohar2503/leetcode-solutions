@@ -339,6 +339,7 @@ If you find this repository useful:
 | [1690-stone-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1690-stone-game-vii) |
 | [1696-jump-game-vi](https://github.com/Manohar2503/leetcode-solutions/tree/master/1696-jump-game-vi) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
+| [1723-find-minimum-time-to-finish-all-jobs](https://github.com/Manohar2503/leetcode-solutions/tree/master/1723-find-minimum-time-to-finish-all-jobs) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/Manohar2503/leetcode-solutions/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
@@ -764,6 +765,7 @@ If you find this repository useful:
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0773-sliding-puzzle](https://github.com/Manohar2503/leetcode-solutions/tree/master/0773-sliding-puzzle) |
 | [0797-all-paths-from-source-to-target](https://github.com/Manohar2503/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
+| [1723-find-minimum-time-to-finish-all-jobs](https://github.com/Manohar2503/leetcode-solutions/tree/master/1723-find-minimum-time-to-finish-all-jobs) |
 ## String
 |  |
 | ------- |
@@ -1113,6 +1115,7 @@ If you find this repository useful:
 | [1626-best-team-with-no-conflicts](https://github.com/Manohar2503/leetcode-solutions/tree/master/1626-best-team-with-no-conflicts) |
 | [1690-stone-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1690-stone-game-vii) |
 | [1696-jump-game-vi](https://github.com/Manohar2503/leetcode-solutions/tree/master/1696-jump-game-vi) |
+| [1723-find-minimum-time-to-finish-all-jobs](https://github.com/Manohar2503/leetcode-solutions/tree/master/1723-find-minimum-time-to-finish-all-jobs) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Manohar2503/leetcode-solutions/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
@@ -1506,6 +1509,7 @@ If you find this repository useful:
 | [0864-shortest-path-to-get-all-keys](https://github.com/Manohar2503/leetcode-solutions/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0943-find-the-shortest-superstring](https://github.com/Manohar2503/leetcode-solutions/tree/master/0943-find-the-shortest-superstring) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Manohar2503/leetcode-solutions/tree/master/1707-maximum-xor-with-an-element-from-array) |
+| [1723-find-minimum-time-to-finish-all-jobs](https://github.com/Manohar2503/leetcode-solutions/tree/master/1723-find-minimum-time-to-finish-all-jobs) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Manohar2503/leetcode-solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
@@ -1771,6 +1775,7 @@ If you find this repository useful:
 | [0526-beautiful-arrangement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0526-beautiful-arrangement) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0943-find-the-shortest-superstring](https://github.com/Manohar2503/leetcode-solutions/tree/master/0943-find-the-shortest-superstring) |
+| [1723-find-minimum-time-to-finish-all-jobs](https://github.com/Manohar2503/leetcode-solutions/tree/master/1723-find-minimum-time-to-finish-all-jobs) |
 ## Minimax
 |  |
 | ------- |
