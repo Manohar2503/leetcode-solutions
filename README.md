@@ -251,6 +251,7 @@ If you find this repository useful:
 | [0605-can-place-flowers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/Manohar2503/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Manohar2503/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
+| [0643-maximum-average-subarray-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Manohar2503/leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0648-replace-words](https://github.com/Manohar2503/leetcode-solutions/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
@@ -1612,6 +1613,7 @@ If you find this repository useful:
 | [0424-longest-repeating-character-replacement](https://github.com/Manohar2503/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0567-permutation-in-string) |
+| [0643-maximum-average-subarray-i](https://github.com/Manohar2503/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/Manohar2503/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/Manohar2503/leetcode-solutions/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Manohar2503/leetcode-solutions/tree/master/0718-maximum-length-of-repeated-subarray) |
