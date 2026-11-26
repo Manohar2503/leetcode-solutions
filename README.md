@@ -836,6 +836,7 @@ If you find this repository useful:
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Manohar2503/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Manohar2503/leetcode-solutions/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
+| [2024-maximize-the-confusion-of-an-exam](https://github.com/Manohar2503/leetcode-solutions/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
 | [2409-count-days-spent-together](https://github.com/Manohar2503/leetcode-solutions/tree/master/2409-count-days-spent-together) |
 | [2707-extra-characters-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
@@ -1012,6 +1013,7 @@ If you find this repository useful:
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/Manohar2503/leetcode-solutions/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 | [2008-maximum-earnings-from-taxi](https://github.com/Manohar2503/leetcode-solutions/tree/master/2008-maximum-earnings-from-taxi) |
+| [2024-maximize-the-confusion-of-an-exam](https://github.com/Manohar2503/leetcode-solutions/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Manohar2503/leetcode-solutions/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Manohar2503/leetcode-solutions/tree/master/2070-most-beautiful-item-for-each-query) |
 | [2187-minimum-time-to-complete-trips](https://github.com/Manohar2503/leetcode-solutions/tree/master/2187-minimum-time-to-complete-trips) |
@@ -1157,6 +1159,7 @@ If you find this repository useful:
 | [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Manohar2503/leetcode-solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
+| [2024-maximize-the-confusion-of-an-exam](https://github.com/Manohar2503/leetcode-solutions/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Math
 |  |
@@ -1634,6 +1637,7 @@ If you find this repository useful:
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Manohar2503/leetcode-solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
+| [2024-maximize-the-confusion-of-an-exam](https://github.com/Manohar2503/leetcode-solutions/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Bucket Sort
 |  |
