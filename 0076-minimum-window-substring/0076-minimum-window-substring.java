@@ -1,22 +1,50 @@
+
 class Solution {
     public String minWindow(String s, String t) {
-        int[] a = new int[128];
-        for (char c : t.toCharArray()) a[c]++;
 
-        int l = 0, count = t.length(), start = 0, min = Integer.MAX_VALUE;
+        int slen = s.length();
+        int tlen = t.length();
 
-        for (int r = 0; r < s.length(); r++) {
-            if (a[s.charAt(r)]-- > 0) count--;
+        if(slen < tlen) return "";
 
-            while (count == 0) {
-                if (r - l + 1 < min) {
-                    min = r - l + 1;
-                    start = l;
+        int[] freqs = new int[128];
+
+        for(int i = 0; i < tlen; i++) {
+            freqs[t.charAt(i)]++;
+        }
+
+        int left = 0;
+        int count = 0;
+        int min_Len = Integer.MAX_VALUE;
+        int start = 0;
+
+        for(int right = 0; right < slen; right++) {
+
+            char ch = s.charAt(right);
+
+            if(freqs[ch] > 0) {
+                count++;
+            }
+
+            freqs[ch]--;
+
+            while(count == tlen) {
+
+                if(min_Len > right - left + 1) {
+                    min_Len = right - left + 1;
+                    start = left;
                 }
-                if (++a[s.charAt(l++)] > 0) count++;
+
+                char leftChar = s.charAt(left);
+                freqs[leftChar]++;
+                if(freqs[leftChar] > 0) {
+                    count--;
+                }
+                left++;
             }
         }
 
-        return min == Integer.MAX_VALUE ? "" : s.substring(start, start + min);
+        if(min_Len == Integer.MAX_VALUE) return "";
+        return s.substring(start, start + min_Len);
     }
 }
