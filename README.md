@@ -336,6 +336,7 @@ If you find this repository useful:
 | [1626-best-team-with-no-conflicts](https://github.com/Manohar2503/leetcode-solutions/tree/master/1626-best-team-with-no-conflicts) |
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Manohar2503/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Manohar2503/leetcode-solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1672-richest-customer-wealth](https://github.com/Manohar2503/leetcode-solutions/tree/master/1672-richest-customer-wealth) |
 | [1690-stone-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1690-stone-game-vii) |
 | [1696-jump-game-vi](https://github.com/Manohar2503/leetcode-solutions/tree/master/1696-jump-game-vi) |
@@ -428,6 +429,7 @@ If you find this repository useful:
 | [1202-smallest-string-with-swaps](https://github.com/Manohar2503/leetcode-solutions/tree/master/1202-smallest-string-with-swaps) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Manohar2503/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Manohar2503/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Manohar2503/leetcode-solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2008-maximum-earnings-from-taxi](https://github.com/Manohar2503/leetcode-solutions/tree/master/2008-maximum-earnings-from-taxi) |
 | [2405-optimal-partition-of-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2405-optimal-partition-of-string) |
 | [2707-extra-characters-in-a-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/2707-extra-characters-in-a-string) |
@@ -1005,6 +1007,7 @@ If you find this repository useful:
 | [1539-kth-missing-positive-number](https://github.com/Manohar2503/leetcode-solutions/tree/master/1539-kth-missing-positive-number) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Manohar2503/leetcode-solutions/tree/master/1552-magnetic-force-between-two-balls) |
 | [1631-path-with-minimum-effort](https://github.com/Manohar2503/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Manohar2503/leetcode-solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/Manohar2503/leetcode-solutions/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1901-find-a-peak-element-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
@@ -1152,6 +1155,7 @@ If you find this repository useful:
 | [1094-car-pooling](https://github.com/Manohar2503/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1109-corporate-flight-bookings](https://github.com/Manohar2503/leetcode-solutions/tree/master/1109-corporate-flight-bookings) |
 | [1140-stone-game-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1140-stone-game-ii) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Manohar2503/leetcode-solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Math
@@ -1628,6 +1632,7 @@ If you find this repository useful:
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Manohar2503/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Manohar2503/leetcode-solutions/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Manohar2503/leetcode-solutions/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Manohar2503/leetcode-solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1871-jump-game-vii](https://github.com/Manohar2503/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/Manohar2503/leetcode-solutions/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Bucket Sort
