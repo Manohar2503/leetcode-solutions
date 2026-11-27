@@ -419,6 +419,7 @@ If you find this repository useful:
 | [0752-open-the-lock](https://github.com/Manohar2503/leetcode-solutions/tree/master/0752-open-the-lock) |
 | [0815-bus-routes](https://github.com/Manohar2503/leetcode-solutions/tree/master/0815-bus-routes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Manohar2503/leetcode-solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0895-maximum-frequency-stack](https://github.com/Manohar2503/leetcode-solutions/tree/master/0895-maximum-frequency-stack) |
 | [0904-fruit-into-baskets](https://github.com/Manohar2503/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0911-online-election](https://github.com/Manohar2503/leetcode-solutions/tree/master/0911-online-election) |
 | [0930-binary-subarrays-with-sum](https://github.com/Manohar2503/leetcode-solutions/tree/master/0930-binary-subarrays-with-sum) |
@@ -1356,6 +1357,7 @@ If you find this repository useful:
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Manohar2503/leetcode-solutions/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0678-valid-parenthesis-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Manohar2503/leetcode-solutions/tree/master/0735-asteroid-collision) |
+| [0895-maximum-frequency-stack](https://github.com/Manohar2503/leetcode-solutions/tree/master/0895-maximum-frequency-stack) |
 | [0901-online-stock-span](https://github.com/Manohar2503/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Manohar2503/leetcode-solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Manohar2503/leetcode-solutions/tree/master/1130-minimum-cost-tree-from-leaf-values) |
@@ -1402,6 +1404,7 @@ If you find this repository useful:
 | [0677-map-sum-pairs](https://github.com/Manohar2503/leetcode-solutions/tree/master/0677-map-sum-pairs) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Manohar2503/leetcode-solutions/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0706-design-hashmap](https://github.com/Manohar2503/leetcode-solutions/tree/master/0706-design-hashmap) |
+| [0895-maximum-frequency-stack](https://github.com/Manohar2503/leetcode-solutions/tree/master/0895-maximum-frequency-stack) |
 | [0901-online-stock-span](https://github.com/Manohar2503/leetcode-solutions/tree/master/0901-online-stock-span) |
 | [0911-online-election](https://github.com/Manohar2503/leetcode-solutions/tree/master/0911-online-election) |
 ## Hash Function
@@ -1890,4 +1893,8 @@ If you find this repository useful:
 |  |
 | ------- |
 | [0052-n-queens-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0052-n-queens-ii) |
+## Ordered Set
+|  |
+| ------- |
+| [0895-maximum-frequency-stack](https://github.com/Manohar2503/leetcode-solutions/tree/master/0895-maximum-frequency-stack) |
 <!---LeetCode Topics End-->
