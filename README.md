@@ -503,6 +503,7 @@ If you find this repository useful:
 | [0142-linked-list-cycle-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/Manohar2503/leetcode-solutions/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0432-all-oone-data-structure](https://github.com/Manohar2503/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 | [0445-add-two-numbers-ii](https://github.com/Manohar2503/leetcode-solutions/tree/master/0445-add-two-numbers-ii) |
@@ -1451,6 +1452,7 @@ If you find this repository useful:
 | [0044-wildcard-matching](https://github.com/Manohar2503/leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/Manohar2503/leetcode-solutions/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0143-reorder-list) |
+| [0206-reverse-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Manohar2503/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Manohar2503/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Manohar2503/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
